@@ -1,0 +1,26 @@
+---
+title: traceDelay
+card_id: 94238
+---
+
+# traceDelay
+
+<code> set the traceDelay to [ph:posInteger</code>]
+
+where <code>[ph:posInteger]</code> specifies ticks.
+
+
+The <code>traceDelay</code> property returns or sets the number of ticks HyperCard pauses between each statement as it traces a handler while in the debugger. 
+
+Its default value is 0. 
+
+
+## Examples
+
+```
+set the traceDelay to 10
+```
+
+## Related Topics
+
+* [Debug a script](/HyperTalkReference/editingscripts/Debug-a-script)
