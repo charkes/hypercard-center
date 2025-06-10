@@ -7,30 +7,12 @@ card_id: 38686
 
 <code><pre>
 get [ph:expression]
-get
+get [the] [ph:property] [of [ph:object]
 </pre></code>
 
-[<code>the
-</pre></code>
+The <code>get</code> command puts the value of any expression or property into the local variable <code>it</code>.   
 
-]<code> [ph:property]
-</pre></code>
-
-[<code>of <i>object
-</pre></code>
-
-</i> ]
-
-The <code>get</code> command puts the value of any expression or property into the local variable<code> it</code>.   
-
-That is, 
-
-   <code>get [ph:expression</code>]
-
-is the same as 
-
-   <code>put [ph:expression] into it</code> 
-
+That is, <code>get [ph:expression]</code> is the same as <code>put [ph:expression] into it</code>
 
 ## Examples
 
@@ -48,12 +30,10 @@ if it < 3 then ...
 ## Demo Script
 
 <code><pre>
-<code><pre>
 on getNumChars
  <b>get</b> the number of characters in bkgnd field "Demo Script"
  answer "This demo script contains" && it && "characters."
 end getNumChars
-</pre></code>
 </pre></code>
 
 ## Related Topics

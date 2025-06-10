@@ -5,16 +5,13 @@ card_id: 42410
 
 # open printing
 
-<code>open printing </code>[<code>with dialog</code>]<code>
+<code>open printing [with dialog]</code>
 
-</code>The <code>open printing</code> command begins a print job. It uses the current settings from the Print Stack dialog box. 
+The <code>open printing</code> command begins a print job. It uses the current settings from the Print Stack dialog box.
 
-If you specify the <code>with dialog o</code>ption, HyperCard displays the Print Stack dialog box, and the user can choose new settings. HyperCard sets<code> the result</code> to <code>Cancel</code> if the user clicks Cancel; otherwise, it sets <code>the result</code> to<code> empty</code>. 
+If you specify the <code>with dialog</code> option, HyperCard displays the Print Stack dialog box, and the user can choose new settings. HyperCard sets <code>the result</code> to <code>Cancel</code> if the user clicks Cancel; otherwise, it sets <code>the result</code> to <code>empty</code>.
 
-
-
-You must use the <code>close printing</code> command to end a print job begun with<code> open printing.</code> 
-
+You must use the <code>close printing</code> command to end a print job begun with <code>open printing</code>.
 
 ## Examples
 

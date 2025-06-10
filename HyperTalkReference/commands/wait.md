@@ -5,10 +5,16 @@ card_id: 50819
 
 # wait
 
-<code>wait </code>[<code>for</code>] <code>[ph:posInteger]</code> [<code>ticks</code>]<code> wait </code>[<code>for</code>]<code> [ph:posInteger] seconds wait until [ph:trueOrFalse] wait while [ph:trueOrFalse] </code> The <code>wait</code> command causes HyperCard to pause before executing the rest of a handler, either for a specific length of time, until a specified condition becomes true, or while a specified condition remains true. 
+<code><pre>
+wait [for] [ph:posInteger] [ticks]
+wait [for] [ph:posInteger] seconds
+wait until [ph:trueOrFalse]
+wait while [ph:trueOrFalse]
+</pre></code>
+
+The <code>wait</code> command causes HyperCard to pause before executing the rest of a handler, either for a specific length of time, until a specified condition becomes true, or while a specified condition remains true.
 
 If you do not specify <code>seconds</code> as the unit of time, HyperCard uses ticks. (One tick equals one-sixtieth of a second.) 
-
 
 ## Examples
 

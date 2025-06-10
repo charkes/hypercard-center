@@ -7,29 +7,27 @@ modified: yes
 # doMenu
 
 <code><pre>
-doMenu <i>itemName</i> [without dialog] ¬
-   [with <i>keys </i>]
-doMenu <i>itemName</i>, <i>menuName</i> ¬
-   [without dialog] [with <i>keys </i>]
+doMenu [ph:itemName] [without dialog] ¬
+   [with [ph:keys]]
+doMenu [ph:itemName], [ph:menuName] ¬
+   [without dialog] [with [ph:keys]]
 </pre></code>
 
+The <code>doMenu</code> command performs the action specified by the item name and menu name just as if the user chose the item directly from the menu.
 
-The<code> doMenu </code>command performs the action specified by the item name and menu name just as if the user chose the item directly from the menu.
+<code>without dialog</code> bypasses the dialog box that would normally appear after the commands Delete Stack and Convert Stack, and, when a background field is selected, after Cut Field and Clear Field.
 
-<code>without dialog </code> bypasses the dialog box that would normally appear after the commands Delete Stack and Convert Stack, and, when a background field is selected, after Cut Field and Clear Field.
+<code>with [ph:keys]</code>chooses the named menu command with the shift, option, and/or Command keys pressed.
 
-<code>with <i>keys </i></code>chooses the named menu command with the shift, option, and/or Command keys pressed.
+To determine from a script which  keys were specified, look at <code>param(6)</code> of the original command.
 
-To determine from a script which  keys were specified, look at<code> param(6) </code>of the original command.
-
-HyperCard sends the `doMenu` command as a message to the current card when the user selects a menu item. `<i>ItemName</i>` is the exact name of the menu item selected, and `<i>menuName</i>` is the exact name of the menu that contains the menu item. To handle the `doMenu` message, use this form:
+HyperCard sends the `doMenu` command as a message to the current card when the user selects a menu item. <code>[ph:ItemName]</code> is the exact name of the menu item selected, and <code>[ph:menuName]</code> is the exact name of the menu that contains the menu item. To handle the `doMenu` message, use this form:
 
 <code><pre>
 on doMenu theItem,theMenu
    <i>statements</i>
 end doMenu
 </pre></code>
-
 
 Note: A `doMenu` handler can override a `menuMessage`.
 
@@ -58,14 +56,12 @@ end doMenu
 ## Demo Script
 
 <code><pre>
-<code><pre>
 on mouseUp
   set cursor to watch
   <b>doMenu</b> "Background","Edit" -- view the background layer
   wait 45
   <b>doMenu</b> "Background","Edit" -- return to the card layer
 end mouseUp
-</pre></code>
 </pre></code>
 
 ## Placeholders

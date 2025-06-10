@@ -7,25 +7,24 @@ modified: yes
 # convert
 
 <code><pre>
-convert {<i>value</i> |<i>container</i>}[from  ¬
-   <i>formatName</i>  [and <i>formatName</i>]] ¬
-   to <i>formatName</i> [and <i>formatName</i>]
+convert {[ph:value] |[ph:container]}[from  ¬
+   [ph:formatName]  [and [ph:formatName]]] ¬
+   to [ph:formatName] [and [ph:formatName]]
 </pre></code>
 
+The <code>convert</code> command changes a value expressed as a valid date, time, or date and time format to another format.
 
-The<code> convert </code>command changes a value expressed as a valid date, time, or date and time format to another format.
+You use <code>and [ph:formatName] </code>in combination with the first <code>[ph:formatName]</code> to convert a value to any two formats (often the date and time).
 
-You use <code>and <i>formatName</i> </code>in combination with the first <i><code>formatName</i></code> to convert a value to any two formats (often the  date and time).
+The form <code>convert [ph:value] to [ph:formatName]</code> returns the converted <code>[ph:value</code> in the local variable <code>it</code>. The form <code>convert [ph:container] to [ph:formatName]</code> converts a value in a chunk or <code>[ph:container]</code> (including variables) and places the result in that chunk or container.
 
-The  form<code> convert <i>value</i></code> <code> to <i>formatName</i> </code>returns the converted <i><code>value</i> </code> in the local variable<code> it</code>.<code> </code>The form <code>convert <i>container</i> to <i>formatName</i> </code>converts a value in a chunk or <i><code>container</i> </code> (including variables) and places the result in that chunk or container.
-
-You use the form<code> from <i>format</i> </code> in situations where you don't want HyperCard to do the conversion automatically.
+You use the form <code>from [ph:format]</code> in situations where you don't want HyperCard to do the conversion automatically.
 
 There are four types of date formats:
 
-* `seconds`, a positive integer equal to    the number of seconds since 12:00    midnight on January 1, 1904
+* `seconds`, a positive integer equal to the number of seconds since 12:00    midnight on January 1, 1904
 
-* `dateItems`, a comma-delimited list of    seven positive integers equal to the    following values: `year`, `month`, `day`, `hour`, `minute`,   `second`, `dayNumber` where `dayNumber 1 = Sunday` and  `7 = Saturday`.
+* `dateItems`, a comma-delimited list of seven positive integers equal to the    following values: `year`, `month`, `day`, `hour`, `minute`,   `second`, `dayNumber` where `dayNumber 1 = Sunday` and  `7 = Saturday`.
 
 * date, which has one of three formats:
 ** `[dayName,] monthName, day, year`
@@ -34,11 +33,11 @@ There are four types of date formats:
 
 where `dayName` = `Sunday`, `Sun`,   `Monday`, `Mon`, `Tuesday`, `Tue`,   `Wednesday`, `Wed`, `Thursday`, `Thur`,   `Friday`, `Fri`, `Saturday`, or `Sat`
 
-`monthName` = `January`, `Jan`,   `February`, `Feb`, `March`, `Mar`, `April`,   `Apr`, `May`, `June`, `Jun`, `July`, `Jul`,   `August`, `Aug`, `September`, `Sep`,   `October`, `Oct`, `November`, `Nov`,   `December`, or `Dec`
+`monthName` = `January`, `Jan`, `February`, `Feb`, `March`, `Mar`, `April`,   `Apr`, `May`, `June`, `Jun`, `July`, `Jul`,   `August`, `Aug`, `September`, `Sep`,   `October`, `Oct`, `November`, `Nov`,   `December`, or `Dec`
 
-* `time`,  which has the following     format:  `hour:minute[:second] [timeOfDay]`   where `timeOfDay` = `am` or `pm`
+* `time`,  which has the following format: `hour:minute[:second] [timeOfDay]`   where `timeOfDay` = `am` or `pm`
 
-You can precede the  format names `date` and `time` with an optional <i>adjective</i>,  producing the following formats:
+You can precede the format names `date` and `time` with an optional [ph:adjective],  producing the following formats:
 
 <code><pre>
 abbrev date  Fri, Jun 15, 1990
@@ -49,7 +48,6 @@ abbrev time  3:30 PM
 long time        3:30:00 PM
 short time       3:30 PM
 </pre></code>
-
 
 Note: HyperCard can handle dates from 1/1/1000 to 12/31/9999 in all formats. It handles dates from 1/1/1 to 12/31/9999 only in the `dateItems` or `seconds` format. If you try to convert an invalid date (such as `"Friday, May 50, 1990"`), HyperCard sets the HyperTalk function `the result` to `"Invalid date."`
 

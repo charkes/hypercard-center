@@ -9,12 +9,11 @@ card_id: 36487
 enterInField
 </pre></code>
 
-HyperCard sends the <code>enterInField</code> command to a field when the user presses Enter and the insertion point is in the field. <code><pre>
-</pre></code>
+HyperCard sends the <code>enterInField</code> command to a field when the user presses Enter and the insertion point is in the field.
 
-This<code> </code>command saves the results of any changes the user or a handler makes to a field and closes the field.  
+This command saves the results of any changes the user or a handler makes to a field and closes the field.  
 
-HyperCard sends a <code>closeField</code> message if the user made  changes to the text or sends <code>exitField</code> if the user did not make any changes). 
+HyperCard sends a <code>closeField</code> message if the user made changes to the text or sends <code>exitField</code> if the user did not make any changes).
 
 You can handle the <code>enterInField</code> message as follows:
 
@@ -23,7 +22,6 @@ on enterInField
   [ph:statements]
 end enterInField
 </pre></code>
-
 
 ## Examples
 

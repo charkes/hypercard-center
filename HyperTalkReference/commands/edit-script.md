@@ -5,19 +5,19 @@ card_id: 36226
 
 # edit script
 
-<code>edit </code>[<code>the</code>]<code> script of [ph:object</code>]
+<code>edit [the] <code>script of [ph:object]</code>
 
 The <code>edit script</code> command opens the script of an object with the HyperCard script editor.  
 
-When run as a statement in a handler, <code>edit script </code>suspends execution of the handler until the user closes the script editor or activates the card window. 
+When run as a statement in a handler, <code>edit script</code> suspends execution of the handler until the user closes the script editor or activates the card window.
 
-Note: Even though HyperCard itself is an object (it can receive messages), it does <u>not</u> have a script. The following statement yields an error: <code><pre>
+Note: Even though HyperCard itself is an object (it can receive messages), it does <u>not</u> have a script. The following statement yields an error:
 
+<code><pre>
 edit the script of HyperCard
 </pre></code>
 
-For this command to work, the <code>userLevel </code>property must be set to 5. 
-
+For this command to work, the <code>userLevel</code> property must be set to 5.
 
 ## Examples
 

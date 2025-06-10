@@ -11,13 +11,13 @@ choose [ph:toolName] tool
 </pre></code>
 
 
-where [ph:<code>posInteger</code>] is between 1 and 18.
+where <code>[ph:posInteger]</code> is between 1 and 18.
 
-The <code>choose</code> command chooses the tool with the specified number or name from the Tools palette. 
+The <code>choose</code> command chooses the tool with the specified number or name from the Tools palette.
 
-HyperCard sends the <code>choose</code> command to the current card when you choose a tool from the Tools menu. 
+HyperCard sends the <code>choose</code> command to the current card when you choose a tool from the Tools menu.
 
-HyperCard passes the word [ph:tool  ]to the first parameter variable and the tool number to the second parameter variable. You can handle the <code>choose</code> command as follows:
+HyperCard passes the word [ph:tool] to the first parameter variable and the tool number to the second parameter variable. You can handle the <code>choose</code> command as follows:
 
 <code><pre>
 on choose what, toolNumber
@@ -87,6 +87,10 @@ choose polygon tool
 choose poly tool
 choose tool 18
 ```
+
+## Placeholders
+
+[embed:HelpExtras/Placeholders/tool.md]
 
 ## Related Topics
 

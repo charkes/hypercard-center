@@ -21,11 +21,11 @@ hide <i>externalWindow</i>
 </pre></code>
 
 
-The<code> hide </code>command  removes HyperCard objects and elements from view.
+The <code>hide</code> command removes HyperCard objects and elements from view.
 
-<code>hide menuBar </code>removes the menu bar from the top of the screen.
+<code>hide menuBar</code> removes the menu bar from the top of the screen.
 
-<code>hide titleBar </code>removes the title bar on the card window.
+<code>hide titleBar</code> removes the title bar on the card window.
 
 Use both of these commands with care: hiding the menu bar, or the title bar of a window, may confuse your users.
 
@@ -40,7 +40,7 @@ If you hide the frontmost document window, the next document window becomes acti
 ## Examples
 
 ```
-hide card window 
+hide card window
 
 -- built-in windows:
 hide tool window

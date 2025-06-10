@@ -10,16 +10,15 @@ lock {messages|recent|screen}
 lock error dialogs
 </pre></code>
 
-<code>Lock messages </code>has the same effect as <code>set lockMessages to true</code>: it prevents HyperCard from sending <code>open</code>, <code>close, suspend,</code> and <code>resume</code> system messages along the message-passing path.
+<code>Lock messages</code> has the same effect as <code>set lockMessages to true</code>: it prevents HyperCard from sending <code>open</code>, <code>close</code> <code>suspend</code>, and <code>resume</code> system messages along the message-passing path.
 
-<code>Lock recent </code>has the same effect as<code> set lockRecent to true</code>: it prevents HyperCard from keeping  a visual record of cards visited by the user (or a handler) in the Recent Card dialog box. 
+<code>Lock recent</code> has the same effect as <code>set lockRecent to true</code>: it prevents HyperCard from keeping a visual record of cards visited by the user (or a handler) in the Recent Card dialog box.
 
 <code>Lock screen</code> has the same effect as setting the property <code>lockScreen</code> to <code>true</code>: it prevents HyperCard from updating the screen.
 
-<code>Lock error dialogs </code>prevents error dialog boxes from appearing; instead, the message <code>errorDialog [ph:errorMessage]</code> is sent to the current card. <code>
+<code>Lock error dialogs</code> prevents error dialog boxes from appearing; instead, the message <code>errorDialog [ph:errorMessage]</code> is sent to the current card.
 
-</code>Locking is automatically unlocked at idle time. 
-
+Locking is automatically unlocked at idle time. 
 
 ## Demo Script
 

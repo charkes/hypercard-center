@@ -5,22 +5,23 @@ card_id: 47503
 
 # set
 
-<code>set </code>[<code>the</code>]<code> [ph:property] to [ph:expression</code>] <code>set </code>[<code>the</code>]<code> [ph:property] of [ph:object] ¬     to [ph:expression</code>] <code><pre>
-
-set
+<code><pre>
+set [the] [ph:property] to [ph:expression]
+set [the] [ph:property] of [ph:object] ¬
+     to [ph:expression]
+set [the] [ph:property] of [ph:window] ¬
+     to [ph:expression]
+set [the] property of [[ph:menuItem] of] ¬
+    [ph:menu] to [ph:expression]
+set [the] [ph:property] of [ph:chunk] ¬
+    of [ph:field] to [ph:expression]
 </pre></code>
 
-[<code>the
-</pre></code>
+Note: <code>[ph:expression]</code> must yield a valid setting for the specified property.
 
-]<code> [ph:property] of [ph:window] ¬     to [ph:expression</code>] <code>set </code>[<code>the</code>] <code>property of</code> [[ph:<code>menuItem] of</code>]<code> ¬      [ph:menu] to [ph:expression] set </code>[<code>the</code>]<code> [ph:property] of [ph:chunk] ¬     of [ph:field] to [ph:expression</code>]
+The <code>set</code> command changes the state of a specified property. If the object or element to which the property belongs is not specified, the property must be a global property or painting property.
 
-Note: <code>[ph:expression]</code> must yield a valid setting for the specified property. 
-
-The <code>set</code> command changes the state of a specified property. If the object or element to which the property belongs is not specified, the property must be a global property or painting property. 
-
-You can use the Info dialog box of an object to set many of its properties. 
-
+You can use the Info dialog box of an object to set many of its properties.
 
 ## Examples
 

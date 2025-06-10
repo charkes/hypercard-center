@@ -7,17 +7,16 @@ card_id: 35701
 
 <code><pre>
 drag from [ph:point] to [ph:point]
-drag from [ph:point] to [ph:point] with [ph:key1]<u>
-</u>drag from [ph:point] to [ph:point] ¬
-  with [ph:key1], [ph:key2]<u>
-</u>drag from [ph:point] to [ph:point] ¬
-  with [ph:key1], [ph:key2], [ph:key3]<u>
+drag from [ph:point] to [ph:point] with [ph:key1]
+drag from [ph:point] to [ph:point] ¬
+  with [ph:key1], [ph:key2]
+drag from [ph:point] to [ph:point] ¬
+  with [ph:key1], [ph:key2], [ph:key3]
 </pre></code>
 
-</u> The <code>drag</code> command simulates the user dragging the mouse manually (except that you must use the <code>with shiftKey</code> option in order to select text in a field). 
+The <code>drag</code> command simulates the user dragging the mouse manually (except that you must use the <code>with shiftKey</code> option in order to select text in a field).
 
-The <code>with [ph:key]</code> options specify combinations of the <code>commandKey</code>, the <code>optionKey</code>, and the <code>shiftKey</code>, simulating the user holding down the key or keys while dragging. 
-
+The <code>with [ph:key]</code> options specify combinations of the <code>commandKey</code>, the <code>optionKey</code>, and the <code>shiftKey</code>, simulating the user holding down the key or keys while dragging.
 
 ## Examples
 

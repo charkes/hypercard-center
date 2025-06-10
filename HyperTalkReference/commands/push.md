@@ -7,24 +7,20 @@ card_id: 45173
 
 <code><pre>
 push card
-push [ph:card]
+push [ph:card] [of [ph:stack]]
+push [ph:bkgnd] [of [ph:stack]]
+push [ph:stack]
 </pre></code>
 
-[<code>of <i>stack
-</pre></code>
-
-</i> ]<code> push [ph:bkgnd] </code>[<code>of [ph:stack</code>] ]<code> push [ph:stack]
-
-</code>The <code>push</code> command saves the identification of a card in HyperCard’s memory. If you specify a background or stack, HyperCard stores the location of the <b>first</b> card of the background or stack.  In all cases, HyperCard saves the full card ID and the path name for the stack. 
+The <code>push</code> command saves the identification of a card in HyperCard’s memory. If you specify a background or stack, HyperCard stores the location of the <b>first</b> card of the background or stack. In all cases, HyperCard saves the full card ID and the path name for the stack.
 
 Each call to <code>push</code> saves a card ID in last-in, first-out order. You can return to saved locations using the <code>pop</code> command.
 
-Note: The word <code>stack</code> that forms part of the stack identifier<code> [ph:stack] </code>is optional with the <code>push</code> command.
+Note: The word <code>stack</code> that forms part of the stack identifier <code>[ph:stack]</code> is optional with the <code>push</code> command.
 
 There is a limit of twenty pushes.
 
-If you <code>pop</code> more than you<code> push</code>, you go to the Home stack. 
-
+If you <code>pop</code> more than you <code>push</code>, you go to the Home stack.
 
 ## Examples
 

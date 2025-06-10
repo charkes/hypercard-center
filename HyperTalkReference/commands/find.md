@@ -7,28 +7,28 @@ modified: yes
 # find
 
 <code><pre>
-find [international] <i>text </i> ¬
-   [in <i>field</i>] [of marked cards]
+find [international] [ph:text ] ¬
+   [in [ph:field]] [of marked cards]
 
-find chars [international] <i>text</i> ¬
-   [in <i>field</i>] [of marked cards]
+find chars [international] [ph:text] ¬
+   [in [ph:field]] [of marked cards]
 
-find word [international] <i>text</i> ¬
-   [in <i>field</i>] [of marked cards]
+find word [international] [ph:text] ¬
+   [in [ph:field]] [of marked cards]
 
-find whole [international] <i>text</i> ¬
-   [in <i>field</i>] [of marked cards]
+find whole [international] [ph:text] ¬
+   [in [ph:field]] [of marked cards]
 
-find string [international] <i>text</i> ¬
-   [in <i>field</i>] [of marked cards]
+find string [international] [ph:text] ¬
+   [in [ph:field]] [of marked cards]
 </pre></code>
 
 
-The<code> find </code>command searches for a text string in <b>all</b> the card and background fields (visible or not) of the current stack.
+The <code>find</code> command searches for a text string in <b>all</b> the card and background fields (visible or not) of the current stack.
 
-<code>International </code>considers diphthongs and diacritical marks as it searches.<code> In <i>field</i>  </code>searches only a specific card or background field. <code> Of marked cards</code> restricts its search to marked cards.
+<code>International</code> considers diphthongs and diacritical marks as it searches. <code>In [ph:field]</code>searches only a specific card or background field. <code>Of marked cards</code> restricts its search to marked cards.
 
-When<code> find </code>succeeds, a box appears around found text (or the first part of the text if the targets are discontinuous); <code>the result </code>is set to<code> empty</code>. When<code> find </code>fails,<code> the result </code> is set to the string<code> "Not found"</code>.
+When <code>find</code> succeeds, a box appears around found text (or the first part of the text if the targets are discontinuous); <code>the result</code> is set to <code>empty</code>. When <code>find</code> fails, <code>the result</code> is set to the string <code>"Not found"</code>.
 
 The commands `find`, `find chars`, and `find word` treat each word of the search string as a separate search item. For example, `find "this command"` is treated as `find "this"` <b>and</b> `find "command"`. The search succeeds if HyperCard finds all the words of the search string <b>anywhere</b> on the card (or anywhere in the specified field). The words do not have to be in order.
 
@@ -65,7 +65,7 @@ find word "msg" in second card field
 find chars international "bøhr"
 
 -- Find whole and find string include any spaces as part of the string:
-find whole "lets you search for a whole phrase" 
+find whole "lets you search for a whole phrase"
 find string "ets you search for part of a phr"
 
 -- Find the contents of a variable:
@@ -81,7 +81,6 @@ find string (char 1 to 4 of the short name of this card)
 ## Demo Script
 
 <code><pre>
-<code><pre>
 on findDemo
  -- find a contiguous string of characters, including spaces:
   set cursor to watch
@@ -91,7 +90,6 @@ on findDemo
   <b>find whole</b> "find a phrase" in field "Demo Script"
   wait 2 seconds
 end findDemo
-</pre></code>
 </pre></code>
 
 ## Placeholders

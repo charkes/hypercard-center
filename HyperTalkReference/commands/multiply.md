@@ -5,14 +5,16 @@ card_id: 41612
 
 # multiply
 
-<code>multiply </code>[[ph:<code>chunk] of</code>]<code> [ph:container] ¬     by [ph:number]<u>
+<code><pre>
+multiply [[ph:chunk] of] [ph:container] ¬
+     by [ph:number]
+</pre></code>
 
-</code></u>where [ph:<code>container</code> ] or [ph:<code>chunk</code>]  must contain a number. (You can use the <code>is a</code> operator to see if the container is a number.)
+where [ph:container] or [ph:chunk] must contain a number. (You can use the <code>is a</code> operator to see if the container is a number.)
 
-The <code>multiply</code> command multiplies the number in the container or chunk by [ph:<code>number</code>] and puts the result into the container or chunk. The result is calculated to a precision of up to 19 decimal places. 
+The <code>multiply</code> command multiplies the number in the container or chunk by <code>[ph:number]</code> and puts the result into the container or chunk. The result is calculated to a precision of up to 19 decimal places.
 
-The result is displayed in a field or the Message box according to the global property<code> numberFormat.</code> 
-
+The result is displayed in a field or the Message box according to the global property <code>numberFormat</code>.
 
 ## Examples
 

@@ -11,7 +11,7 @@ returnKey
 
 The <code>returnKey</code> command sends a statement typed into the Message box to the current card.
 
-HyperCard sends the <code>returnKey</code> command to the current card when the user presses the Return key unless the insertion point is in a field, in which case HyperCard sends <code> returnInField </code>instead. 
+HyperCard sends the <code>returnKey</code> command to the current card when the user presses the Return key unless the insertion point is in a field, in which case HyperCard sends <code>returnInField</code> instead.
 
 You can handle the <code>returnKey</code> message as follows:
 
@@ -20,7 +20,6 @@ on returnKey
   [ph:statements]
 end returnKey
 </pre></code>
-
 
 ## Related Topics
 

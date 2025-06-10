@@ -5,25 +5,24 @@ card_id: 41996
 
 # open file
 
-<code>open file [ph:fileName</code>]
+<code>open file [ph:fileName]</code>
 
 The <code>open file</code> command opens the specified file so that you can read data from it and write to it. Usually, the file is an ASCII text file opened to allow importing or exporting text. If the file doesn’t exist, HyperCard creates it.
 
 Use the <code>close file</code> command to close files after you’ve opened them.
 
-Note: You must provide the full path name of the file if it’s not at the same directory level as HyperCard. 
+Note: You must provide the full path name of the file if it’s not at the same directory level as HyperCard.
 
- If HyperCard has problems opening the specified file, it sets <code>the result</code> as follows:<code>  </code> Nonexistent file that can't be created: <code><pre>
-Can't create that file.
-</pre></code>
+If HyperCard has problems opening the specified file, it sets <code>the result</code> as follows:
 
-Existing file already open: <code><pre>
-File is already open.
-</pre></code>
+Nonexistent file that can't be created:
+`Can't create that file.`
 
-Other error opening file: <code>Can't open that file.</code>
+Existing file already open:
+`File is already open.`
 
-
+Other error opening file:
+`Can't open that file.`
 
 ## Examples
 

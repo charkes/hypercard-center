@@ -12,12 +12,11 @@ open [ph:fileName] with [ph:application]
 
 The <code>open</code> command launches another application program or opens a document with another application from within HyperCard. You must provide the full path names for the files if they’re not at the same directory level as HyperCard.
 
-Under the Finder in System 6, HyperCard sends the <code>suspend</code> system message to the current card before turning over control to the application. 
+Under the Finder in System 6, HyperCard sends the <code>suspend</code> system message to the current card before turning over control to the application.
 
-If HyperCard can’t find the document or application, it displays a directory dialog box and asks the user to find it. HyperCard also sets <code>the result</code> to <code>Cancel</code> if the user clicks Cancel in the dialog box. Otherwise, it sets <code>the result</code> to<code> empty</code>.
+If HyperCard can’t find the document or application, it displays a directory dialog box and asks the user to find it. HyperCard also sets <code>the result</code> to <code>Cancel</code> if the user clicks Cancel in the dialog box. Otherwise, it sets <code>the result</code> to <code>empty</code>.
 
-If HyperCard has problems opening the specified application (for example, there’s not enough memory), it sets <code>the result</code> to<code> "Couldn't open that application."</code> 
-
+If HyperCard has problems opening the specified application (for example, there’s not enough memory), it sets <code>the result</code> to <code>"Couldn't open that application."</code>
 
 ## Examples
 

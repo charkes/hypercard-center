@@ -12,15 +12,13 @@ open report printing ¬
     with template [ph:text]
 </pre></code>
 
-where [ph:<code>text] </code>is the name of a report template in the current stack. <code><pre>
-</pre></code>
+where <code>[ph:text]</code> is the name of a report template in the current stack.
 
-The <code>open report printing</code> command begins the process of printing a stack (or part of a stack) as a report. It uses the current settings from the Print Report dialog box. You must use the <code>close printing</code> command to end a job begun with<code> open report printing</code>. 
+The <code>open report printing</code> command begins the process of printing a stack (or part of a stack) as a report. It uses the current settings from the Print Report dialog box. You must use the <code>close printing</code> command to end a job begun with <code>open report printing</code>.
 
 If you specify the <code>with dialog</code> option, HyperCard displays the Print Report dialog box and the user can choose new settings. If you specify the <code>with template</code> option, HyperCard prints the stack with the named report template.
 
 HyperCard sets the function <code>the result</code> to <code>Cancel</code> if the user clicks Cancel in the dialog box, to <code>no such report template</code> if you specify a template that doesn’t exist, or to <code>empty</code> in all other cases. 
-
 
 ## Examples
 

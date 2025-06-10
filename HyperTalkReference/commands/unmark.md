@@ -12,22 +12,12 @@ unmark cards where [ph:trueOrFalse]
 unmark cards by finding      ¬
   [chars|word|whole|string] ¬
   [international]           ¬
-  [ph:text]
+  [ph:text] [in [ph:field]] [of marked cards]
 </pre></code>
 
-[<code>in <i>field
-</pre></code>
+The <code>unmark</code> command sets the <code>marked</code> property of the specified cards to <code>false</code>.  Use it to deselect sets of cards that you have marked.
 
-</i> ]  [<code>of marked cards
-</pre></code>
-
-] 
-
-The <code>unmark</code> command sets the <code>marked</code> property of the specified cards to <code>false</code>.  Use it to deselect sets of cards that you have marked. <code><pre>
-</pre></code>
-
-<code>Unmark cards where </code>visits each card in the stack and evaluates the expression. If its value is <code>true</code>, HyperCard unmarks the card.<code> Unmark cards by finding</code> unmarks cards using the same mechanism as the <code>find</code> command. It unmarks cards very quickly. 
-
+<code>Unmark cards where</code> visits each card in the stack and evaluates the expression. If its value is <code>true</code>, HyperCard unmarks the card. <code>Unmark cards by finding</code> unmarks cards using the same mechanism as the <code>find</code> command. It unmarks cards very quickly.
 
 ## Examples
 

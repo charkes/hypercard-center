@@ -8,50 +8,49 @@ modified: yes
 
 <code><pre>
 close printing
-close file <i>fileName</i>
-close [<i>document</i> { in | with } ] ¬
-            <i>application</i>
-close { <i>externalWindow</i> | card window}
+close file [ph:fileName]
+close [[ph:document] { in | with } ] ¬
+            [ph:application]
+close {[ph:externalWindow] | card window}
 </pre></code>
 
+The <code>close printing</code> command ends a print job previously begun with an <code>open printing</code> command.
 
-The<code> close printing </code>command ends a print job previously begun with an<code> open printing </code>command.
+The <code>close file</code> command closes a disk file previously opened with the <code>open file</code> command. Usually, you open files to import or export text. Always use <code>close file</code> when you’re finished.
 
-The<code> close file </code>command closes a disk file previously opened with the<code> open file </code>command. Usually, you open files to import or export text. Always use<code> close file </code>when you’re finished.
-
-If you try to close an unopened file,<code> the result </code>gets<code> File not open.</code>
+If you try to close an unopened file, <code>the result</code> gets <code>File not open.</code>
 
 HyperCard automatically closes all open files when
 
-* it runs an<code> exit to HyperCard </code>    statement,
+* it runs an <code>exit to HyperCard</code> statement,
 * the user presses Command-. (Command-period), or
 * the user quits HyperCard.
 
 You must provide the full path name of the file if it’s not at the same directory level as HyperCard.
 
-The `close [document {in|with}] <i>application</i>` command closes the named running document, application,  or desk accessory.   (The words `in` and `with` are synonymous.)
+The <code>close [document {in|with}] [ph:application]</code> command closes the named running document, application, or desk accessory. (The words <code>in</code> and <code>with</code> are synonymous.)
 
 Note: This command works only with Apple event-aware applications running under System 7 on the same Macintosh as HyperCard.
 
-If the document or application isn’t running, `the result` is set to `No such document` or `No such application`  as appropriate.
+If the document or application isn’t running, <code>the result</code> is set to <code>No such document</code> or <code>No such application</code> as appropriate.
 
-The form close application sends a quit Apple event, while the form  `close document {in|with} <i>application</i>`  sends a `clos` Apple event.
+The form close application sends a quit Apple event, while the form  <code>close document {in|with} [ph:application]</code> sends a <code>clos</code> Apple event.
 
-All Apple event-aware applications support the `quit` Apple event, but they don’t all support `clos`.
+All Apple event-aware applications support the <code>quit</code> Apple event, but they don’t all support <code>clos</code>.
 
-The `close <i>externalWindow</i>` command closes an external window—a palette or other window displayed by an external command or external function—and removes it from the window list.
+The <code>close [ph:externalWindow]</code> command closes an external window—a palette or other window displayed by an external command or external function—and removes it from the window list.
 
-Thus you can’t `show` an external window once you’ve closed it; you’ll have to create a new one using its external command or external function.
+Thus you can’t <code>show</code> an external window once you’ve closed it; you’ll have to create a new one using its external command or external function.
 
-The `close card window` command closes the frontmost stack if at least two stacks are open.
+The <code>close card window</code> command closes the frontmost stack if at least two stacks are open.
 
-HyperCard also sends the `close` command to the current card when  the user clicks the close box of  the card window.  You can handle the message as follows:
+HyperCard also sends the <code>close</code> command to the current card when  the user clicks the close box of  the card window.  You can handle the message as follows:
 
-```
+<code><pre>
 on close
-  <i>statements</i>
+  [ph:statements]
 end close
-```
+</pre></code>
 
 ## Examples
 

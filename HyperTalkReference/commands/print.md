@@ -7,46 +7,46 @@ modified: yes
 # print
 
 <code><pre>
-print card [from <i>point1</i> to <i>point2</i>]
+print card [from [ph:point1] to [ph:point2]]
 print all cards
 print marked cards
-print <i>posInteger</i> cards
-print <i>card</i> [from <i>point1</i> to <i>point2</i>]
-print {<i>field</i> | <i>button</i> }
-print <i>fileName</i> with <i>application</i>
-print <i>expression</i>
+print [ph:posInteger] cards
+print [ph:card] [from [ph:point1] to [ph:point2]]
+print {[ph:field] | [ph:button] }
+print [ph:fileName] with [ph:application]
+print [ph:expression]
 </pre></code>
 
 
-The<code> print </code>command prints card images, the contents of fields and buttons, documents from other programs, or the value of any HyperTalk expression.
+The <code>print</code> command prints card images, the contents of fields and buttons, documents from other programs, or the value of any HyperTalk expression.
 
-<code>Print card </code>prints an image of the current card. The option<code> from <i>point1</i> to <i>point2</i> </code>specifies a rectangular area of the card.
+<code>Print card</code> prints an image of the current card. The option <code>from [ph:point1] to [ph:point2]</code> specifies a rectangular area of the card.
 
-<code>Print all cards </code>prints the image of every card in the stack.
+<code>Print all cards</code> prints the image of every card in the stack.
 
-<code>Print marked cards </code>prints a subset of the cards in the stack based on each card’s<code> marked </code>property (as reflected in its Card Info dialog box). You can mark cards with the<code> mark </code>command.
+<code>Print marked cards</code> prints a subset of the cards in the stack based on each card’s <code>marked</code> property (as reflected in its Card Info dialog box). You can mark cards with the <code>mark</code> command.
 
-<code>Print <i>posInteger</i> cards </code>prints a range of consecutive cards starting from the current card.
+<code>Print [ph:posInteger] cards</code> prints a range of consecutive cards starting from the current card.
 
-<code>Print <i>card</i> </code>prints the card specified by the card expression. The option<code> from <i>point1</i> to <i>point2</i> </code>specifies a rectangular area of the card. HyperCard sets the function<code> the result </code>to<code> "No such card." </code>if the specified card doesn’t exist; otherwise,<code> the result </code>returns<code> empty</code>.
+<code>Print [ph:card]</code> prints the card specified by the card expression. The option <code>from [ph:point1] to [ph:point2]</code> specifies a rectangular area of the card. HyperCard sets the function <code>the result</code> to <code>"No such card."</code> if the specified card doesn’t exist; otherwise, <code>the result</code> returns <code>empty</code>.
 
-<code>Print</code> <i><code>button</i> </code>prints the contents of the specified button.
+<code>Print [ph:button]</code> prints the contents of the specified button.
 
-<code>Print</code> <i><code>field</i> </code>prints the contents of the specified field, preserving the fonts, sizes, and styles of text used in the field.
+<code>Print [ph:field]</code> prints the contents of the specified field, preserving the fonts, sizes, and styles of text used in the field.
 
-<code>Print file with application </code>prints a document using another program. HyperCard launches the application; the application tries to print the document. (The user might see a Print dialog box.)
+<code>Print file with application</code> prints a document using another program. HyperCard launches the application; the application tries to print the document. (The user might see a Print dialog box.)
 
 If HyperCard can't find either the document or the application, it displays a directory dialog box and asks the user to find it.
 
-HyperCard also sets<code> the result </code>to<code> Cancel </code>if the user clicks Cancel in the dialog box. Otherwise, it sets<code> the result </code>to<code> empty</code>.
+HyperCard also sets <code>the result</code> to <code>Cancel</code>if the user clicks Cancel in the dialog box. Otherwise, it sets <code>the result</code> to <code>empty</code>.
 
-If HyperCard has problems opening the application (for example, there’s not enough memory), it sets<code> the result </code>to<code> "Couldn't open that application."</code>
+If HyperCard has problems opening the application (for example, there’s not enough memory), it sets <code>the result</code> to <code>"Couldn't open that application."</code>
 
 After printing, the application program quits, and control returns to HyperCard.
 
-Finally,<code> print <i>expression</i> </code>prints the value of any HyperTalk expression. You can print the values of local and global variables, fields, <i><code>chunk</i> </code>expressions, the current selection, the contents of the Message box, and the result of any function or property.
+Finally,<code>print [ph:expression]</code> prints the value of any HyperTalk expression. You can print the values of local and global variables, fields, <code>[ph:chunk]</code> expressions, the current selection, the contents of the Message box, and the result of any function or property.
 
-Expressions are printed using the settings in<code> printMargins, printTextAlign, printTextFont, printTextSize, printTextHeight, </code>and<code> printTextStyle</code>.
+Expressions are printed using the settings in <code>printMargins, printTextAlign, printTextFont, printTextSize, printTextHeight,</code> and <code>printTextStyle</code>.
 
 ## Examples
 

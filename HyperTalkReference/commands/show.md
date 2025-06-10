@@ -13,31 +13,30 @@ show groups
 show all cards
 show marked cards
 
-show <i>posInteger</i> cards
+show [ph:posInteger] cards
 show card picture
 show background picture
-show picture of <i>card</i>
-show picture of <i>bkgnd</i>
+show picture of [ph:card]
+show picture of [ph:bkgnd]
 
-show <i>field</i> [at <i>point</i>]
-show <i>button</i> [at <i>point</i>]
+show [ph:field] [at [ph:point]]
+show [ph:button] [at [ph:point]]
 
-show <i>window</i> [at <i>point</i>]
-show <i>externalWindow</i> [at <i>point</i>]
+show [ph:window] [at [ph:point]]
+show [ph:externalWindow] [at [ph:point]]
 </pre></code>
 
+The <code>show</code> command displays HyperCard objects and elements.
 
-The<code> show </code>command displays HyperCard objects and elements.
+<code>Show menuBar</code> displays the menu bar at the top of the screen (unless the screen is locked). <code>Show titleBar</code> displays the title bar on the card window if it’s been hidden. (Normally, the title bar is visible.)
 
-<code>Show menuBar</code> displays the menu bar at the top of the screen (unless the screen is locked).<code> Show titleBar</code> displays the title bar on the card window if it’s been hidden. (Normally, the title bar is visible.)
+<code>Show groups</code> displays a two-pixel gray underline for all text that has the <code>group</code> text style. (By default, the <code>group</code> text style is invisible.) The underline appears for grouped text in every field (in all stacks). Use the <code>hide groups</code> command to remove the underline.
 
-<code>Show groups </code>displays a two-pixel gray underline for all text that has the<code> group </code>text style. (By default, the<code> group </code>text style is invisible.) The underline appears for grouped text in every field (in all stacks). Use the<code> hide groups </code>command to remove the underline.
+The <code>show card</code> forms display the specified cards in the current stack in turn, beginning with the next card or the next marked card.
 
-The<code> show card </code>forms display the specified cards in the current stack in turn, beginning with the next card or the next marked card.
+The other forms of the <code>show</code> command display the card or background picture, a window, or an object at a specified location on the screen. If the point is not given, the window or object is displayed at its previous location.
 
-The other forms of the<code> show </code>command display the card or background picture, a window, or an object at a specified location on the screen. If the point is not given, the window or object is displayed at its previous location.
-
-Showing a window makes it the frontmost window. With external windows, an external command or external function must first create a window before<code> show </code>will work on it.<code> Show </code>does <b>not</b> create windows.
+Showing a window makes it the frontmost window. With external windows, an external command or external function must first create a window before <code>show</code> will work on it. <code>Show</code> does <b>not</b> create windows.
 
 ## Examples
 

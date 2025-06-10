@@ -8,26 +8,21 @@ card_id: 50046
 <code><pre>
 unlock {screen|messages|recent}
 unlock error dialogs
-unlock screen with [ph:effect]
+unlock screen with [ph:effect] [[ph:speed]] ¬
+        [to [ph:image]]
+unlock screen with visual [effect] ¬
+        [ph:effect] [[ph:speed]] [to [ph:image]]
 </pre></code>
 
-[<i><code>speed
-</pre></code>
+<code>Unlock screen</code> lets HyperCard update the screen after a <code>lock screen</code> command. (Click the placeholders <code>[ph:effect], [ph:speed],</code> and<code> [ph:image]</code> to see their possible replacements.)
 
-</i> ]<code> ¬        </code>[<code>to [ph:image</code>] ]<code> unlock screen with visual [effect] ¬        [ph:effect] </code>[[ph:<code>speed</code>] ]<code> </code>[<code>to [ph:image</code>] ]<code>
+Optionally, you can add a single visual effect. You can lock the screen, perform actions on the card, and then unlock the screen with a visual effect.
 
-Unlock screen </code>lets HyperCard update the screen after a <code>lock screen</code> command. (Click the placeholders <code>[ph:effect], [ph:speed],</code> and<code> [ph:image]</code> to see their possible replacements.)
+<code>Unlock messages</code> lets <code>open, close, suspend,</code> and <code>resume</code> messages traverse the message-passing path.
 
-Optionally, you can add a single visual effect. You can lock the screen, perform 
+<code>Unlock recent</code> lets HyperCard keep a visual record of visited cards in the Recent Cards dialog box.
 
-actions on the card, and then unlock the screen with a visual effect.
-
-<code>Unlock messages </code>lets <code>open, close, suspend,</code> and <code>resume</code> messages traverse the message-passing path.
-
-<code>Unlock recent </code>lets HyperCard keep  a visual record of visited cards in the Recent Cards dialog box.
-
-<code>Unlock error dialogs </code>lets HyperCard show error dialog boxes when an error occurs. 
-
+<code>Unlock error dialogs</code> lets HyperCard show error dialog boxes when an error occurs.
 
 ## Examples
 

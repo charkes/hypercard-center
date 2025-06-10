@@ -5,18 +5,19 @@ card_id: 35162
 
 # divide
 
-<code>divide </code>[[ph:<code>chunk] of</code>]<code> [ph:container] by [ph:number]<u>
+<code><pre>
+divide [[ph:chunk] of] [ph:container] by [ph:number]
+</pre></code>
 
-</code></u>The <code>divide</code> command divides the number in the container or chunk by <code>[ph:number]</code> and puts the result into the container.
+The <code>divide</code> command divides the number in the container or chunk by <code>[ph:number]</code> and puts the result into the container.
 
-Dividing by 0 places <code>INF</code> (for infinity) into the chunk or container. Division is carried out to a precision of up to 19 decimal places. 
+Dividing by 0 places <code>INF</code> (for infinity) into the chunk or container. Division is carried out to a precision of up to 19 decimal places.
 
-Note: The container or chunk referred to must contain a number. 
+Note: The container or chunk referred to must contain a number.
 
-If the result is put into a field or the Message box, it is displayed according to the global property<code> numberFormat</code>.
+If the result is put into a field or the Message box, it is displayed according to the global property <code>numberFormat</code>.
 
 (You can use the <code>is a</code> operator to see if the container is a number.) 
-
 
 ## Examples
 

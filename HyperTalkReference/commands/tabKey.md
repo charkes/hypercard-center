@@ -9,7 +9,7 @@ card_id: 49516
 
 The <code>tabKey</code> command opens the first unlocked field on the current card or background (placing the insertion point in the field) and selects its entire contents.
 
-If a field is already open for editing, <code>tabKey</code> closes it and opens the next editable field, selecting its contents. (A field is editable only if it is unlocked and visible.) 
+If a field is already open for editing, <code>tabKey</code> closes it and opens the next editable field, selecting its contents. (A field is editable only if it is unlocked and visible.)
 
 The <code>tabKey</code> command opens fields in the following order: from the lowest to the highest numbered background field, then from the lowest to the highest numbered card field.
 
@@ -20,7 +20,6 @@ on tabKey
   [ph:statements]
 end tabKey
 </pre></code>
-
 
 ## Examples
 

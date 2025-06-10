@@ -5,16 +5,18 @@ card_id: 32047
 
 # click at
 
-<code>click at [ph:point] </code>
-<code>click at [ph:point] with [ph:key1</code>] <code>click at [ph:point] with [ph:key1], [ph:key2</code>] <code>click at [ph:point] with [ph:key1], [ph:key2], [ph:key3</code>] 
+<code>click at [ph:point]</code>
+<code>click at [ph:point] with [ph:key1]</code>
+<code>click at [ph:point] with [ph:key1], [ph:key2]</code>
+<code>click at [ph:point] with [ph:key1], [ph:key2], [ph:key3]</code>
 
-The <code>click at</code> command clicks the mouse from within scripts. It acts exactly as if the user had clicked the mouse on the screen. 
+The <code>click at</code> command clicks the mouse from within scripts. It acts exactly as if the user had clicked the mouse on the screen.
 
-If <code>[ph:point]</code> is within the rectangle of a button, a locked field, or anywhere else on the card, HyperCard sends the <code>mouseDown</code>, <code>mouseStillDown</code>, and <code>mouseUp</code> messages to the object. 
+If <code>[ph:point]</code> is within the rectangle of a button, a locked field, or anywhere else on the card, HyperCard sends the <code>mouseDown</code>, <code>mouseStillDown</code>, and <code>mouseUp</code> messages to the object.
 
 If <code>[ph:point]</code> is within the rectangle of an unlocked field, HyperCard sets the insertion point in the field.
 
-The <code>with [ph:key]</code> options specify combinations of the <code>commandKey</code>, the <code>optionKey</code>, and the <code>shiftKey</code>, just as if the user were holding down the key or keys while clicking the mouse. 
+The <code>with [ph:key]</code> options specify combinations of the <code>commandKey</code>, the <code>optionKey</code>, and the <code>shiftKey</code>, just as if the user were holding down the key or keys while clicking the mouse.
 
 
 ## Examples

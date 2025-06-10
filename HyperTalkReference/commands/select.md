@@ -8,30 +8,29 @@ modified: yes
 
 <code><pre>
 select empty
-select <i>button</i>
-select <i>field</i>
-select text of <i>container</i>
-select before text of <i>container</i>
-select after text of <i>container</i>
-select <i>chunk</i> of <i>container</i>
-select before <i>chunk</i> of <i>container</i>
-select after <i>chunk</i> of <i>container</i>
+select [ph:button]
+select [ph:field]
+select text of [ph:container]
+select before text of [ph:container]
+select after text of [ph:container]
+select [ph:chunk] of [ph:container]
+select before [ph:chunk] of [ph:container]
+select after [ph:chunk] of [ph:container]
 </pre></code>
 
+<b>Note:</b> <code>[ph:container]</code> cannot be a variable.
 
-<b>Note:</b><code> <i>container</i> </code>cannot be a variable.
+The <code>select</code> command selects buttons, fields, or text.
 
-The<code> select </code>command selects buttons, fields, or text.
+<code>Select [ph:button]</code> selects a button as if you had chosen the Button tool and clicked it. <code>Select [ph:field]</code> selects a field as if you had chosen the Field tool and clicked it.
 
-<code>Select</code> <i><code>button</i></code>  selects a button as if you had chosen the Button tool and clicked it.<code> Select</code> <i><code>field</i> </code>selects a field as if you had chosen the Field tool and clicked it.
+Note: You can’t use <code>select</code> to select hidden buttons or fields, and the user level must be set to Authoring or Scripting for <code>select</code> to work.
 
-Note: You can’t use<code> select </code>to select hidden buttons or fields, and the user level must be set to Authoring or Scripting for<code> select </code>to work.
+<code>Select empty</code> removes the current selection.  Use <code>select empty</code> instead of <code>click at</code> to deselect text or objects.
 
-<code> Select empty </code>removes the current selection.  Use<code> select empty </code>instead of<code> click at </code>to deselect text or objects.
+<code>Select text</code> applies to all the text in a field or in the Message box. You can select all the text or place the insertion point before the first character or after the last character of text.
 
-<code>Select text </code>applies to all the text in a field or in the Message box. You can select all the text or place the insertion point before the first character or after the last character of text.
-
-<code> Select</code> <i><code>chunk</i> </code>applies to a specified range of text in the Message box or in a field, to one or more lines in a list field, or to a line (that is, a “menu” item) in a popup button.
+<code>Select [ph:chunk]</code> applies to a specified range of text in the Message box or in a field, to one or more lines in a list field, or to a line (that is, a “menu” item) in a popup button.
 
 In the Message box or in a field you can select the entire range of text or place the insertion point before the first character or after the last character of the range.
 
@@ -48,7 +47,7 @@ select empty
 -- Set the insertion point in a field:
 select before word 2 of field "syntax"
 select after line 1 of first field
-select after text of cd fld id 2378 
+select after text of cd fld id 2378
 
 -- Select a range of text in a field or msg box:
 select char 1 of field "syntax"
@@ -73,7 +72,7 @@ on selectDemo
   drag from 386,255 to 386,75
   wait 1 second
   domenu "undo"
- 
+
 
   -- select a range of characters:
   set cursor to watch

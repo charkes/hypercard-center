@@ -6,12 +6,11 @@ card_id: 95696
 # copy template
 
 <code><pre>
-copy template [ph:templateName ]¬
-               to [ph:stack] <i>
+copy template [ph:templateName] ¬
+               to [ph:stack]
 </pre></code>
 
-</i>The <code>copy template</code> command makes a copy of  printing report template [ph:<code>templateName </code>] from the current stack and moves it into the stack<code> [ph:stack.</code>] 
-
+The <code>copy template</code> command makes a copy of printing report template <code>[ph:templateName]</code> from the current stack and moves it into the stack <code>[ph:stack]</code>.
 
 ## Examples
 

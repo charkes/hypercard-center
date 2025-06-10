@@ -7,21 +7,21 @@ modified: yes
 # go
 
 <code><pre>
-go [to] <i>ordinal</i>
-go [to] <i>position</i>
-go [to] <i>card</i> [of <i>bkgnd</i>] [of <i>stack</i>]
-go [to] <i>bkgnd</i> [of <i>stack</i>]
-go [to] <i>stack</i>
-go [to] [<i>card</i> of] [<i>bkgnd</i> of] <i>stack</i> ¬
+go [to] [ph:ordinal]
+go [to] [ph:position]
+go [to] [ph:card] [of [ph:bkgnd]] [of [ph:stack]]
+go [to] [ph:bkgnd] [of [ph:stack]]
+go [to] [ph:stack]
+go [to] [[ph:card] of] [[ph:bkgnd] of] [ph:stack] ¬
    [in a new window] [without dialog]
 </pre></code>
 
 
-The<code> go </code>command takes the user to a card in a stack. The<code> <i>ordinal</i> </code>and<code> <i>position</i> </code>forms take the user to a card in the current stack.
+The <code>go</code> command takes the user to a card in a stack. The <code>[ph:ordinal]</code> and <code>[ph:position]</code> forms take the user to a card in the current stack.
 
 If you name a stack (or background) without specifying a card, HyperCard goes to the first card of the stack (or background).
 
-HyperCard puts<code> empty </code>into the function<code> the result </code>when the<code> go </code>command succeeds; it puts<code> "No such card." </code>or<code> "No such stack."</code> into<code> the result </code>when it can’t go to the card or stack.
+HyperCard puts <code>empty</code> into the function <code>the result</code> when the <code>go</code> command succeeds; it puts <code>"No such card."</code> or <code>"No such stack."</code> into <code>the result</code> when it can’t go to the card or stack.
 
 The `in a new window` option tells HyperCard to open a stack in another window when it goes to the stack.
 
@@ -72,7 +72,7 @@ go home
 go help
 
 -- Use full pathname:
-go "Simonides:Fly II:Current Fly:Help" 
+go "Simonides:Fly II:Current Fly:Help"
 
 -- Go to new stack, but open it in a new window:
 go stack "My Stack" in a new window

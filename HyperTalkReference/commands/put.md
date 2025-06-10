@@ -7,29 +7,28 @@ modified: yes
 # put
 
 <code><pre>
-put <i>expression</i>
-put <i>expression</i> <i>preposition</i> ¬
-   [<i>chunk</i> of] <i>container</i>
+put [ph:expression]
+put [ph:expression] [ph:preposition] ¬
+   [[ph:chunk] of] [ph:container]
 
-put <i>menuItemList</i> <i>preposition</i> ¬
-     [<i>menuItem</i> of] <i>menu</i> ¬
-     [with menuMessages <i>messageList</i>]
+put [ph:menuItemList] [ph:preposition] ¬
+     [[ph:menuItem] of] [ph:menu] ¬
+     [with menuMessages [ph:messageList]]
 </pre></code>
 
+The <code>put</code> command evaluates an expression and places the value it extracts <code>into</code>, <code>after</code>, or <code>before</code> the contents of a container.
 
-The<code> put </code>command evaluates an expression and places the value it extracts<code> into</code>,<code> after</code>, or<code> before </code>the contents of a container.
+The container can be a button, a field, a variable, the Message box, the selection, a <code>[ph:chunk]</code> expression, or a menu. If you don’t specify a container, HyperCard puts the value into the Message box, showing it if it’s hidden.
 
-The container can be a button, a field, a variable, the Message box, the selection, a <i><code>chunk</i></code> expression, or a menu. If you don’t specify a container, HyperCard puts the value into the Message box, showing it if it’s hidden.
-
-Use<code> put </code>with<code> into </code>to replace the contents of a container or menu, with<code> before </code>to place the value at the beginning of its contents, and with<code> after </code>to append the value to the end of its contents.
+Use <code>put</code> with <code>into</code> to replace the contents of a container or menu, with <code>before</code> to place the value at the beginning of its contents, and with <code>after</code> to append the value to the end of its contents.
 
 The lines of text that you put into a pop-up button become the items of the  menu that appears when you click the button.
 
 Before you can add items to a menu, the menu must already exist.
 
-The<code> <i>menuItemList</i> </code>is a comma-separated list of the items you want to add to the menu. Use the single character<code> "-" </code>to get a gray line. You can put up to 64 items into a menu with a single<code> put </code>statement.
+The <code>[ph:menuItemList]</code> is a comma-separated list of the items you want to add to the menu. Use the single character <code>"-"</code> to get a gray line. You can put up to 64 items into a menu with a single <code>put</code> statement.
 
-The optional<code> <i>messageList</i> </code>is a comma-separated list of message names that HyperCard sends to the current card when the user chooses one of the menu items. The number of items in the<code> <i>messageList</i> </code>must equal the number of items in<code> <i>menuItemList</i>.</code>
+The optional <code>[ph:messageList]</code> is a comma-separated list of message names that HyperCard sends to the current card when the user chooses one of the menu items. The number of items in the <code>[ph:messageList]</code> must equal the number of items in<code> [ph:menuItemList].</code>
 
 To skip a message name, use an empty item—a null between two commas:
 
@@ -41,7 +40,7 @@ To skip a message name, use an empty item—a null between two commas:
 -- These are equivalent:
 put 42.5 * 675
 put 42.5 * 675 into msg
-put 42.5 * 675 into the Message box 
+put 42.5 * 675 into the Message box
 
 put empty into It  
 

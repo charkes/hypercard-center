@@ -8,18 +8,18 @@ card_id: 45965
 <code><pre>
 reset menuBar
 reset printing
-</pre></code>
-
-<code><pre>
 reset paint
 </pre></code>
 
-<code>Reset menuBar </code>restores the menu bar to HyperCard’s standard menus. <code>Reset printing</code> restores the default values for the printing properties, as follows:<code> 
+<code>Reset menuBar</code> restores the menu bar to HyperCard’s standard menus. <code>Reset printing</code> restores the default values for the printing properties, as follows:
 
-printMargins: 0,0,0,0 printTextAlign: left printTextFont: Geneva printTextHeight:13 printTextSize: 10 printTextStyle: plain</code> 
+<code><pre>
+printMargins: 0,0,0,0 printTextAlign: left printTextFont: Geneva printTextHeight:13 printTextSize: 10 printTextStyle: plain
+</pre></code>
 
-<code>Reset paint </code>reinstates the default values for all the painting properties, as follows:  <code><pre>
+<code>Reset paint</code> reinstates the default values for all the painting properties, as follows:
 
+<code><pre>
 brush: 8           textAlign: left
 centered: false    textFont: Geneva
 filled: false      textHeight: 16
@@ -30,7 +30,6 @@ multiSpace: 1
 pattern: 12
 polySides: 4
 </pre></code>
-
 
 ## Related Topics
 

@@ -5,11 +5,11 @@ card_id: 40449
 
 # keyDown
 
-<code>keyDown [ph:char</code>]
+<code>keyDown [ph:char]</code>
 
 The <code>keyDown</code> command simulates a key press from within a handler. It acts exactly as if the user pressed a character<code> </code>from the keyboard.
 
-HyperCard sends the <code>keyDown</code> command to a field (if the insertion point is set) or to the current card when the user presses a key. The value passed to the parameter variable <code>[ph:char]</code> corresponds to the key pressed. 
+HyperCard sends the <code>keyDown</code> command to a field (if the insertion point is set) or to the current card when the user presses a key. The value passed to the parameter variable <code>[ph:char]</code> corresponds to the key pressed.
 
 You can handle the <code>keyDown</code> message as follows:
 
@@ -20,7 +20,6 @@ end keyDown
 </pre></code>
 
 Note: <code>keyDown</code> is not sent for characters typed using the <code>type</code> command. 
-
 
 ## Demo Script
 

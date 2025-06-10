@@ -7,26 +7,18 @@ card_id: 34478
 
 <code><pre>
 delete [ph:chunk] of [ph:container]
-delete
+delete [[ph:menuItem] of] [ph:menu]
+delete [[ph:menuItem] from] [ph:menu]
+delete { [ph:button] | [ph:field] | [ph:part] }
 </pre></code>
 
-[[ph:<code>menuItem] of
-</pre></code>
+The <code>delete</code> command removes text from a container, menu items from a menu,  menus from the menu bar, and buttons or fields from the current card or background.
 
-]<code> <i>menu
-</pre></code>
+When you use the form <code>delete [ph:part]</code>, <code>deleteButton</code> or <code>deleteField</code> is sent to the object that's being deleted.
 
-</i> <code>delete </code>[[ph:<code>menuItem] from</code>]<code> [ph:menu</code>] <code>delete </code>{[ph:<code>button</code>] | [ph:<code>field</code>]  |[ph:<code>part</code>] }
+You can't use this command to delete a <code>[ph:part]</code> anywhere except on the current card.
 
-
-The <code>delete</code> command removes text from a container, menu items from a menu,  menus from the menu bar, and buttons or fields from the current card or background. 
-
-When you use the form <code>delete [ph:part</code>] , <code> deleteButton </code>or <code>deleteField</code> is sent to the object that's being deleted. 
-
-You can't use this command to delete a [ph:<code>part</code>]  anywhere except on the current card.
-
-Note: Using <code>delete</code> to delete a line is not the same as putting <code>empty</code> into the line: <code>delete</code> removes the final <code>return</code> character as well as the text, while putting <code>empty</code> into the line just removes the text. 
-
+Note: Using <code>delete</code> to delete a line is not the same as putting <code>empty</code> into the line: <code>delete</code> removes the final <code>return</code> character as well as the text, while putting <code>empty</code> into the line just removes the text.
 
 ## Examples
 
@@ -54,7 +46,6 @@ delete last background part
 ## Demo Script
 
 <code><pre>
-<code><pre>
 on surpriseDelete
  -- appropriate surprise with style
  set the cantModify of this stack to true -- to easily restore the text
@@ -64,7 +55,6 @@ on surpriseDelete
  wait 1 sec
  set cantModify of this stack to false
 end surpriseDelete
-</pre></code>
 </pre></code>
 
 ## Related Topics

@@ -11,7 +11,7 @@ commandKeyDown [ph:char]
 
 The <code>commandKeyDown</code> command provides a way of sending a Command-key event from a handler. It acts exactly as if you had pressed Command at the same time as the specified character.
 
-HyperCard sends the <code>commandKeyDown</code> command to a field (if the insertion point is set) or to the current card when the user presses a Command-key combination. The value passed to the parameter variable <code>[ph:char]</code> corresponds to the key pressed. 
+HyperCard sends the <code>commandKeyDown</code> command to a field (if the insertion point is set) or to the current card when the user presses a Command-key combination. The value passed to the parameter variable <code>[ph:char]</code> corresponds to the key pressed.
 
 You can handle the <code>commandKeyDown</code> message as follows:
 
@@ -22,7 +22,6 @@ end commandKeyDown
 </pre></code>
 
 Note: <code>commandKeyDown</code> is not sent for characters typed using the <code>type</code> command. 
-
 
 ## Examples
 

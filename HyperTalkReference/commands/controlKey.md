@@ -5,20 +5,21 @@ card_id: 33000
 
 # controlKey
 
-<code>controlKey [ph:posInteger</code>] 
+<code>controlKey [ph:posInteger]</code>
 
-The <code>controlKey</code> command has no built-in effect. HyperCard sends the <code>controlKey</code> command to the current card when a combination of the Control key and another key is pressed. 
+The <code>controlKey</code> command has no built-in effect. HyperCard sends the <code>controlKey</code> command to the current card when a combination of the Control key and another key is pressed.
 
-You can handle the <code>controlKey</code> message as follows: <code><pre>
+You can handle the <code>controlKey</code> message as follows:
 
+<code><pre>
 on controlKey theKeyNumber
   [ph:statements]
 end controlKey
 </pre></code>
 
-
-
 HyperCard passes the following numbers for each control key combination:
+
+[TODO:Format table here]
 
 ## Examples
 

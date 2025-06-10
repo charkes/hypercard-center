@@ -8,21 +8,21 @@ modified: yes
 
 <code><pre>
 play stop
-play <i>sound</i>
+play [ph:sound]
 
-play <i>sound</i> <i>notes</i>
-play <i>sound</i> tempo <i>posInteger</i>
-play <i>sound</i> tempo <i>posInteger</i> <i>notes</i>
+play [ph:sound] [ph:notes]
+play [ph:sound] tempo [ph:posInteger]
+play [ph:sound] tempo [ph:posInteger] [ph:notes]
 </pre></code>
 
 
-The<code> play </code>command plays a sound or a series of notes using a sound through the speaker of the Macintosh (or through the audio jack if it’s in use).
+The <code>play</code> command plays a sound or a series of notes using a sound through the speaker of the Macintosh (or through the audio jack if it’s in use).
 
 <code>Play stop </code>stops the current sound immediately; otherwise, the sound plays until it’s done and stops by itself.
 
-<b>Important</b>: HyperCard continues to run handlers and perform other actions while a sound plays. Use the command<code> wait until the sound is done </code>to stop a handler until the sound is done playing.
+<b>Important</b>: HyperCard continues to run handlers and perform other actions while a sound plays. Use the command <code>wait until the sound is done</code> to stop a handler until the sound is done playing.
 
-The text string<code> <i>notes</i> </code>is an unlimited sequence of words in which each word represents one note. A note has the following NAOD format (Name, Accidental, Octave, and Duration):
+The text string <code>[ph:notes]</code> is an unlimited sequence of words in which each word represents one note. A note has the following NAOD format (Name, Accidental, Octave, and Duration):
 
 <code><pre>
 Name        one of these letters:
@@ -44,10 +44,9 @@ Duration    one of the letters:
             x = 64th note
 </pre></code>
 
-
 You don't have to specify the accidental, octave, or duration of a note. Initially, the accidental defaults to none. The octave and duration default to the <b>same values as the previous note</b>, or to `4` (octave) and `q` (duration) for the first note.
 
-Specify the note r to get a rest. For example: `re  --eighth note rest`
+Specify the note r to get a rest. For example: `re --eighth note rest`
 
 A duration followed by a period (.) means a dotted note. A duration followed by the number 3 means one note of a triplet.
 
