@@ -1,6 +1,8 @@
 ### point
 
-<b>HyperTalk Definition </b> An expression that evaluates to a specific screen location, in the form of two integers separated by a comma.
+<b>HyperTalk Definition</b>
+
+An expression that evaluates to a specific screen location, in the form of two integers separated by a comma.
 
 Item 1 of a point is the horizontal offset (in pixels).  Item 2 of a point is the vertical offset (in pixels).  For example:
 
@@ -11,6 +13,11 @@ Item 1 of a point is the horizontal offset (in pixels).  Item 2 of a point is th
 the clickLoc
 </pre></code>
 
-<code><b></code>AppleScript Definition </b> An expression that evaluates to a specific screen location, in the form of a list with two integer elements. For example:
+<b>AppleScript Definition</b>
 
-{ 91, 303 } clickLoc 
+An expression that evaluates to a specific screen location, in the form of a list with two integer elements. For example:
+
+<code><pre>
+{ 91, 303 }
+clickLoc
+</pre></code>

@@ -7,7 +7,6 @@ this stack
 stack [ph:text] -- name or path name
 </pre></code>
 
-
 For example:
 
 <code><pre>
@@ -17,8 +16,6 @@ this stack
 stack "HD:Stacks:Addresses alias
 </pre></code>
 
-When used inside a stack script: <code><pre>
-me
-</pre></code>
+When used inside a stack script: `me`
 
-When a stack receives a message: <code>[the] target</code>
+When a stack receives a message: `[the] target`

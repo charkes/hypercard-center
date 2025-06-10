@@ -1,6 +1,8 @@
 ### fileType
 
-<b>HyperTalk Definition </b> 1.  One of the following constants:
+<b>HyperTalk Definition </b>
+
+1. One of the following constants:
 
 <code><pre>
 application
@@ -11,8 +13,16 @@ stack
 text
 </pre></code>
 
-2.  An expression that evaluates to a four- character text string that identifies a file type:
+2. An expression that evaluates to a four-character text string that identifies a file type:
 
-<code>"APPL" </code>-- application<code> "PICT" </code>-- picture<code> "PNTG" </code>-- paint, painting<code> "STAK" </code>-- stack<code> "TEXT" </code>-- text
+<code><pre>
+"APPL" -- application
+"PICT" -- picture
+"PNTG" -- paint, painting
+"STAK" -- stack
+"TEXT" -- text
+</pre></code>
 
-<b>AppleScript Definition </b> An expression that evaluates to a file type recognized by the application receiving a command. 
+<b>AppleScript Definition</b>
+
+An expression that evaluates to a file type recognized by the application receiving a command.

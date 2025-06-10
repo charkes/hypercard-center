@@ -7,9 +7,9 @@ calculateDebt
 selectWholeLine
 </pre></code>
 
-As in: <code><pre>
+As in:
 
+<code><pre>
 on calculateDebt
 on selectWholeLine theLine, aContainer
 </pre></code>
-

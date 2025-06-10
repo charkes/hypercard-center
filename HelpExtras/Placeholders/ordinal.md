@@ -1,6 +1,8 @@
 ### ordinal
 
-<b>HyperTalk Definition </b> One of the following:
+<b>HyperTalk Definition</b>
+
+One of the following:
 
 <code><pre>
 any
@@ -19,7 +21,9 @@ any
 [the] tenth
 </pre></code>
 
-<code><b></code>AppleScript Definition </b> One of the following:
+<b>AppleScript Definition</b>
+
+One of the following:
 
 <code><pre>
 last
@@ -36,4 +40,4 @@ ninth
 tenth
 </pre></code>
 
-See also: <code>[ph:background], [ph:bkgnd], [ph:button], [ph:card], [ph:chunk], [ph:field], [ph:menu], [ph:menuItem]</code> and [ph:<code>part]</code> 
+See also: <code>[ph:background], [ph:bkgnd], [ph:button], [ph:card], [ph:chunk], [ph:field], [ph:menu], [ph:menuItem]</code> and <code>[ph:part]</code> 

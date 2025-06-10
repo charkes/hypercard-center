@@ -9,7 +9,6 @@ One of the following:
 this
 </pre></code>
 
-Note: You can’t use <code>this</code> with buttons or fields. <code><pre>
-</pre></code>
+Note: You can’t use <code>this</code> with buttons or fields.
 
-See also: <code>[ph:bkgnd]</code> and<code> [ph:card]</code> 
+See also: <code>[ph:bkgnd]</code> and <code>[ph:card]</code> 

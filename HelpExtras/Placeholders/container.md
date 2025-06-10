@@ -1,8 +1,10 @@
 ### container
 
-<b>HyperTalk Definition </b> A place where you can store and retrieve a value.   
+<b>HyperTalk Definition</b>
 
-There are six types of containers in HyperCard: a variable, a button, a field, the selection, the Message box, and menus. 
+A place where you can store and retrieve a value.   
+
+There are six types of containers in HyperCard: a variable, a button, a field, the selection, the Message box, and menus.
 
 <code><pre>
 myVariable
@@ -23,7 +25,9 @@ card part 1
 last background part
 </pre></code>
 
-<code><b></code>AppleScript Definition </b> An object that contains one or more other objects, known as elements of the container. In a reference, the container specifies where to find an object. You specify containers with the reserved words <code>of</code> or <code>in</code>.
+<b>AppleScript Definition</b>
+
+An object that contains one or more other objects, known as elements of the container. In a reference, the container specifies where to find an object. You specify containers with the reserved words <code>of</code> or <code>in</code>.
 
 You can also use the possesive form (<code>'s</code>) to specify containers. For example, in
 
@@ -31,4 +35,4 @@ You can also use the possesive form (<code>'s</code>) to specify containers. For
 first window's name
 </pre></code>
 
-the container is <code>first window</code>. The object it contains is a name property. 
+the container is <code>first window</code>. The object it contains is a name property.

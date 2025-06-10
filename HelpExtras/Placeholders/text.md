@@ -1,10 +1,10 @@
 ### text
 
-An expression that evaluates to a text string. 
+An expression that evaluates to a text string.
 
 A text expression can be a literal string surrounded by quotation marks or the value of a container.
 
-For example: 
+For example:
 
 <code><pre>
 "Hello"
@@ -16,4 +16,4 @@ the selection
 myVar -- a variable
 </pre></code>
 
-See also: <code>[ph:background], [ph:bkgnd], [ph:button], [ph:card], [ph:field],</code> [ph:<code>menu], [ph:menuItem],</code> and<code> [ph:stack]</code> 
+See also: <code>[ph:background], [ph:bkgnd], [ph:button], [ph:card], [ph:field], [ph:menu], [ph:menuItem],</code> and <code>[ph:stack]</code> 

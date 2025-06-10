@@ -7,9 +7,9 @@ myAverage()
 openOneWindow()
 </pre></code>
 
-As in the AppleScript examples: <code><pre>
+As in the AppleScript examples:
 
+<code><pre>
 on myAverage theNumbers
 to openOneWindow
 </pre></code>
-

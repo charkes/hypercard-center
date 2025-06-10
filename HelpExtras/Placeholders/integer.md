@@ -1,6 +1,6 @@
 ### integer
 
-An expression that evaluates to a positive or negative integer or to zero.  For example: 
+An expression that evaluates to a positive or negative integer or to zero.  For example:
 
 <code><pre>
 3
@@ -8,4 +8,4 @@ An expression that evaluates to a positive or negative integer or to zero.  For 
 -(3 * sum(1,3,4,5)) + 39
 </pre></code>
 
-In AppleScript, integer is a value class. 
+In AppleScript, integer is a value class.

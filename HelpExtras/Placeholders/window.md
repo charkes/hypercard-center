@@ -27,7 +27,6 @@ window 6
 window ID 21403082
 </pre></code>
 
-Note: If a window containing a stack is inactive, you can set only its <code>location</code> and <code>visible</code> properties. <code><pre>
-</pre></code>
+Note: If a window containing a stack is inactive, you can set only its <code>location</code> and <code>visible</code> properties.
 
-<code><b></code>Important</b>: External windows can’t be substituted for the <code>[ph:window]</code> placeholder  (see the <code>[ph:externalWindow]</code> placeHolder). 
+<b>Important</b>: External windows can’t be substituted for the <code>[ph:window]</code> placeholder (see the <code>[ph:externalWindow]</code> placeHolder).

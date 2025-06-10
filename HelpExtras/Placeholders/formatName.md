@@ -5,12 +5,9 @@ One of the following names of a date or time format:
 <code><pre>
 seconds
 dateItems
+[[ph:adjective]] date
+[[ph:adjective]] time
 </pre></code>
-
-[<i><code>adjective
-</pre></code>
-
-</i> ]<code> date </code>[[ph:<code>adjective</code>] ]<code> time</code>
 
 For example:
 
@@ -28,4 +25,3 @@ seconds
 short date
 short time
 </pre></code>
-

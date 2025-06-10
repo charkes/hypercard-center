@@ -4,5 +4,7 @@ In AppleScript, an ordered collection of values enclosed by braces. The values i
 
 For example:
 
-{ 1, 2, 3, 4}
+<code><pre>
+{ 1, 2, 3, 4 }
 { "red" , "green" , "blue" }
+</code></pre>

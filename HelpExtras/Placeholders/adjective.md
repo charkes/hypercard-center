@@ -10,4 +10,4 @@ long
 short
 </pre></code>
 
-See also:<code> [ph:formatName]</code> 
+See also: <code>[ph:formatName]</code> 

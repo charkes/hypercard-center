@@ -10,9 +10,9 @@ bkgnd [ph:posInteger] -- number
 [ph:position] bkgnd
 </pre></code>
 
+For example:
 
-For example: <code><pre>
-
+<code><pre>
 bkgnd id 3894
 bkgnd "Index"
 bkgnd 1
@@ -26,9 +26,8 @@ middle bkgnd
 any bkgnd
 </pre></code>
 
-From within a background script, the term <code>me </code>refers to that background. <code><pre>
-</pre></code>
+From within a background script, the term <code>me</code> refers to that background.
 
-When a background receives a the message <code>[the] target, </code>that message is referring to the background.
+When a background receives a the message <code>[the] target</code>, that message is referring to the background.
 
-See also:<code> [ph:card]</code> 
+See also: <code>[ph:card]</code> 
