@@ -6,7 +6,7 @@ modified: yes
 
 # Arithmetic operators
 
-=== -
+### -
 
 Makes the number to its right negative or subtracts the number on the right from the number on the left.
 
@@ -16,8 +16,7 @@ Makes the number to its right negative or subtracts the number on the right from
 the number of this card - 1
 </pre></code>
 
-
-=== +
+### +
 
 Adds the number on the left to the number on the right.
 
@@ -26,8 +25,7 @@ Adds the number on the left to the number on the right.
 the bottom of card button 1 + 5
 </pre></code>
 
-
-=== *
+### *
 
 Multiplies the number on the left by the number on the right.
 
@@ -36,8 +34,7 @@ Multiplies the number on the left by the number on the right.
 lineNumber * the textHeight of card field 1
 </pre></code>
 
-
-=== /
+### /
 
 Divides the number on the left by the number on the right.
 
@@ -47,8 +44,7 @@ the number of cards / 10
 the freesize of this stack / 1024
 </pre></code>
 
-
-=== ^
+### ^
 
 Raises the number on the left to the power of the number on the right.
 
@@ -60,8 +56,7 @@ Raises the number on the left to the power of the number on the right.
 10 ^ pi
 </pre></code>
 
-
-=== div
+### div
 
 Divides the number on the left by the number on the right and ignores any remainder.
 
@@ -71,8 +66,7 @@ the number of cards div 2
 the freesize of this stack div 1024
 </pre></code>
 
-
-=== mod
+### mod
 
 Divides the number on the left by the number on the right and returns the remainder.
 

@@ -6,7 +6,7 @@ modified: yes
 
 # String operators
 
-=== &
+### &
 
 Joins (concatenates) the text string yielded by the expression on its left to the text string yielded by the expression on its right.
 
@@ -15,8 +15,7 @@ Joins (concatenates) the text string yielded by the expression on its left to th
 "The problem is:" & space & theProblem
 </pre></code>
 
-
-=== &&
+### &&
 
 Joins (concatenates) the text string yielded by the expression on its left to the text string yielded by the expression on its right, with a space between them.
 

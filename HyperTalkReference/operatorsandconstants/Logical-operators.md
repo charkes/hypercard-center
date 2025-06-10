@@ -6,19 +6,18 @@ modified: yes
 
 # Logical operators
 
-=== not
+### not
 
-Results in<code> true </code>if the expression on its right is false, and<code> false </code>if the expression on its right is true.
+Results in <code>true</code> if the expression on its right is false, and <code>false</code> if the expression on its right is true.
 
 <code><pre>
 not (it contains "stack")
 not (the number of this card is 1)
 </pre></code>
 
+### and
 
-=== and
-
-Results in<code> true </code>if both the expression to its left and the expression to its right are true.
+Results in <code>true</code> if both the expression to its left and the expression to its right are true.
 
 <code><pre>
 (N = 0) and (the number of this card = 1)
@@ -27,10 +26,9 @@ Results in<code> true </code>if both the expression to its left and the expressi
 (myVar is not false)
 </pre></code>
 
+### or
 
-=== or
-
-Results in<code> true </code>if either the expression to its left or the expression to its right is true.
+Results in <code>true</code> if either the expression to its left or the expression to its right is true.
 
 ```
 (N = 1) or (the number of this card < 10)
