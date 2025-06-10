@@ -10,7 +10,7 @@ You can have more than one script window open at a time, and you can leave the s
 
 As you write handlers in a script window, place each HyperTalk statement on a single line.  Press Option-Return to break a statement across more than one line. Press Tab to reformat the script.
 
-=== A button
+### A button
 
 To open a script window for a button, use any of these methods:
 
@@ -19,7 +19,7 @@ To open a script window for a button, use any of these methods:
 * With the Button tool active, hold down Command-Option to peek at both visible and hidden buttons; then click one.
 * With the Button tool active, Shift-double-click a button.
 
-=== A field
+### A field
 
 To open a script window for a field, use any of these methods:
 
@@ -28,7 +28,7 @@ To open a script window for a field, use any of these methods:
 * With the Field tool active, hold down Command-Shift-Option to peek at both visible and hidden fields; then click one.
 * With the Field tool active, hold down Shift while you double-click a field.
 
-=== A card
+### A card
 
 To open a script window for a card, use any of these methods:
 
@@ -38,7 +38,7 @@ To open a script window for a card, use any of these methods:
 
 * Press Command-Option-C. Pressing Command-Option-C again closes the script.
 
-=== A background
+### A background
 
 To open a script window for a background, use any of these methods:
 
@@ -48,7 +48,7 @@ To open a script window for a background, use any of these methods:
 
 * Press Command-Option-B. Pressing Command-Option-B again closes the script.
 
-=== A stack
+### A stack
 
 To open a script window for a stack, use any of these methods:
 

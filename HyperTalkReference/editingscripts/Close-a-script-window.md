@@ -9,20 +9,19 @@ There are several ways to close a script window. If you close a window in which 
 
 <b>To close a script window</b>:
 
-• Click the window’s close box.
+* Click the window’s close box.
 
-• Choose Close from the Edit menu     (or press Command-W).
+* Choose Close from the Edit menu (or press Command-W).
 
-• Hold down Command-Option and click. 
+* Hold down Command-Option and click.
 
 <b>To close a script window without saving your changes:</b>
 
 Press Command-. (period).
 
-<b> To close a script window and save your changes:</b>   
+<b>To close a script window and save your changes:</b>   
 
-Press Enter. 
-
+Press Enter.
 
 ## Related Topics
 
