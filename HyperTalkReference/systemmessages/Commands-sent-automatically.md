@@ -7,14 +7,13 @@ card_id: 3428
 
 HyperCard sends some commands automatically in response to events, just as it sends system messages. But unlike system messages, if the command passes all the way to HyperCard, HyperCard performs a built-in action. So if you trap the command, the action won't happen.
 
-HyperCard sends <code>choose</code> and<code> doMenu </code>as messages when the user chooses a tool or an item from one of HyperCard’s menus. It sends<code> close</code> as a message when the user clicks the close box of a window. 
+HyperCard sends `choose` and `doMenu` as messages when the user chooses a tool or an item from one of HyperCard’s menus. It sends `close` as a message when the user clicks the close box of a window.
 
-HyperCard sends<code> help</code> as a message when the user chooses Help from the Go menu (or presses Command-?).
+HyperCard sends `help` as a message when the user chooses Help from the Go menu (or presses Command-?).
 
-HyperCard sends <code>arrowKey</code>,<code> commandKeyDown</code>,<code> controlKey</code>,<code> enterInField</code>,<code> enterKey</code>,<code> functionKey</code>,<code> keyDown</code>,<code> returnInField, returnKey</code>, and<code> tabKey</code> as messages when the user presses a key.  It automatically sends <code>errorDialog</code> and <code>appleEvent</code> messages.
+HyperCard sends `arrowKey`, `commandKeyDown`, `controlKey`, `enterInField`, `enterKey`, `functionKey`, `keyDown`, `returnInField`, `returnKey`, and `tabKey` as messages when the user presses a key. It automatically sends `errorDialog` and `appleEvent` messages.
 
-Click Related Topics for more information about each command. 
-
+Click Related Topics for more information about each command.
 
 ## Related Topics
 

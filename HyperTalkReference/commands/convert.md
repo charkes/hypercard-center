@@ -6,19 +6,19 @@ modified: yes
 
 # convert
 
-<code><pre>
+```
 convert {[ph:value] |[ph:container]}[from  ¬
    [ph:formatName]  [and [ph:formatName]]] ¬
    to [ph:formatName] [and [ph:formatName]]
-</pre></code>
+```
 
-The <code>convert</code> command changes a value expressed as a valid date, time, or date and time format to another format.
+The `convert` command changes a value expressed as a valid date, time, or date and time format to another format.
 
-You use <code>and [ph:formatName] </code>in combination with the first <code>[ph:formatName]</code> to convert a value to any two formats (often the date and time).
+You use `and [ph:formatName] `in combination with the first `[ph:formatName]` to convert a value to any two formats (often the date and time).
 
-The form <code>convert [ph:value] to [ph:formatName]</code> returns the converted <code>[ph:value</code> in the local variable <code>it</code>. The form <code>convert [ph:container] to [ph:formatName]</code> converts a value in a chunk or <code>[ph:container]</code> (including variables) and places the result in that chunk or container.
+The form `convert [ph:value] to [ph:formatName]` returns the converted `[ph:value` in the local variable `it`. The form `convert [ph:container] to [ph:formatName]` converts a value in a chunk or `[ph:container]` (including variables) and places the result in that chunk or container.
 
-You use the form <code>from [ph:format]</code> in situations where you don't want HyperCard to do the conversion automatically.
+You use the form `from [ph:format]` in situations where you don't want HyperCard to do the conversion automatically.
 
 There are four types of date formats:
 
@@ -39,7 +39,7 @@ where `dayName` = `Sunday`, `Sun`,   `Monday`, `Mon`, `Tuesday`, `Tue`,   `Wedne
 
 You can precede the format names `date` and `time` with an optional [ph:adjective],  producing the following formats:
 
-<code><pre>
+```
 abbrev date  Fri, Jun 15, 1990
 long date    Friday, June 15, 1990
 short date   6/15/90
@@ -47,7 +47,7 @@ short date   6/15/90
 abbrev time  3:30 PM
 long time        3:30:00 PM
 short time       3:30 PM
-</pre></code>
+```
 
 Note: HyperCard can handle dates from 1/1/1000 to 12/31/9999 in all formats. It handles dates from 1/1/1 to 12/31/9999 only in the `dateItems` or `seconds` format. If you try to convert an invalid date (such as `"Friday, May 50, 1990"`), HyperCard sets the HyperTalk function `the result` to `"Invalid date."`
 
@@ -72,7 +72,7 @@ convert card field "Date and Time" from date and time to dateItems
 
 ## Demo Script
 
-<code><pre>
+```
 on daysOld
   repeat until birthTime is a date
     put "What is your birthdate?" after sayIt
@@ -89,7 +89,7 @@ on daysOld
   answer "You were born on" && birthTime & ", and you are currently" &&¬
   daysOld && "days old."
 end daysOld
-</pre></code>
+```
 
 ## Placeholders
 

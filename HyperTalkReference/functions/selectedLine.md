@@ -6,35 +6,33 @@ modified: yes
 
 # selectedLine
 
-<code><pre>
+```
 the selectedLine
 the selectedLine of <i>listField</i>
 the selectedLine of <i>popupButton</i>
-</pre></code>
-
+```
 
 Values returned:
 
-* for<code> the selectedLine</code>, a line     expression that indicates the line of a     field or the Message box in which a     range of characters is currently     highlighted
+* for `the selectedLine`, a line expression that indicates the line of a field or the Message box in which a range of characters is currently highlighted
 
-* for<code> the selectedLine of <i>listField, </i></code>    a line expression that indicates the     lines of a <i>list field</i>  in which the     characters are currently highlighted
+* for `the selectedLine of [ph:listField]`, a line expression that indicates the     lines of a <i>list field</i> in which the characters are currently highlighted
 
-* for<code> the selectedLine of</code> <i><code>popupButton</i></code>,     a line expression that evaluates to      the line number in a popup button’s     contents indicating the current     selection
+* for `the selectedLine of [ph:popupButton]`, a line expression that evaluates to      the line number in a popup button’s contents indicating the current selection
 
-If nothing is selected, <code>the selectedLine</code> returns <code>empty</code>.
+If nothing is selected, `the selectedLine` returns `empty`.
 
-If a field isn't currently a list field but  it was in the past, and a selection had been made when it was a list field, <code>the selectedLine</code> returns the most recent selection.
+If a field isn't currently a list field but it was in the past, and a selection had been made when it was a list field, `the selectedLine` returns the most recent selection.
 
 The line expression returned has the following forms:
 
-<code><pre>
+```
 line <i>i</i> of {card|bkgnd} field <i>n</i>
-line <i>i </i>of {card|bkgnd} button <i>n</i>
+line <i>i</i> of {card|bkgnd} button <i>n</i>
 line <i>x</i> to <i>y</i> of {card|bkgnd} field <i>n</i>
-</pre></code>
+```
 
-
-where<code> <i>i</i> </code>is the line number and <i><code>n</i> </code>is the number of a popup button or a  field, and<code> <i>x</i> to <i>y</i> </code>is a range of lines in a <i>list field</i>.
+where `[ph:i]` is the line number and `[ph:n]` is the number of a popup button or a  field, and `[ph:x]` to `[ph:y]` is a range of lines in a <i>list field</i>.
 
 ## Examples
 

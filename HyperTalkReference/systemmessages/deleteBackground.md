@@ -6,23 +6,21 @@ modified: yes
 
 # deleteBackground
 
-<code><pre>
+```
 deleteBackground
-</pre></code>
+```
 
-<br>
-Handler:<br>
-<br>
-<code><pre>
+Handler:
+
+```
 on deleteBackground
-    <i>statements</i>
+    [ph:statements]
 end deleteBackground
-</pre></code>
+```
 
-<br>
-HyperCard sends the<code> deleteBackground </code>message to the card that is being deleted if no other cards in the stack share its background. HyperCard sends the message just before the card disappears.<br>
-<br>
-Note: You cannot stop a background from being deleted by trapping the <code>deleteBackground </code>message. Instead, you must handle the<code> doMenu </code>message or set the<code> cantDelete </code>property for the background.<br>
+HyperCard sends the `deleteBackground` message to the card that is being deleted if no other cards in the stack share its background. HyperCard sends the message just before the card disappears.
+
+Note: You cannot stop a background from being deleted by trapping the `deleteBackground` message. Instead, you must handle the `doMenu` message or set the `cantDelete` property for the background.
 
 ## Placeholders
 

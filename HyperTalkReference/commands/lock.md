@@ -5,24 +5,24 @@ card_id: 40922
 
 # lock
 
-<code><pre>
+```
 lock {messages|recent|screen}
 lock error dialogs
-</pre></code>
+```
 
-<code>Lock messages</code> has the same effect as <code>set lockMessages to true</code>: it prevents HyperCard from sending <code>open</code>, <code>close</code> <code>suspend</code>, and <code>resume</code> system messages along the message-passing path.
+`Lock messages` has the same effect as `set lockMessages to true`: it prevents HyperCard from sending `open`, `close` `suspend`, and `resume` system messages along the message-passing path.
 
-<code>Lock recent</code> has the same effect as <code>set lockRecent to true</code>: it prevents HyperCard from keeping a visual record of cards visited by the user (or a handler) in the Recent Card dialog box.
+`Lock recent` has the same effect as `set lockRecent to true`: it prevents HyperCard from keeping a visual record of cards visited by the user (or a handler) in the Recent Card dialog box.
 
-<code>Lock screen</code> has the same effect as setting the property <code>lockScreen</code> to <code>true</code>: it prevents HyperCard from updating the screen.
+`Lock screen` has the same effect as setting the property `lockScreen` to `true`: it prevents HyperCard from updating the screen.
 
-<code>Lock error dialogs</code> prevents error dialog boxes from appearing; instead, the message <code>errorDialog [ph:errorMessage]</code> is sent to the current card.
+`Lock error dialogs` prevents error dialog boxes from appearing; instead, the message `errorDialog [ph:errorMessage]` is sent to the current card.
 
-Locking is automatically unlocked at idle time. 
+Locking is automatically unlocked at idle time.
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   -- with the screen not locked:
   hide bkgnd button "Run the Script"
@@ -44,7 +44,7 @@ on mouseUp
   show bkgnd button "Run the Script"
   unlock screen with checkerboard
 end mouseUp
-</pre></code>
+```
 
 ## Related Topics
 

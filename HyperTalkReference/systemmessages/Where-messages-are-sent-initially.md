@@ -5,7 +5,50 @@ card_id: 6031
 
 # Where messages are sent initially
 
+HyperCard automatically sends system messages and a few commands to one of three objects: a specific button, a specific field, or the current card. If none of these objects handles the message, it continues along the message-passing order until it reaches HyperCard itself.
 
+The commands HyperCard sends automatically deal with keyboard events and menu events.
+
+Click an object to see the messages it can receive from HyperCard.
+
+### Buttons
+
+The following system messages are initially sent to a specific button:
+
+```
+deleteButton
+mouseDoubleClick
+mouseDown
+mouseEnter
+mouseLeave
+mouseStillDown
+mouseUp
+mouseWithin
+newButton
+```
+
+### Fields
+
+The following commands (in bold) and system messages are initially sent to a specific field:
+
+```
+closeField, commandKeyDown,
+deleteField, enterInField,
+exitField, keyDown,
+mouseDoubleClick, mouseDown, mouseEnter,
+mouseLeave, mouseStillDown,
+mouseUp, mouseWithin,
+newField, openField,
+returnInField, tabKey
+```
+
+### The current card
+
+The following commands (in bold) and system messages are initially sent to the current card:
+
+```
+appleEvent, arrowKey, choose, close, closeBackground, closeCard, closeStack, commandKeyDown, controlKey, deleteBackground, deleteCard, deleteStack, doMenu, enterKey, functionKey, help, hide, idle, keyDown, mouseDoubleClick, mouseDown, mouseStillDown, mouseUp, moveWindow, newBackground, newCard, newStack, openBackground, openCard, openStack, quit, resume, resumeStack, returnKey, show, sizeWindow, startUp, suspend, suspendStack, tabKey
+```
 
 ## Related Topics
 

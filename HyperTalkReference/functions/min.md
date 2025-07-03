@@ -5,10 +5,9 @@ card_id: 58185
 
 # min
 
-<code>min([ph:numberList])</code>
+`min([ph:numberList])`
 
 Value returned: the number with the lowest value from the comma-separated list  of numbers 
-
 
 ## Examples
 

@@ -5,14 +5,13 @@ card_id: 64752
 
 # sin
 
-<code><pre>
+```
 the sin of [ph:number]
-</pre></code>
+```
 
-Value returned: a number equal to the trigonometric sine of <code>[ph:number]</code> expressed in radians
+Value returned: a number equal to the trigonometric sine of `[ph:number]` expressed in radians
 
 Note: There are 2 * pi radians in 360 degrees. 
-
 
 ## Examples
 

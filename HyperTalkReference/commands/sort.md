@@ -6,7 +6,7 @@ modified: yes
 
 # sort
 
-<code><pre>
+```
 sort [[ph:sortDirection]] [[ph:sortStyle]] ¬
    by [ph:expression]
 
@@ -27,40 +27,39 @@ sort [marked] cards of [ph:bkgnd] ¬
 sort [[ph:chunks] of] [ph:container] ¬
    [[ph:sortDirection]] [[ph:sortStyle]] ¬
    [by [ph:expression]]
-</pre></code>
+```
 
+where `[ph:chunks]` are limited to either lines or items.
 
-where <code>[ph:chunks]</code> are limited to either lines or items.
+The first five forms of the `sort` command order all the cards in a stack or background by the value of `[ph:expression]`, evaluated for each card in the stack or background.
 
-The first five forms of the <code>sort</code> command order all the cards in a stack or background by the value of <code>[ph:expression]</code>, evaluated for each card in the stack or background.
+The last form of the `sort` command (`by [ph:expression]` ) sorts lines or items of a container by any expression. If you don’t specify, `sort`orders by lines.  Before `[ph:expression]` is evaluated for each line or item of the container, the local variable `each` is set to the contents of the chunk. (Click the Examples button to see syntax examples using `each`.)
 
-The last form of the <code>sort</code> command (<code>by [ph:expression]</code> ) sorts lines or items of a container by any expression. If you don’t specify, <code>sort</code>orders by lines.  Before <code>[ph:expression]</code> is evaluated for each line or item of the container, the local variable <code>each</code> is set to the contents of the chunk. (Click the Examples button to see syntax examples using <code>each</code>.)
+For all forms of the `sort` command, the default sort direction is `ascending,` and the default sort style is `text`.
 
-For all forms of the <code>sort</code> command, the default sort direction is <code>ascending,</code> and the default sort style is <code>text</code>.
+Sort direction `ascending` orders the sort elements—the value of the expression on each card or the lines or items in the container—from lower to higher values.
 
-Sort direction <code>ascending</code> orders the sort elements—the value of the expression on each card or the lines or items in the container—from lower to higher values.
+Sort direction `descending` orders the sort elements from higher to lower values.
 
-Sort direction <code>descending</code> orders the sort elements from higher to lower values.
+Sort style `text` compares the sort elements based on their ASCII values:
 
-Sort style <code>text</code> compares the sort elements based on their ASCII values:
+`"1" < "101" < "2" < "a" < "ab" < "b"`
 
-<code>"1" < "101" < "2" < "a" < "ab" < "b"</code>
-
-Note that neither case nor diacritical marks matter with the sort style <code>text</code>:
+Note that neither case nor diacritical marks matter with the sort style `text`:
 
 `"apple" = "APPLE" = "äpplé"`
 
-Sort style <code>numeric</code> correctly sorts numbers. With sort style <code>text</code>,
+Sort style `numeric` correctly sorts numbers. With sort style `text`,
 
 `"1" < "100" < "17" < "2"`
 
-The sort style <code>numeric</code> correctly sorts these values as:
+The sort style `numeric` correctly sorts these values as:
 
 `"1" < "2" < "17" < "100"`
 
-The sort style <code>dateTime</code> orders the sort elements by their date or time format. (See the <code>convert</code> command for valid date and time formats.)
+The sort style `dateTime` orders the sort elements by their date or time format. (See the `convert` command for valid date and time formats.)
 
-The sort style <code>international</code> correctly sorts non-English text containing diacritical marks and special characters based on the international resource installed in the current stack, the Home stack, HyperCard itself, or the System file.
+The sort style `international` correctly sorts non-English text containing diacritical marks and special characters based on the international resource installed in the current stack, the Home stack, HyperCard itself, or the System file.
 
 ## Examples
 
@@ -102,7 +101,7 @@ sort by mySortFunction()
 
 ## Demo Script
 
-<code><pre>
+```
 on sortMe
   put line 10 to 13 of me into theLines
   select line 10 to 13 of me
@@ -116,7 +115,7 @@ Zeppo
 Chico
 Groucho
 Harpo
-</pre></code>
+```
 
 ## Placeholders
 

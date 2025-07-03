@@ -5,22 +5,22 @@ card_id: 46772
 
 # save
 
-<code><pre>
+```
 save [this] stack as [stack] [ph:fileName]
 save stack [ph:fileName] ¬
      as [stack] [ph:fileName]
-</pre></code>
+```
 
-The <code>save</code> command saves a copy of a stack. It’s the same as choosing Save A Copy from the File menu, but it doesn't display a directory dialog box. Use <code>save</code> when you don't want a dialog box to interrupt a handler.
+The `save` command saves a copy of a stack. It’s the same as choosing Save A Copy from the File menu, but it doesn't display a directory dialog box. Use `save` when you don't want a dialog box to interrupt a handler.
 
-The form <code>save [this] stack</code> saves a copy of the current stack.
+The form `save [this] stack` saves a copy of the current stack.
 
-If the specified stack already exists, HyperCard sets the value of <code>the result</code> to <code>"Couldn’t duplicate stack."</code> You can test whether HyperCard saved the stack successfully as follows:
+If the specified stack already exists, HyperCard sets the value of `the result` to `"Couldn’t duplicate stack."` You can test whether HyperCard saved the stack successfully as follows:
 
-<code><pre>
+```
 save this stack as "My Copy"
 if the result is not empty then ...
-</pre></code>
+```
 
 ## Examples
 

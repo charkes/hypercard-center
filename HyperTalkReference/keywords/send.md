@@ -6,20 +6,19 @@ modified: yes
 
 # send
 
-<code><pre>
-send "<i>messageName</i> [<i>parameterList</i>]"¬
-   [to <i>object</i>]
+```
+send "[ph:messageName] [[ph:parameterList]]"¬
+   [to [ph:object]]
 
-send "<i>messageName</i> [<i>parameterList</i>]"¬
+send "[ph:messageName] [[ph:parameterList]]"¬
    to HyperCard
 
-send <i>expression</i>  to { program ¬
-   <i>program</i> | program id <i>programID</i> | ¬
+send [ph:expression]  to { program ¬
+   [ph:program] | program id [ph:programID] | ¬
     this program } [without reply]
-</pre></code>
+```
 
-
-In the first two forms, the<code> send </code>keyword sends a message directly to a particular object or to HyperCard. For example, you can send a message to an object already passed by  in the message-  passing order (from a stack back to the current card), or you can bypass handlers later in the message-passing order that might otherwise handle the message.
+In the first two forms, the `send` keyword sends a message directly to a particular object or to HyperCard. For example, you can send a message to an object already passed by  in the message-  passing order (from a stack back to the current card), or you can bypass handlers later in the message-passing order that might otherwise handle the message.
 
 You can send messages to any object in the current stack, and you can send messages to another stack (but not to objects within another stack).
 
@@ -27,7 +26,7 @@ You can send messages to any object in the current stack, and you can send messa
 
 For example, if you send a message to another stack, and the handler refers to a field that’s specific to that stack, you’ll get a script error.
 
-HyperCard evaluates any parameters before it sends the message, even though the entire message is in quota- tion marks. (You don’t need quotation marks if the message is a single word.)
+HyperCard evaluates any parameters before it sends the message, even though the entire message is in quotation marks. (You don’t need quotation marks if the message is a single word.)
 
 When an object receives a message from send, HyperCard sets the value of the target to the name of the object.
 
@@ -39,18 +38,17 @@ You can type send as a message in the Message box.
 
 The third form sends a do script Apple event from HyperCard to another running application:
 
-<code><pre>
+```
 send expression  to { program ¬
-   <i>program</i> | program id <i>programID</i> | ¬
+   [ph:program] | program id [ph:programID] | ¬
    this program }  [without reply]
-</pre></code>
+```
 
+where program is the path name to the target program in the form [ph:zone:computer:program], and [ph:programID] is the signature of a program on the same computer. this program denotes HyperCard.
 
-where program is the path name to the target program in the form <i>zone:computer:program</i>, and <i>programID</i> is the signature of a program on the same computer. this program denotes HyperCard.
+[ph:expression] is any valid expression or any sequence of commands in the scripting language supported by the target program. If the target program is HyperCard, the scripting language is HyperTalk.
 
-<i>expression</i> is any valid expression or any sequence of commands in the scripting language supported by the target program. If the target program is HyperCard, the scripting language is HyperTalk.
-
-By default, HyperCard waits for a reply from the target program before continuing; but you can specify  `without reply`  if  you don't want to wait for one.
+By default, HyperCard waits for a reply from the target program before continuing; but you can specify `without reply` if you don't want to wait for one.
 
 Any reply from the target program goes into `the result`.
 
@@ -65,13 +63,13 @@ send "doMenu" && quote & "print card" & quote to HyperCard
 
 ## Demo Script
 
-<code><pre>
+```
 on sendDemo
   <b>send</b> "mouseDown" to bkgnd btn "close" -- to animate the close box
   wait 20
   <b>send</b> "mouseUp" to bkgnd btn "close" -- to put away this demo
 end sendDemo
-</pre></code>
+```
 
 ## Placeholders
 

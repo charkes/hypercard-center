@@ -5,23 +5,19 @@ card_id: 57488
 
 # ln, ln1, log2
 
-<code><pre>
+```
 the ln of [ph:number]
 the ln1 of [ph:number]
 the log2 of [ph:number]
-</pre></code>
+```
 
-Values returned:  <code><pre>
-</pre></code>
+Values returned:
 
-<code>ln </code>returns a number equal to the base-e<code> </code>or natural logarithm of<code> [ph:number</code>].  <code><pre>
-</pre></code>
+`ln` returns a number equal to the base-e` `or natural logarithm of `[ph:number]`.
 
-<code>ln1 </code>returns a number equal to the natural logarithm of 1 +<code> [ph:number</code>].   <code><pre>
-</pre></code>
+`ln1` returns a number equal to the natural logarithm of 1 + `[ph:number]`.
 
-<code>ln2 </code>returns a number equal to the base-2 logarithm of<code> [ph:number</code>]. 
-
+`ln2` returns a number equal to the base-2 logarithm of `[ph:number]`. 
 
 ## Examples
 

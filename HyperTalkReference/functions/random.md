@@ -5,18 +5,17 @@ card_id: 61729
 
 # random
 
-<code><pre>
+```
 the random of [ph:posInteger]
-</pre></code>
+```
 
-Value returned: a random integer between 1 and<code> [ph:posInteger</code>]
+Value returned: a random integer between 1 and `[ph:posInteger]`
 
-<code>Random </code>returns values for integers up to<code> 2^31 - 2</code>. 
-
+`Random` returns values for integers up to `2^31 - 2`. 
 
 ## Demo Script
 
-<code><pre>
+```
 on hyperMath
   -- This is a very simple math flash card script.
   put <b>random</b>(50) into intOne
@@ -31,5 +30,4 @@ on hyperMath
   return before theAnswer
   answer theAnswer
 end hyperMath
-</pre></code>
-
+```

@@ -5,21 +5,21 @@ card_id: 46143
 
 # returnInField
 
-<code>returnInField</code>
+`returnInField`
 
-The <code>returnInField</code> command places a return character at the position of the insertion point in a field.  
+The `returnInField` command places a return character at the position of the insertion point in a field.  
 
-If the <code>autoTab</code> property of the field is <code>true</code> <i>and</i> the insertion point is on the last line of the field <i>and</i> the field is any type except scrolling, the <code>returnInField</code> command does not insert a return character but instead sends the <code>tabKey</code> command to the field.
+If the `autoTab` property of the field is `true` <i>and</i> the insertion point is on the last line of the field <i>and</i> the field is any type except scrolling, the `returnInField` command does not insert a return character but instead sends the `tabKey` command to the field.
 
-HyperCard automatically sends the <code>returnInField</code> command to a field when the user presses Return and the insertion point is in the field.
+HyperCard automatically sends the `returnInField` command to a field when the user presses Return and the insertion point is in the field.
 
-You can handle the <code>returnInField</code> message as follows:
+You can handle the `returnInField` message as follows:
 
-<code><pre>
+```
 on returnInField
   [ph:statements]
 end returnInField
-</pre></code>
+```
 
 ## Related Topics
 

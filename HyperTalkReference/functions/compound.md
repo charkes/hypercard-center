@@ -5,16 +5,15 @@ card_id: 54407
 
 # compound
 
-<code>compound([ph:number1], [ph:number2])</code>
+`compound([ph:number1], [ph:number2])`
 
-where <code>[ph:number1]</code> represents the <b>interest rate</b> (expressed as a decimal) and <code>[ph:number2]</code> represents the number of <b>periods</b> over which the interest is compounded.
+where `[ph:number1]` represents the <b>interest rate</b> (expressed as a decimal) and `[ph:number2]` represents the number of <b>periods</b> over which the interest is compounded.
 
-Value returned: value of one unit of principal invested at the interest rate and compounded over the specified number of periods, or a number equal to<code> (1 + rate) ^ periods</code> 
+Value returned: value of one unit of principal invested at the interest rate and compounded over the specified number of periods, or a number equal to `(1 + rate) ^ periods`
 
 An interest rate involves a certain percentage (expressed as a decimal) per some unit of time—usually per year. You must use the same unit of time to measure the number of periods.
 
-For example, if you have a yearly interest rate that is compounded monthly, you must convert the  yearly rate to the interest per month (<code>rate / 12</code>) and be sure to express the number of periods as months  (2 years = 24 months). 
-
+For example, if you have a yearly interest rate that is compounded monthly, you must convert the  yearly rate to the interest per month (`rate / 12`) and be sure to express the number of periods as months (2 years = 24 months).
 
 ## Examples
 

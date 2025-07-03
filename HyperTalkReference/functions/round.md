@@ -5,15 +5,15 @@ card_id: 62709
 
 # round
 
-<code><pre>
+```
 the round of [ph:number]
-</pre></code>
+```
 
-Value returned: the integer nearest to<code> [ph:number</code>]
+Value returned: the integer nearest to `[ph:number]`
 
-Odd integers plus exactly 0.5 round up; even integers (or 0) plus exactly 0.5 round down. 
+Odd integers plus exactly 0.5 round up; even integers (or 0) plus exactly 0.5 round down.
 
-If <code>[ph:number]</code> is negative, HyperCard internally removes the negative sign, rounds its absolute value, then puts the negative sign back on. 
+If `[ph:number]` is negative, HyperCard internally removes the negative sign, rounds its absolute value, then puts the negative sign back on.
 
 
 ## Examples

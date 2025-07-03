@@ -5,16 +5,15 @@ card_id: 58014
 
 # menus
 
-<code><pre>
+```
 the menus
-</pre></code>
+```
 
 Value returned: a return-separated list of the names of the menus in the current menu bar
 
 If HyperCard is running under System 7, the list includes the System 7 menus (such as System Help and Application).
 
-Note: The string <code>Apple</code> is a synonym for the  menu. 
-
+Note: The string `Apple` is a synonym for the  menu. 
 
 ## Examples
 

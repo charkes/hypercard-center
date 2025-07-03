@@ -5,22 +5,21 @@ card_id: 21577
 
 # newBackground
 
-<code><pre>
+```
 newBackground
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on newBackground
   [ph:statements]
 end newBackground
-</pre></code>
+```
 
-HyperCard sends the <code>newBackground</code> message to the current card (in this case, the first card of the new background) just after HyperCard creates the background. 
+HyperCard sends the `newBackground` message to the current card (in this case, the first card of the new background) just after HyperCard creates the background.
 
 Although the new background will not have a script with which to respond to the message, any other object along the message-passing path can handle it. 
-
 
 ## Related Topics
 

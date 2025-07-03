@@ -5,19 +5,16 @@ card_id: 59060
 
 # mouseH and mouseV
 
-<code><pre>
+```
 the mouseH
 the mouseV
-</pre></code>
+```
 
-Values returned:  <code><pre>
-</pre></code>
+Values returned:  
 
-<code>mouseH </code>returns an integer equal to the number of pixels from the left of the card to the current location of the mouse pointer. <code><pre>
-</pre></code>
+`mouseH` returns an integer equal to the number of pixels from the left of the card to the current location of the mouse pointer.
 
-<code>mouseV </code>returns an integer equal to the number of pixels from the top of the card to the current location of the mouse pointer. 
-
+`mouseV` returns an integer equal to the number of pixels from the top of the card to the current location of the mouse pointer. 
 
 ## Examples
 

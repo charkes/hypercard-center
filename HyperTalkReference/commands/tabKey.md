@@ -5,21 +5,21 @@ card_id: 49516
 
 # tabKey
 
-<code>tabKey</code>
+`tabKey`
 
-The <code>tabKey</code> command opens the first unlocked field on the current card or background (placing the insertion point in the field) and selects its entire contents.
+The `tabKey` command opens the first unlocked field on the current card or background (placing the insertion point in the field) and selects its entire contents.
 
-If a field is already open for editing, <code>tabKey</code> closes it and opens the next editable field, selecting its contents. (A field is editable only if it is unlocked and visible.)
+If a field is already open for editing, `tabKey` closes it and opens the next editable field, selecting its contents. (A field is editable only if it is unlocked and visible.)
 
-The <code>tabKey</code> command opens fields in the following order: from the lowest to the highest numbered background field, then from the lowest to the highest numbered card field.
+The `tabKey` command opens fields in the following order: from the lowest to the highest numbered background field, then from the lowest to the highest numbered card field.
 
-HyperCard sends the <code>tabKey</code> command to a field or the current card when the user presses the Tab key. You can handle the <code>tabKey</code> message as follows:
+HyperCard sends the `tabKey` command to a field or the current card when the user presses the Tab key. You can handle the `tabKey` message as follows:
 
-<code><pre>
+```
 on tabKey
   [ph:statements]
 end tabKey
-</pre></code>
+```
 
 ## Examples
 

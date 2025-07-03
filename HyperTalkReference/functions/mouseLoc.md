@@ -5,11 +5,11 @@ card_id: 59412
 
 # mouseLoc
 
-<code><pre>
+```
 the mouseLoc
-</pre></code>
+```
 
-Value returned: a <code>[ph:point]</code> equal to the current position of the mouse pointer relative to the current card 
+Value returned: a `[ph:point]` equal to the current position of the mouse pointer relative to the current card
 
 
 ## Examples
@@ -18,7 +18,6 @@ Value returned: a <code>[ph:point]</code> equal to the current position of the m
 get the mouseLoc
 if it is within the rect of card button 1 then ...
 
-
 set the loc of button 1 to mouseLoc()
 
 if the mouseLoc is not within the rect of card window then beep
@@ -26,8 +25,7 @@ if the mouseLoc is not within the rect of card window then beep
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
 on mouseLocDemo
  set the cursor to arrow
  show bkgnd field "demo field"
@@ -42,8 +40,7 @@ on mouseLocDemo
  hide bkgnd field "demo field"
  put empty into bkgnd field "demo field"
 end mouseLocDemo
-</pre></code>
-</pre></code>
+```
 
 ## Related Topics
 

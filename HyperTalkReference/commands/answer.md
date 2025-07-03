@@ -6,7 +6,7 @@ modified: yes
 
 # answer
 
-<code><pre>
+```
 answer [ph:text]
 
 answer [ph:text] with [ph:reply1]
@@ -18,14 +18,13 @@ answer file [ph:text] [of type [ph:fileType]]
 
 answer program [ph:text] [of type ¬
  [ph:processType]]
-</pre></code>
+```
 
+The form `answer [ph:text]` displays a <b>question</b> (`[ph:text]`) in a dialog box. The dialog box contains from one to three buttons, each representing a different  reply the user can select.
 
-The form<code> answer [ph:text] </code> displays a <b>question</b> ([ph:<code>text]</code> ) in a dialog box. The dialog box contains from one to three buttons, each representing a different  reply the user can select.
+If you use `answer` without specifying any replies, HyperTalk displays an OK button as the default. Otherwise, the last reply you specify becomes the default button. (Pressing Enter or Return chooses the default button.) `Answer`returns the name of the button clicked by the user in the local variable `it`.
 
-If you use<code> answer </code>without specifying any replies, HyperTalk displays an OK button as the default. Otherwise, the last reply you specify becomes the default button. (Pressing Enter or Return chooses the default button.)<code> Answer </code>returns the name of the button clicked by the user in the local variable<code> it</code>.
-
-<code>Answer </code>automatically sizes the dialog box to fit the size of the text (up to 13 lines). The total length of the text cannot exceed 254 characters.
+`Answer` automatically sizes the dialog box to fit the size of the text (up to 13 lines). The total length of the text cannot exceed 254 characters.
 
 The form `Answer file [ph:text]` displays a directory dialog box that you use to select a file.
 
@@ -39,9 +38,9 @@ The form `Answer program [ph:text]` produces a dialog box of all System 7-friend
 
 A System 7-friendly process is a program or entity that’s capable of exchanging information with another process. The name of the selected program is placed in the container `it`.
 
-`[ph:text]` is a quoted prompting string that appears at the top of the dialog box. If you provide the null string for `[ph:text]`  (that is, `""`), the system puts `Choose a program to link to:` at the top of the dialog box.
+`[ph:text]` is a quoted prompting string that appears at the top of the dialog box. If you provide the null string for `[ph:text]` (that is, `""`), the system puts `Choose a program to link to:` at the top of the dialog box.
 
-Use the form `answer program [ph:text] of type [ph:processType]`  to see only certain types of processes (spell checkers, word processors, spreadsheets, and so on).
+Use the form `answer program [ph:text] of type [ph:processType]` to see only certain types of processes (spell checkers, word processors, spreadsheets, and so on).
 
 An application's default process type is its creator. So to see only copies of HyperCard, you’d use WILD.
 
@@ -66,7 +65,7 @@ answer program "" -- prompts with "Choose a program to link to:"
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   <b>answer</b> file "Please select a file:" of type stack OR text
   if it is not empty then
@@ -84,7 +83,7 @@ function fullPathToFileName fullPathName
   set itemDelimiter to savedDelimiter
   return fileName
 end fullPathToFileName
-</pre></code>
+```
 
 ## Placeholders
 

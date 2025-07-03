@@ -5,12 +5,11 @@ card_id: 7047
 
 # stacks
 
-<code><pre>
+```
 the stacks
-</pre></code>
+```
 
-Value returned: a return-separated list of the full path names for all the open stacks, in front-to-back order 
-
+Value returned: a return-separated list of the full path names for all the open stacks, in front-to-back order
 
 ## Examples
 
@@ -22,7 +21,7 @@ else ... -- multiple stacks open
 
 ## Demo Script
 
-<code><pre>
+```
 on whatStacks
   put longNamesToShort(<b>the stacks</b>) into theStacks
   answer "The stacks currently open are:" & return & return & theStacks
@@ -38,7 +37,7 @@ function longNamesToShort longStackList
   set itemDelimiter to comma
   return shortStackList
 end longNamesToShort
-</pre></code>
+```
 
 ## Related Topics
 

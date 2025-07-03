@@ -5,22 +5,21 @@ card_id: 19146
 
 # deleteField
 
-<code><pre>
+```
 deleteField
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on deleteField
   [ph:statements]
 end deleteField
-</pre></code>
+```
 
-HyperCard sends th<code>e deleteField </code>message to a field that is being deleted just before the field disappears. 
+HyperCard sends the `deleteField` message to a field that is being deleted just before the field disappears.
 
-Note: You cannot stop a field from being deleted by trapping the <code>deleteField </code>message.  Instead, you must handle the <code>doMenu</code> message. 
-
+Note: You cannot stop a field from being deleted by trapping the `deleteField` message.  Instead, you must handle the `doMenu` message. 
 
 ## Related Topics
 

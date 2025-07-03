@@ -6,7 +6,7 @@ modified: yes
 
 # request
 
-<code><pre>
+```
 request [ph:expression] from|of program ¬
    [ph:program]
 request [ph:expression] from|of ¬
@@ -17,36 +17,35 @@ request appleEvent data|class|id| ¬
    sender|return id|sender id
 request appleEvent data ¬
    with keyword [ph:aeKeyword]
-</pre></code>
+```
 
+`[ph:Expression]` yields an expression understandable to the target program.
 
-<code>[ph:Expression]</code> yields an expression understandable to the target program.
+`[ph:From]` and `[ph:of]` are interchangeable.
 
-<code>[ph:From]</i></code> and <code>[ph:of]</code> are interchangeable.
+`[ph:Program]` yields a valid program path name in the form
 
-<code>[ph:Program]</code> yields a valid program path name in the form
+`[ph:zone:targetComputer:targetProgram]`
 
-<code>[ph:zone:targetComputer:targetProgram]</code>
+where `[ph:targetProgram]` is the name of a program running on computer `[ph:targetComputer]` in network zone `[ph:zone]`. `[ph:ProgramID]` is the application’s signature. `[ph:AeKeyword]` is an Apple event keyword.
 
-where <code>[ph:targetProgram]</code> is the name of a program running on computer <code>[ph:targetComputer]</code> in network zone <code>[ph:zone]</code>. <code>[ph:ProgramID]</code> is the application’s signature. <code>[ph:AeKeyword]</code> is an Apple event keyword.
+The `request` command sends an “evaluate expression” Apple event from HyperCard to another application.
 
-The <code>request</code> command sends an “evaluate expression” Apple event from HyperCard to another application.
-
-You can use this command to send an expression to any program that understands the standard <code>eval</code> Apple event.
+You can use this command to send an expression to any program that understands the standard `eval` Apple event.
 
 The expression you use must be understandable to the target program. For example, if the target program is another HyperCard, the expression can be any valid HyperTalk expression.
 
-When the target program executes the statement, the result of the request (the value of the expression) goes into the local variable <code>it</code>.
+When the target program executes the statement, the result of the request (the value of the expression) goes into the local variable `it`.
 
 If the target program reports an error, HyperCard sets the result with an error message.
 
-You use the <code>request appleEvent</code> forms to examine the data and attributes of an incoming Apple event.
+You use the `request appleEvent` forms to examine the data and attributes of an incoming Apple event.
 
-You can omit the <code>[ph:zone]</code> parameter from the program path name when the target computer is in the same zone as the source computer.
+You can omit the `[ph:zone]` parameter from the program path name when the target computer is in the same zone as the source computer.
 
-You can omit the <code>[ph:targetComputer]</code> parameter if the target program is running on the same computer as HyperCard.
+You can omit the `[ph:targetComputer]` parameter if the target program is running on the same computer as HyperCard.
 
-You can pass the user selection from the <code>answer program</code> command as the <code>[ph:program]</code> parameter.
+You can pass the user selection from the `answer program` command as the `[ph:program]` parameter.
 
 ## Examples
 
@@ -68,7 +67,7 @@ end getStackName
 
 ## Demo Script
 
-<code><pre>
+```
 on tellTheStack
   -- this demo only works with System 7
   if not systemSeven() then exit tellTheStack
@@ -80,7 +79,7 @@ end tellTheStack
 function systemSeven
   return the systemVersion ≥ 7.0
 end systemSeven
-</pre></code>
+```
 
 ## Placeholders
 

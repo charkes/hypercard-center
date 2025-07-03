@@ -6,22 +6,19 @@ modified: yes
 
 # closeStack
 
-<code><pre>
-closeStack
-</pre></code>
-
+`closeStack`
 
 Handler:
-<code><pre>
+
+```
 on closeStack
-    <i>statements</i>
+    [ph:statements]
 end closeStack
-</pre></code>
+```
 
+HyperCard sends the `closeStack` message to the current card when a user (or script) opens a different stack in the current window, closes the current window, deletes the stack, suspends HyperCard to launch an application, or quits HyperCard.
 
-HyperCard sends the<code> closeStack </code>message to the current card when a user (or script) opens a different stack in the current window, closes the current window, deletes the stack, suspends HyperCard to launch an application, or quits HyperCard.
-
-Note: If you have more than one stack open at a time, HyperCard sends<code> suspendStack,</code> not<code> closeStack</code>, when the stack becomes inactive.
+Note: If you have more than one stack open at a time, HyperCard sends `suspendStack`, not `closeStack`, when the stack becomes inactive.
 
 ## Placeholders
 

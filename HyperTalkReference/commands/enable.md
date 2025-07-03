@@ -5,16 +5,17 @@ card_id: 61996
 
 # enable
 
-<code>enable [ph:menu</code>] <code><pre>
+```
+enable [ph:menu]
 enable [ph:menuItem] of [ph:menu]
-enable <i>button
-</pre></code>
+enable [ph:button]
+```
 
-</i> The <code>enable</code> command activates menu items, entire menus, or buttons that are  inactive (dimmed).  It’s a shortcut for setting the <code>enabled</code> property to <code>true</code>.
+The `enable` command activates menu items, entire menus, or buttons that are  inactive (dimmed).  It’s a shortcut for setting the `enabled` property to `true`.
 
-The <code>enable</code> command enables only items in HyperCard’s menus that are currently available to the user.  For example, the following command will not enable the Button Info command in the Objects menu unless a button is currently selected:
+The `enable` command enables only items in HyperCard’s menus that are currently available to the user.  For example, the following command will not enable the Button Info command in the Objects menu unless a button is currently selected:
 
-<code>enable menuItem 1 of menu "Objects"</code>
+`enable menuItem 1 of menu "Objects"`
 
 ## Examples
 

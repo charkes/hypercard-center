@@ -5,17 +5,17 @@ card_id: 34993
 
 # disable
 
-<code><pre>
+```
 disable [ph:menu]
 disable [ph:menuItem] of [ph:menu]
 disable [ph:button]
-</pre></code>
+```
 
-The <code>disable</code> command dims menu items, entire menus, and buttons. It’s a shortcut for setting the <code>enabled</code> property of a menu item,  menu, or button to <code>false</code>.  
+The `disable` command dims menu items, entire menus, and buttons. It’s a shortcut for setting the `enabled` property of a menu item,  menu, or button to `false`.  
 
 Users cannot choose dimmed menu items.
 
-Disabled buttons don't receive <code>mouseDown, mouseStillDown, mouseUp</code>, or <code>mouseDoubleClick</code> messages when you click them. 
+Disabled buttons don't receive `mouseDown, mouseStillDown, mouseUp`, or `mouseDoubleClick` messages when you click them.
 
 ## Examples
 
@@ -34,13 +34,13 @@ disable background button id 1234
 
 ## Demo Script
 
-<code><pre>
+```
 on disableTalkMenu
   if there is a menu "Reference" then
     <b>disable</b> menuItem "HyperTalk Reference" of menu "Reference"
   end if
 end disableTalkMenu
-</pre></code>
+```
 
 ## Related Topics
 

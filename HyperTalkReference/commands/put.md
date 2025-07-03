@@ -6,7 +6,7 @@ modified: yes
 
 # put
 
-<code><pre>
+```
 put [ph:expression]
 put [ph:expression] [ph:preposition] ¬
    [[ph:chunk] of] [ph:container]
@@ -14,25 +14,25 @@ put [ph:expression] [ph:preposition] ¬
 put [ph:menuItemList] [ph:preposition] ¬
      [[ph:menuItem] of] [ph:menu] ¬
      [with menuMessages [ph:messageList]]
-</pre></code>
+```
 
-The <code>put</code> command evaluates an expression and places the value it extracts <code>into</code>, <code>after</code>, or <code>before</code> the contents of a container.
+The `put` command evaluates an expression and places the value it extracts `into`, `after`, or `before` the contents of a container.
 
-The container can be a button, a field, a variable, the Message box, the selection, a <code>[ph:chunk]</code> expression, or a menu. If you don’t specify a container, HyperCard puts the value into the Message box, showing it if it’s hidden.
+The container can be a button, a field, a variable, the Message box, the selection, a `[ph:chunk]` expression, or a menu. If you don’t specify a container, HyperCard puts the value into the Message box, showing it if it’s hidden.
 
-Use <code>put</code> with <code>into</code> to replace the contents of a container or menu, with <code>before</code> to place the value at the beginning of its contents, and with <code>after</code> to append the value to the end of its contents.
+Use `put` with `into` to replace the contents of a container or menu, with `before` to place the value at the beginning of its contents, and with `after` to append the value to the end of its contents.
 
 The lines of text that you put into a pop-up button become the items of the  menu that appears when you click the button.
 
 Before you can add items to a menu, the menu must already exist.
 
-The <code>[ph:menuItemList]</code> is a comma-separated list of the items you want to add to the menu. Use the single character <code>"-"</code> to get a gray line. You can put up to 64 items into a menu with a single <code>put</code> statement.
+The `[ph:menuItemList]` is a comma-separated list of the items you want to add to the menu. Use the single character `"-"` to get a gray line. You can put up to 64 items into a menu with a single `put` statement.
 
-The optional <code>[ph:messageList]</code> is a comma-separated list of message names that HyperCard sends to the current card when the user chooses one of the menu items. The number of items in the <code>[ph:messageList]</code> must equal the number of items in<code> [ph:menuItemList].</code>
+The optional `[ph:messageList]` is a comma-separated list of message names that HyperCard sends to the current card when the user chooses one of the menu items. The number of items in the `[ph:messageList]` must equal the number of items in` [ph:menuItemList].`
 
 To skip a message name, use an empty item—a null between two commas:
 
-<code>"myMessage 1,,myMessage 3"</code>
+`"myMessage 1,,myMessage 3"`
 
 ## Examples
 
@@ -65,7 +65,7 @@ put "Boston" & return & "New York" & return & "Salem" into button "Maps"
 
 ## Demo Script
 
-<code><pre>
+```
 on putDemo
   get bkgndFields()
   if the number of chars of it < 255 then answer it
@@ -78,7 +78,7 @@ function bkgndFields
   end repeat
   return theFields
 end bkgndFields
-</pre></code>
+```
 
 ## Placeholders
 

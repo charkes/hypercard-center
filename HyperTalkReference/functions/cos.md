@@ -5,14 +5,13 @@ card_id: 54961
 
 # cos
 
-<code><pre>
+```
 the cos of [ph:number]
-</pre></code>
+```
 
-Value returned: number equal to the trigonometric cosine of <code>[ph:number]</code> expressed in radians
+Value returned: number equal to the trigonometric cosine of `[ph:number]` expressed in radians
 
-Note: There are 2 * pi radians in 360 degrees. 
-
+Note: There are 2 * pi radians in 360 degrees.
 
 ## Examples
 

@@ -5,20 +5,20 @@ card_id: 42512
 
 # open report printing
 
-<code><pre>
+```
 open report printing
 open report printing with dialog
 open report printing ¬
     with template [ph:text]
-</pre></code>
+```
 
-where <code>[ph:text]</code> is the name of a report template in the current stack.
+where `[ph:text]` is the name of a report template in the current stack.
 
-The <code>open report printing</code> command begins the process of printing a stack (or part of a stack) as a report. It uses the current settings from the Print Report dialog box. You must use the <code>close printing</code> command to end a job begun with <code>open report printing</code>.
+The `open report printing` command begins the process of printing a stack (or part of a stack) as a report. It uses the current settings from the Print Report dialog box. You must use the `close printing` command to end a job begun with `open report printing`.
 
-If you specify the <code>with dialog</code> option, HyperCard displays the Print Report dialog box and the user can choose new settings. If you specify the <code>with template</code> option, HyperCard prints the stack with the named report template.
+If you specify the `with dialog` option, HyperCard displays the Print Report dialog box and the user can choose new settings. If you specify the `with template` option, HyperCard prints the stack with the named report template.
 
-HyperCard sets the function <code>the result</code> to <code>Cancel</code> if the user clicks Cancel in the dialog box, to <code>no such report template</code> if you specify a template that doesn’t exist, or to <code>empty</code> in all other cases. 
+HyperCard sets the function `the result` to `Cancel` if the user clicks Cancel in the dialog box, to `no such report template` if you specify a template that doesn’t exist, or to `empty` in all other cases.
 
 ## Examples
 

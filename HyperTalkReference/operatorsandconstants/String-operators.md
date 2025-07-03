@@ -10,10 +10,10 @@ modified: yes
 
 Joins (concatenates) the text string yielded by the expression on its left to the text string yielded by the expression on its right.
 
-<code><pre>
+```
 "this is a sentence" & "."
 "The problem is:" & space & theProblem
-</pre></code>
+```
 
 ### &&
 

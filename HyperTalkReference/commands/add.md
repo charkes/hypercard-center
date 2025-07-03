@@ -5,14 +5,13 @@ card_id: 29791
 
 # add
 
-<code>add [ph:number] to [[ph:<code>chunk] of] [ph:container]</code>
+`add [ph:number] to [[ph:chunk] of] [ph:container]`
 
 Note: The container or chunk referred to must contain a number.
 
-The <code>add</code> command adds the value of <code>[ph:number]</code> to the number in a container or chunk and replaces the contents of the container or chunk with the result.
+The `add` command adds the value of `[ph:number]` to the number in a container or chunk and replaces the contents of the container or chunk with the result.
 
-(You can use the <code>is a</code> operator to see if the container is a number.)
-
+(You can use the `is a` operator to see if the container is a number.)
 
 ## Examples
 

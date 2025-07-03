@@ -5,22 +5,21 @@ card_id: 21952
 
 # newButton
 
-<code><pre>
+```
 newButton
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on newButton
   [ph:statements]
 end newButton
-</pre></code>
+```
 
-HyperCard sends the <code>newButton</code> message to a button just after HyperCard creates it. 
+HyperCard sends the `newButton` message to a button just after HyperCard creates it.
 
 Although the new button will not have a script with which to respond to the message, any other object along the message-passing path can handle it. 
-
 
 ## Examples
 

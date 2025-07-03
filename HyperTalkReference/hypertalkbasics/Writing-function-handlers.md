@@ -8,15 +8,15 @@ modified: yes
 
 When you write a handler for a function, you specify statements that compute and return a value to the handler that calls the function. Each function handler has the following form, where the italicized words are placeholders:
 
-<code><pre>
-function <i>functionName</i>
-    <i>statements</i>
-end <i>functionName</i>
-</pre></code>
+```
+function [ph:functionName]
+    [ph:statements]
+end [ph:functionName]
+```
 
 HyperCard has many built-in functions, but you can also write your own:
 
-<code><pre>
+```
 on mouseUp
    put square(5) into the Message box
 end mouseUp
@@ -24,10 +24,9 @@ end mouseUp
 function square x
    return (x * x)
 end square
-</pre></code>
+```
 
-
-The function <code>square</code> receives a number through its parameter variable, <code>x</code>.  It then returns the value of <code> x * x</code> to the handler that called it (<code>mouseUp</code>) using the <code>return</code> keyword.
+The function `square` receives a number through its parameter variable, `x`.  It then returns the value of `x * x` to the handler that called it (`mouseUp`) using the `return` keyword.
 
 ## Placeholders
 

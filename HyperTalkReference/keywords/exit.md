@@ -6,23 +6,22 @@ modified: yes
 
 # exit
 
-<code><pre>
+```
 exit repeat
-exit <i>functionName</i>
-exit <i>messageName</i>
+exit [ph:functionName]
+exit [ph:messageName]
 exit to HyperCard
-</pre></code>
+```
 
-<br>
-The<code> exit </code>keyword interrupts the current flow of control.<br>
-<br>
-<code>Exit repeat </code>sends control to the end of a<code> repeat </code>structure, ending execution of the loop regardless of the state of the controlling conditions.<br>
-<br>
-The<code> exit <i>functionName</i> </code>and<code> exit <i>messageName</i> </code>forms stop the current message or function handler. Control  returns to any pending statements from another handler, if any.<br>
-<br>
-<code>Exit to HyperCard </code>terminates all running or pending handlers and cancels all pending messages.<br>
-<br>
-Using<code> exit </code>to leave a function handler sets the value of the function to empty.<br>
+The `exit` keyword interrupts the current flow of control.
+
+`Exit repeat` sends control to the end of a `repeat` structure, ending execution of the loop regardless of the state of the controlling conditions.
+
+The `exit [ph:functionName]` and `exit [ph:messageName]` forms stop the current message or function handler. Control returns to any pending statements from another handler, if any.
+
+`Exit to HyperCard` terminates all running or pending handlers and cancels all pending messages.
+
+Using `exit` to leave a function handler sets the value of the function to empty.
 
 ## Examples
 
@@ -33,7 +32,7 @@ if it is empty then exit mySave
 
 if there is no card field "Index" then exit indexFunction
 
--- In the following example, the openCard message will not occur as the 
+-- In the following example, the openCard message will not occur as the
 -- user goes from card to card:
 
 on closeCard
@@ -60,7 +59,7 @@ end newButton
 
 ## Demo Script
 
-<code><pre>
+```
 on exitDemo
   answer "Would you like to see a demo?" with "No" or "Yes"
   if it is "No" then exit exitDemo
@@ -78,7 +77,7 @@ on exitDemo
   select line 0 of me
   set the autoSelect of me to false
 end exitDemo
-</pre></code>
+```
 
 ## Placeholders
 

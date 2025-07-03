@@ -6,24 +6,23 @@ modified: yes
 
 # beep
 
-<code><pre>
+```
 beep
 beep [ph:posInteger]
-</pre></code>
+```
 
+The `beep` command sounds the Macintosh system beep.
 
-The <code>beep</code> command sounds the Macintosh system beep.
-
-If you specify a <code>[ph:posInteger]</code>, your Macintosh beeps that many times.
+If you specify a `[ph:posInteger]`, your Macintosh beeps that many times.
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
  <b>beep</b> 2
  answer "Beep! Beep!"
 end mouseUp
-</pre></code>
+```
 
 ## Placeholders
 

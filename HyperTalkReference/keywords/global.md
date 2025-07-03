@@ -6,13 +6,13 @@ modified: yes
 
 # global
 
-<code>global <i>variableList</i></code><br>
-<br>
-The<code> global </code>keyword makes a variable and its contents available to any handler in HyperCard. Changing the value of a global variable in any handler changes its value everywhere.<br>
-<br>
-Note: You must use the <code>global</code> keyword in <b>each handler</b> to declare the global variables you want to use.<br>
-<br>
-Global variables are not saved between sessions of HyperCard. Global variables are also lost under System 6's single Finder when a user (or handler) suspends HyperCard by launching another application with the<code> open </code>command.<br>
+`global [ph:variableList]`
+
+The `global` keyword makes a variable and its contents available to any handler in HyperCard. Changing the value of a global variable in any handler changes its value everywhere.
+
+Note: You must use the `global` keyword in <b>each handler</b> to declare the global variables you want to use.
+
+Global variables are not saved between sessions of HyperCard. Global variables are also lost under System 6's single Finder when a user (or handler) suspends HyperCard by launching another application with the `open` command.
 
 ## Examples
 
@@ -24,7 +24,7 @@ global pages,sections,chapters
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   <b>global</b> theName
   ask "What is your name?"
@@ -42,7 +42,7 @@ on answerReverseName
   -- put empty into the global when you are done with it:
   put empty into theName
 end answerReverseName
-</pre></code>
+```
 
 ## Placeholders
 

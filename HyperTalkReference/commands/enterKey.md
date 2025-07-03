@@ -5,19 +5,19 @@ card_id: 36714
 
 # enterKey
 
-<code>enterKey</code>
+`enterKey`
 
-The <code>enterKey</code> command sends a statement typed into the Message box to the current card.
+The `enterKey` command sends a statement typed into the Message box to the current card.
 
-HyperCard sends the <code>enterKey</code> command to the current card when the user presses the Enter key unless the insertion point is in a field, in which case HyperCard sends<code> enterInField</code> instead.
+HyperCard sends the `enterKey` command to the current card when the user presses the Enter key unless the insertion point is in a field, in which case HyperCard sends` enterInField` instead.
 
-You can handle the <code>enterKey</code> message as follows:
+You can handle the `enterKey` message as follows:
 
-<code><pre>
+```
 on enterKey
   [ph:statements]
 end enterKey
-</pre></code>
+```
 
 ## Examples
 

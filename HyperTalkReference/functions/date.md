@@ -5,16 +5,21 @@ card_id: 55207
 
 # date
 
-<code>the [[ph:adjective] ] date</code>
-<code>date()</code>
+`the [[ph:adjective]] date`
+`date()`
 
 Value returned: text string representing the current date set in your Macintosh, in the following date formats:
 
-<code>the date</code>                  --<code> 12/25/93 date()</code>                      --<code> 12/25/93 the abbrev date</code>    --<code> Sat, Dec 25, 1993 the short date</code>      --<code> 12/25/93 the long date    </code>--<code> Saturday,                        December 25, 1993  the English date </code> --<code> Saturday,                        December 25, 1993</code> 
+```
+the date                  -- 12/25/93
+date()                    -- 12/25/93
+the abbrev date    -- Sat, Dec 25, 1993
+the short date      -- 12/25/93
+the long date    -- Saturday, December 25, 1993
+the English date  -- Saturday, December 25, 1993
+```
 
-<code> </code>
-When HyperCard is running under System 7.1, the long, abbrev, and short forms agree with the formats set in the Date & Time Control Panel.<code> </code> The form <code>the English date</code> returns the date in the form <code>[ph:day],[ph: month dayNumber, fullYearNumber]</code> using english weekdays and months no matter what language the system is localized for and no matter what the settings are on the Date & Time Control Panel. 
-
+When HyperCard is running under System 7.1, the long, abbrev, and short forms agree with the formats set in the Date & Time Control Panel. The form `the English date` returns the date in the form `[ph:day], [ph:month] [ph:dayNumber], [ph:fullYearNumber]` using english weekdays and months no matter what language the system is localized for and no matter what the settings are on the Date & Time Control Panel.
 
 ## Examples
 

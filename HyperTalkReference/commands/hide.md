@@ -6,7 +6,7 @@ modified: yes
 
 # hide
 
-<code><pre>
+```
 hide menuBar
 hide titleBar
 hide groups
@@ -18,14 +18,13 @@ hide <i>field</i>
 hide <i>button</i>
 hide <i>window</i>
 hide <i>externalWindow</i>
-</pre></code>
+```
 
+The `hide` command removes HyperCard objects and elements from view.
 
-The <code>hide</code> command removes HyperCard objects and elements from view.
+`hide menuBar` removes the menu bar from the top of the screen.
 
-<code>hide menuBar</code> removes the menu bar from the top of the screen.
-
-<code>hide titleBar</code> removes the title bar on the card window.
+`hide titleBar` removes the title bar on the card window.
 
 Use both of these commands with care: hiding the menu bar, or the title bar of a window, may confuse your users.
 
@@ -66,7 +65,7 @@ hide picture of background "jazz"
 
 ## Demo Script
 
-<code><pre>
+```
 on hideDemo
   set cursor to watch
   <b>hide</b> titleBar
@@ -82,7 +81,7 @@ on hideDemo
   unlock screen with dissolve
   show titleBar
 end hideDemo
-</pre></code>
+```
 
 ## Placeholders
 

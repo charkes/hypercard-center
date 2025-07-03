@@ -5,12 +5,11 @@ card_id: 64480
 
 # shiftKey
 
-<code><pre>
+```
 the shiftKey
-</pre></code>
+```
 
-Value returned: one of the constants<code> up </code>or <code>down</code> indicating whether the Shift key is up or down 
-
+Value returned: one of the constants `up` or `down` indicating whether the Shift key is up or down 
 
 ## Examples
 
@@ -24,12 +23,12 @@ wait until shiftKey() is up
 
 ## Demo Script
 
-<code><pre>
+```
 on shiftKeyDemo
   -- Hold down the Shift key when you click Run the Script.
   answer "The Shift key is:" && the <b>shiftKey</b>
 end shiftKeyDemo
-</pre></code>
+```
 
 ## Related Topics
 

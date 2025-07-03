@@ -5,16 +5,15 @@ card_id: 66203
 
 # ticks
 
-<code><pre>
-the ticks 
-</pre></code>
+```
+the ticks
+```
 
-Value returned: an integer equal to the number of ticks since the Macintosh was turned on or restarted. (One tick equals one-sixtieth of a second.) 
-
+Value returned: an integer equal to the number of ticks since the Macintosh was turned on or restarted. (One tick equals one-sixtieth of a second.)
 
 ## Demo Script
 
-<code><pre>
+```
 on ticksDemo
   put 0 into total
   put <b>the ticks</b> into startTicks
@@ -26,7 +25,7 @@ on ticksDemo
   answer "The sum of numbers 1 to 100 is" && total & return &¬
   "It took" && totalTime && "ticks to figure out."
 end ticksDemo
-</pre></code>
+```
 
 ## Related Topics
 

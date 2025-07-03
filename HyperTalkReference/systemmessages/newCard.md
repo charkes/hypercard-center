@@ -5,22 +5,21 @@ card_id: 22221
 
 # newCard
 
-<code><pre>
+```
 newCard
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on newCard
   [ph:statements]
 end newCard
-</pre></code>
+```
 
-HyperCard sends the <code>newCard</code> message to the current card (in this case, the new one) just after HyperCard creates it. 
+HyperCard sends the `newCard` message to the current card (in this case, the new one) just after HyperCard creates it.
 
-Although the new card will not have a script with which to respond to the message, any other object along the message-passing path can handle it. 
-
+Although the new card will not have a script with which to respond to the message, any other object along the message-passing path can handle it.
 
 ## Related Topics
 

@@ -10,6 +10,6 @@ HyperTalk® is HyperCard’s script language. You use it to write English-like s
 
 In HyperTalk, responding to an event is called <b>handling</b> the event. As a scripter, you write a specific handler for each event that you want your stack to handle. A collection of handlers is called a script.
 
-The following graphic shows a handler for the <code>mouseUp</code> event. It’s part of the script of card button id 1.
+The following graphic shows a handler for the `mouseUp` event. It’s part of the script of card button id 1.
 
 [[image:%stack%/Card3.jpg]]

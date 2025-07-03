@@ -10,14 +10,13 @@ modified: yes
 
 Handler:
 
-<code><pre>
+```
 on mouseDoubleClick
-    <i>statements</i>
+    [ph:statements]
 end mouseDoubleClick
-</pre></code>
+```
 
-
-HyperCard sends this message to a button, field, or card after the mouse is clicked twice at the same place. When the message is sent, it's the <u>only</u> one sent during the second click;  there's no <code>mouseDown</code>, <code>mouseStillDown</code>, or <code>mouseUp</code> message sent after the first <code>mouseUp</code>.
+HyperCard sends this message to a button, field, or card after the mouse is clicked twice at the same place. When the message is sent, it's the <u>only</u> one sent during the second click;  there's no `mouseDown`, `mouseStillDown`, or `mouseUp` message sent after the first `mouseUp`.
 
 For HyperCard to send this message, the following conditions must all be true:
 

@@ -6,22 +6,21 @@ modified: yes
 
 # repeat while
 
-<code><pre>
+```
 repeat while <i>trueOrFalse</i>
    <i>statements</i>
 end repeat
-</pre></code>
+```
 
-<br>
-The statements in a <code>repeat while</code> structure repeat as long as the condition following the word<code> while </code>is true. HyperCard checks the condition before the first and any subsequent iterations of the loop.<br>
-<br>
-If HyperCard executes an<code> exit repeat </code>statement in the<code> </code>loop, it continues running the handler starting from the first statement after<code> end repeat</code>.<br>
-<br>
-If HyperCard executes a<code> next repeat </code>statement, it returns immediately to the beginning of the<code> repeat </code>loop.<br>
+The statements in a `repeat while` structure repeat as long as the condition following the word `while` is true. HyperCard checks the condition before the first and any subsequent iterations of the loop.
+
+If HyperCard executes an `exit repeat` statement in the loop, it continues running the handler starting from the first statement after `end repeat`.
+
+If HyperCard executes a `next repeat` statement, it returns immediately to the beginning of the `repeat` loop.
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   show bkgnd field "demo field"
   put return & "    Press the mouse to stop counting..." ¬
@@ -36,7 +35,7 @@ on mouseUp
   hide bkgnd field "demo field"
   put empty into bkgnd field "demo field"
 end mouseUp
-</pre></code>
+```
 
 ## Placeholders
 

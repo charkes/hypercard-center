@@ -6,21 +6,21 @@ modified: yes
 
 # visual
 
-<code><pre>
+```
 visual [effect] [ph:effect] [[ph:speed]] ¬
    [to [ph:image]]
-</pre></code>
+```
 
 
-The <code>visual</code> command specifies a visual effect for HyperCard to use as it moves from one card to another. (Click the placeholders <code>[ph:effect], [ph:speed],</code> and <code>[ph:image]</code> to see their possible replacements.) <code>Visual</code> must be followed by a <code>go</code> command to have any effect.
+The `visual` command specifies a visual effect for HyperCard to use as it moves from one card to another. (Click the placeholders `[ph:effect]`, `[ph:speed]`, and `[ph:image]` to see their possible replacements.) `Visual` must be followed by a `go` command to have any effect.
 
-The optional <code>[ph:speed]</code> parameter tells HyperCard to perform the visual effect faster or slower than normal.
+The optional `[ph:speed]` parameter tells HyperCard to perform the visual effect faster or slower than normal.
 
-The <code>to [ph:image]</code> option changes the screen to white, gray, black, inverse, or the image of the destination card before applying the visual effect.
+The `to [ph:image]` option changes the screen to white, gray, black, inverse, or the image of the destination card before applying the visual effect.
 
-HyperCard uses the visual effect <code>plain</code> as its default effect. The default image is <code>card</code>.
+HyperCard uses the visual effect `plain` as its default effect. The default image is `card`.
 
-Note: Only the effects <code>push</code>, <code>scroll</code>, <code>shrink</code>, <code>stretch</code>, and <code>zoom</code> work with the command <code>go this card</code>.
+Note: Only the effects `push`, `scroll`, `shrink`, `stretch`, and `zoom` work with the command `go this card`.
 
 ## Examples
 
@@ -34,7 +34,7 @@ visual effect zoom open very fast to black
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
  set cursor to watch
  set lockMessages to true -- leave the demo script up
@@ -52,7 +52,7 @@ on mouseUp
  <b>visual</b> effect venetian blinds very slow
  go back
 end mouseUp
-</pre></code>
+```
 
 ## Placeholders
 

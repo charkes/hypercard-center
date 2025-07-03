@@ -8,25 +8,24 @@ modified: yes
 
 `arrowKey [ph:direction]`
 
-If the global property<code> textArrows </code>is <code>false</code>, the<code> arrowKey </code>command navigates through cards:
+If the global property `textArrows` is `false`, the `arrowKey` command navigates through cards:
 
 `arrowKey left`  = go to previous card
 `arrowKey right` = go to next card
 `arrowKey up`    = go forward through recent cards
 `arrowKey down`  = go backward through recent cards
 
-If the global property <code>textArrows</code> is <code>true</code>, the <code>arrowKey</code> command navigates through cards unless the insertion point is in a field. Then <code>arrowKey</code> moves the insertion point within the field.
+If the global property `textArrows` is `true`, the `arrowKey` command navigates through cards unless the insertion point is in a field. Then `arrowKey` moves the insertion point within the field.
 
-HyperCard sends the <code>arrowKey</code> command to the current card when an arrow key is pressed. The value passed to the parameter variable <code>[ph:direction]</code> is <code>left</code>, <code>right</code>, <code>up</code>, or <code>down</code>, depending on which arrow key is pressed.
+HyperCard sends the `arrowKey` command to the current card when an arrow key is pressed. The value passed to the parameter variable `[ph:direction]` is `left`, `right`, `up`, or `down`, depending on which arrow key is pressed.
 
 To handle the `arrowKey` message, use the following form:
 
-<code><pre>
+```
 on arrowKey whichKey
    [ph:statements]
 end arrowKey
-</pre></code>
-
+```
 
 In the above form, the parameter variable `whichKey` is set to a `[ph:direction]`.
 

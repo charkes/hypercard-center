@@ -5,20 +5,19 @@ card_id: 19769
 
 # idle
 
-<code><pre>
+```
 idle
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on idle
   [ph:statements]
 end idle
-</pre></code>
+```
 
-HyperCard repeatedly sends the <code>idle</code> message to the current card when no other events are occurring (that is, when all handlers have finished running and HyperCard itself isn’t sending other messages). 
-
+HyperCard repeatedly sends the `idle` message to the current card when no other events are occurring (that is, when all handlers have finished running and HyperCard itself isn’t sending other messages).
 
 ## Related Topics
 

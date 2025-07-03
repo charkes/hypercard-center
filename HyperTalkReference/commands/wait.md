@@ -5,16 +5,16 @@ card_id: 50819
 
 # wait
 
-<code><pre>
+```
 wait [for] [ph:posInteger] [ticks]
 wait [for] [ph:posInteger] seconds
 wait until [ph:trueOrFalse]
 wait while [ph:trueOrFalse]
-</pre></code>
+```
 
-The <code>wait</code> command causes HyperCard to pause before executing the rest of a handler, either for a specific length of time, until a specified condition becomes true, or while a specified condition remains true.
+The `wait` command causes HyperCard to pause before executing the rest of a handler, either for a specific length of time, until a specified condition becomes true, or while a specified condition remains true.
 
-If you do not specify <code>seconds</code> as the unit of time, HyperCard uses ticks. (One tick equals one-sixtieth of a second.) 
+If you do not specify `seconds` as the unit of time, HyperCard uses ticks. (One tick equals one-sixtieth of a second.)
 
 ## Examples
 
@@ -37,7 +37,7 @@ wait until the mouseClick
 
 ## Demo Script
 
-<code><pre>
+```
 on waitUntilTheMouse
   set the cursor to arrow
   show bkgnd field "demo field"
@@ -45,7 +45,7 @@ on waitUntilTheMouse
   <b>wait</b> until the mouseClick
   hide bkgnd field "demo field"
 end waitUntilTheMouse
-</pre></code>
+```
 
 ## Related Topics
 

@@ -6,7 +6,7 @@ modified: yes
 
 # What are messages?
 
-A message is simply an announcement that an event has occurred: The user has clicked the mouse, requested the answer to <code>4 * 3</code>, added a new card to a stack, and so on.
+A message is simply an announcement that an event has occurred: The user has clicked the mouse, requested the answer to `4 * 3`, added a new card to a stack, and so on.
 
 To understand messages, think of mailing a letter to a friend. You write a message and place it inside an envelope. Then you address the envelope and send it to your friend.
 

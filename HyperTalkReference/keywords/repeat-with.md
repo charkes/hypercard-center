@@ -6,28 +6,27 @@ modified: yes
 
 # repeat with
 
-<code><pre>
-repeat with <i>variableName</i> = ¬
-    <i>integer1</i> to <i>integer2</i>
-    <i>statements</i>
+```
+repeat with [ph:variableName] = ¬
+    [ph:integer1] to [ph:integer2]
+    [ph:statements]
 end repeat
 
-repeat with <i>variableName</i> = ¬
-    <i>integer1</i> down to <i>integer2</i>
-    <i>statements</i>
+repeat with [ph:variableName] = ¬
+    [ph:integer1] down to [ph:integer2]
+    [ph:statements]
 end repeat
-</pre></code>
+```
 
-<br>
-The statements in a<code> repeat with </code>structure repeat until a variable with an initial value of<code> <i>integer1</i> </code>is greater than (or, in the case of <code>down to</code>, less than) the number <i><code>integer2</i></code>.<br>
-<br>
-The value of the variable increases (or decreases) by 1 during each iteration of the<code> repeat </code>loop.<br>
-<br>
-If HyperCard executes an<code> exit repeat </code>statement in the<code> </code>loop, it continues running the handler starting from the first statement after<code> end repeat</code>. If HyperCard executes a<code> next repeat </code>statement, it returns immediately to the beginning of the<code> repeat </code>loop  and increases (or decreases) the value of the variable.<br>
+The statements in a `repeat with` structure repeat until a variable with an initial value of `[ph:integer1]` is greater than (or, in the case of <code>down to</code>, less than) the number `[ph:integer2]`.
+
+The value of the variable increases (or decreases) by 1 during each iteration of the `repeat` loop.
+
+If HyperCard executes an `exit repeat` statement in the loop, it continues running the handler starting from the first statement after `end repeat`. If HyperCard executes a `next repeat` statement, it returns immediately to the beginning of the `repeat` loop  and increases (or decreases) the value of the variable.
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   show bkgnd field "demo field"
   put return & spaces(25) & "Counting down to 0:  10" ¬
@@ -41,7 +40,7 @@ on mouseUp
   hide bkgnd field "demo field"
   put empty into bkgnd field "demo field"
 end mouseUp
-</pre></code>
+```
 
 ## Placeholders
 

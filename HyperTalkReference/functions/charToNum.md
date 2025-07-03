@@ -5,12 +5,11 @@ card_id: 52559
 
 # charToNum
 
-<code><pre>
+```
 the charToNum of [ph:char]
-</pre></code>
+```
 
-Value returned: positive integer equal to the ASCII value of the<code> [ph:char</code>] 
-
+Value returned: positive integer equal to the ASCII value of the `[ph:char]`
 
 ## Examples
 
@@ -23,7 +22,7 @@ put numToChar(charToNum("A")) = "A"
 
 ## Demo Script
 
-<code><pre>
+```
 on nameUpperCase
   ask "Please enter your name:"
   if (it is empty) or (the result is "Cancel") then exit nameUpperCase
@@ -38,7 +37,7 @@ function upperCase whatStr
   end repeat
   return whatStr
 end upperCase
-</pre></code>
+```
 
 ## Related Topics
 

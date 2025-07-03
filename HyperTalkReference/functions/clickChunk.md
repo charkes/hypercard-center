@@ -5,18 +5,20 @@ card_id: 52836
 
 # clickChunk
 
-<code><pre>
+```
 the clickChunk
-</pre></code>
+```
 
 Value returned: character chunk expression equal to the word the user clicked or the longest range of characters with the text style Group around the character that the user clicked (if the text has been grouped)  
 
-The text style Group allows <code>the clickChunk</code> to extend beyond word boundaries. 
+The text style Group allows `the clickChunk` to extend beyond word boundaries.
 
- The chunk expression returned has  the following form:
+The chunk expression returned has the following form:
 
-<code>char</code> [ph:<code>posInteger] to [ph:posInteger] ¬     of [ph:container</code>] 
-
+```
+char [ph:posInteger] to [ph:posInteger] ¬
+     of [ph:container]
+```
 
 ## Examples
 
@@ -31,7 +33,7 @@ put the textStyle of the clickChunk into theStyle
 
 ## Demo Script
 
-<code><pre>
+```
 on clickDemo
   toggleActiveText true -- make sure grouped text is visible
   answer "Click any text in the Demo Script." & return & ¬
@@ -42,7 +44,7 @@ on clickDemo
   wait 1 second
   answer "The chunk of text that you clicked was  “" & it & "”."
 end clickDemo
-</pre></code>
+```
 
 ## Related Topics
 

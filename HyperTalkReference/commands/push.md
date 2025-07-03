@@ -5,22 +5,22 @@ card_id: 45173
 
 # push
 
-<code><pre>
+```
 push card
 push [ph:card] [of [ph:stack]]
 push [ph:bkgnd] [of [ph:stack]]
 push [ph:stack]
-</pre></code>
+```
 
-The <code>push</code> command saves the identification of a card in HyperCard’s memory. If you specify a background or stack, HyperCard stores the location of the <b>first</b> card of the background or stack. In all cases, HyperCard saves the full card ID and the path name for the stack.
+The `push` command saves the identification of a card in HyperCard’s memory. If you specify a background or stack, HyperCard stores the location of the <b>first</b> card of the background or stack. In all cases, HyperCard saves the full card ID and the path name for the stack.
 
-Each call to <code>push</code> saves a card ID in last-in, first-out order. You can return to saved locations using the <code>pop</code> command.
+Each call to `push` saves a card ID in last-in, first-out order. You can return to saved locations using the `pop` command.
 
-Note: The word <code>stack</code> that forms part of the stack identifier <code>[ph:stack]</code> is optional with the <code>push</code> command.
+Note: The word `stack` that forms part of the stack identifier `[ph:stack]` is optional with the `push` command.
 
 There is a limit of twenty pushes.
 
-If you <code>pop</code> more than you <code>push</code>, you go to the Home stack.
+If you `pop` more than you `push`, you go to the Home stack.
 
 ## Examples
 
@@ -43,7 +43,7 @@ push "Home"
 
 ## Demo Script
 
-<code><pre>
+```
 on goHomeAndBack
   -- This demo shows that you can push and pop more than one card. Each
   -- successive pop goes back through the pushed cards.
@@ -59,7 +59,7 @@ on goHomeAndBack
   pop card
   click at the loc of bkgnd button "Demo Script"
 end goHomeAndBack
-</pre></code>
+```
 
 ## Related Topics
 

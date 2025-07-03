@@ -6,25 +6,23 @@ modified: yes
 
 # if (multiple-statement)
 
-<code><pre>
-if <i>trueOrFalse</i> then
-    <i>statements</i>
-[else if <i>trueOrFalse</i> then
-   <i>statements</i>]
+```
+if [ph:trueOrFalse] then
+    [ph:statements]
+[else if [ph:trueOrFalse] then
+   [ph:statements]]
 [else
-    <i>statements</i></code>]
+    [ph:statements]]
 end if
-</pre></code>
+```
 
-<br>
-The multiple-statement<code> if </code>structure tests the specified condition and executes <b>one or more</b> statements if the condition is true. You use the optional<code> else if </code>or<code> else </code>form to run alternative blocks of code in case the  condition following<code> if </code>is false.<br>
-<br>
-Because each part of a complex<code> if </code>structure may contain more than one statement, you must have an<code> end if </code>statement at the end of the structure.<br>
+The multiple-statement `if` structure tests the specified condition and executes <b>one or more</b> statements if the condition is true. You use the optional `else if` or `else` form to run alternative blocks of code in case the  condition following `if` is false.
+
+Because each part of a complex `if` structure may contain more than one statement, you must have an `end if` statement at the end of the structure.
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
 on mouseUp
  put random(19) into theNumber
  put 0 into botNum
@@ -58,8 +56,7 @@ on mouseUp
    "and" && topNum & ":" after sayIt
  end repeat
 end mouseUp
-</pre></code>
-</pre></code>
+```
 
 ## Placeholders
 

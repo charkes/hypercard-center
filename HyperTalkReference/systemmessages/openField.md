@@ -5,22 +5,21 @@ card_id: 23457
 
 # openField
 
-<code><pre>
+```
 openField
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on openField
   [ph:statements]
 end openField
-</pre></code>
+```
 
-HyperCard sends the <code>openField</code> message to an unlocked field when a user (or handler) first opens it for text editing. A user opens a field for editing either by clicking in the field or by tabbing from the previous field. 
+HyperCard sends the `openField` message to an unlocked field when a user (or handler) first opens it for text editing. A user opens a field for editing either by clicking in the field or by tabbing from the previous field.
 
-Once opened for editing, a field no longer receives <code>openField</code> messages. 
-
+Once opened for editing, a field no longer receives `openField` messages. 
 
 ## Related Topics
 

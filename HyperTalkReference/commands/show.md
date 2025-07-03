@@ -6,7 +6,7 @@ modified: yes
 
 # show
 
-<code><pre>
+```
 show menuBar
 show titleBar
 show groups
@@ -24,19 +24,19 @@ show [ph:button] [at [ph:point]]
 
 show [ph:window] [at [ph:point]]
 show [ph:externalWindow] [at [ph:point]]
-</pre></code>
+```
 
-The <code>show</code> command displays HyperCard objects and elements.
+The `show` command displays HyperCard objects and elements.
 
-<code>Show menuBar</code> displays the menu bar at the top of the screen (unless the screen is locked). <code>Show titleBar</code> displays the title bar on the card window if it’s been hidden. (Normally, the title bar is visible.)
+`Show menuBar` displays the menu bar at the top of the screen (unless the screen is locked). `Show titleBar` displays the title bar on the card window if it’s been hidden. (Normally, the title bar is visible.)
 
-<code>Show groups</code> displays a two-pixel gray underline for all text that has the <code>group</code> text style. (By default, the <code>group</code> text style is invisible.) The underline appears for grouped text in every field (in all stacks). Use the <code>hide groups</code> command to remove the underline.
+`Show groups` displays a two-pixel gray underline for all text that has the `group` text style. (By default, the `group` text style is invisible.) The underline appears for grouped text in every field (in all stacks). Use the `hide groups` command to remove the underline.
 
-The <code>show card</code> forms display the specified cards in the current stack in turn, beginning with the next card or the next marked card.
+The `show card` forms display the specified cards in the current stack in turn, beginning with the next card or the next marked card.
 
-The other forms of the <code>show</code> command display the card or background picture, a window, or an object at a specified location on the screen. If the point is not given, the window or object is displayed at its previous location.
+The other forms of the `show` command display the card or background picture, a window, or an object at a specified location on the screen. If the point is not given, the window or object is displayed at its previous location.
 
-Showing a window makes it the frontmost window. With external windows, an external command or external function must first create a window before <code>show</code> will work on it. <code>Show</code> does <b>not</b> create windows.
+Showing a window makes it the frontmost window. With external windows, an external command or external function must first create a window before `show` will work on it. `Show` does <b>not</b> create windows.
 
 ## Examples
 
@@ -79,7 +79,7 @@ show picture of background "jazz"
 
 ## Demo Script
 
-<code><pre>
+```
 on showPictureDemo
   -- draw a picture and show it only when done:
   <b>show</b> bkgnd field "demo field"
@@ -113,7 +113,7 @@ on setUpPaint
   set filled to true
   set grid to false
 end setUpPaint
-</pre></code>
+```
 
 ## Placeholders
 

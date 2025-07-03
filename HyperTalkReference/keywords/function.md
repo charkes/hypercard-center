@@ -6,26 +6,25 @@ modified: yes
 
 # function
 
-<code><pre>
-function <i>functionName</i> [<i>parameterList</i>]
-  <i>statements</i>
-end <i>functionName</i>
-</pre></code>
+```
+function [ph:functionName] [[ph:parameterList]]
+  [ph:statements]
+end [ph:functionName]
+```
 
-<br>
-The<code> function </code>keyword defines a new function handler of the specified name.  You call a function by placing parentheses after its name, enclosing any parameters within the parentheses:<br>
-<br>
-<code>get deleteSpaces(" hello ")</code><br>
-<br>
-The optional<code> <i>parameterList</i> </code>lets a function handler receive values sent along with the function call.<br>
-<br>
-When a function is called, HyperCard evaluates each item within the parenthetical list following the function's name.  When the handler begins to execute, HyperCard assigns each value to a parameter variable  in the<code> <i>parameterList</i></code>.<br>
-<br>
-Use the<code> return </code>keyword within the function definition to have the function return a value to the handler that called it. If you don't use<code> return</code>, the function evaluates to<code> empty</code>.<br>
+The `function` keyword defines a new function handler of the specified name.  You call a function by placing parentheses after its name, enclosing any parameters within the parentheses:
+
+`get deleteSpaces(" hello ")`
+
+The optional `[ph:parameterList]` lets a function handler receive values sent along with the function call.
+
+When a function is called, HyperCard evaluates each item within the parenthetical list following the function's name.  When the handler begins to execute, HyperCard assigns each value to a parameter variable  in the<code> [ph:parameterList]</code>.
+
+Use the `return` keyword within the function definition to have the function return a value to the handler that called it. If you don't use<code> return</code>, the function evaluates to `empty`.
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   ask "What is your name?"
   if it is empty then exit mouseUp
@@ -38,7 +37,7 @@ end mouseUp
   end repeat
   return theReversedString
 end reverseString
-</pre></code>
+```
 
 ## Placeholders
 

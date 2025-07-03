@@ -5,22 +5,21 @@ card_id: 19234
 
 # deleteStack
 
-<code><pre>
+```
 deleteStack
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on deleteStack
   [ph:statements]
 end deleteStack
-</pre></code>
+```
 
-HyperCard sends the <code>deleteStack</code> message to the current card of the stack that is being deleted. 
+HyperCard sends the `deleteStack` message to the current card of the stack that is being deleted.
 
-Note:  You cannot stop a stack from being deleted by trapping the <code>deleteStack </code>message. Instead, you must handle the <code>doMenu</code> message or set the <code>cantDelete</code> property for the stack. 
-
+Note:  You cannot stop a stack from being deleted by trapping the `deleteStack` message. Instead, you must handle the `doMenu` message or set the `cantDelete` property for the stack. 
 
 ## Related Topics
 

@@ -5,17 +5,17 @@ card_id: 25005
 
 # suspend
 
-<code>suspend</code>
+`suspend`
 
 Handler:
 
-<code><pre>
+```
 on suspend
   [ph:statements]
 end suspend
-</pre></code>
+```
 
-HyperCard sends the <code>suspend</code> message to the current card when a user (or handler) launches an application from HyperCard with the <code>open</code> command, just before the application is launched. 
+HyperCard sends the `suspend` message to the current card when a user (or handler) launches an application from HyperCard with the `open` command, just before the application is launched.
 
 Note: HyperCard does not send this message when it’s running under MultiFinder.
 

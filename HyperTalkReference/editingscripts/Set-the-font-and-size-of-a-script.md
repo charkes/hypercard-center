@@ -8,10 +8,10 @@ modified: yes
 
 Text in the script windows appears in 9-point Monaco as the default.  You can change the default font and size of the text in your script window using two properties:
 
-<code><pre>
+```
 the scriptTextFont
 the scriptTextSize
-</pre></code>
+```
 
 These two properties affect all script windows—you can’t set the font and style of each script window separately.
 

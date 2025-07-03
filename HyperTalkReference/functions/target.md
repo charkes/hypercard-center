@@ -5,16 +5,15 @@ card_id: 65969
 
 # target
 
-<code>the </code>[[ph:<code>adjective</code>] ]<code> target </code> Value returned: a text string that identifies the object that originally receives a message sent by HyperCard or by the <code>send</code> keyword. If an object does not have a name, <code>the target</code> returns its ID. 
+`the [[ph:adjective] ] target` Value returned: a text string that identifies the object that originally receives a message sent by HyperCard or by the `send` keyword. If an object does not have a name, `the target` returns its ID.
 
-The adjectives<code> abbreviated</code>,<code> long</code>, and <code>short</code> return various forms of an object’s name as with the property <code>the name.</code> (Click Related Topics for more information about<code> name</code>.) 
+The adjectives `abbreviated`, `long`, and `short` return various forms of an object’s name as with the property `the name`. (Click Related Topics for more information about `name`.)
 
-Note: <code>the abbreviated target</code> is the same as<code> the target</code>.
+Note: `the abbreviated target` is the same as `the target`.
 
-HyperTalk distinguishes between <code>the target</code> and <code>target</code>:<code> the target</code> always returns a string that identifies an object, but the single word <code>target</code> is a container.
+HyperTalk distinguishes between `the target` and `target`: `the target` always returns a string that identifies an object, but the single word `target` is a container.
 
- If <code>the target</code> is a button or field, <code>target</code> refers to the contents of that button or field.  If not, <code>target </code>returns an error. 
-
+If `the target` is a button or field, `target` refers to the contents of that button or field.  If not, `target` returns an error. 
 
 ## Examples
 
@@ -34,7 +33,7 @@ else if the target contains "field" then ...
 
 ## Demo Script
 
-<code><pre>
+```
 on whoIsTheTarget
   -- Since the Run the Script button sends a message to the demo script
   -- field, the target is set to it while this handler runs.
@@ -42,7 +41,7 @@ on whoIsTheTarget
   answer "target (a container) is:" & return & return & ¬
   char 1 to 200 of <b>target </b>-- string must be < 255 chars
 end whoIsTheTarget
-</pre></code>
+```
 
 ## Related Topics
 

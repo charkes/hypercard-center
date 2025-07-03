@@ -8,39 +8,39 @@ modified: yes
 
 ### down
 
-Equal to the literal <code>"down"</code>.
+Equal to the literal `"down"`.
 
-<code>if the mouse is down then exit repeat</code>
+`if the mouse is down then exit repeat`
 
 ### empty
 
-Equal to the literal <code>""</code> (the null string)
+Equal to the literal `""` (the null string)
 
-<code>if it is empty then exit askTheUser</code>
+`if it is empty then exit askTheUser`
 
 ### false
 
-The opposite of <code>true</code>; equal to the literal <code>"false"</code>
+The opposite of `true`; equal to the literal `"false"`
 
 `if the hilite of button 1 is false then mark this card`
 
 ### formFeed
 
-Equal to <code>numToChar(12)</code>, which starts a new page in some file formats.
+Equal to `numToChar(12)`, which starts a new page in some file formats.
 
-<code>write formFeed to file "My Info"</code>
+`write formFeed to file "My Info"`
 
 ### lineFeed
 
-Equal to <code>numToChar(10)</code>, which starts a new line in some file formats.
+Equal to `numToChar(10)`, which starts a new line in some file formats.
 
-<code>write lineFeed to file "My Info"</code>
+`write lineFeed to file "My Info"`
 
 ### pi
 
 Equal to the mathematical value pi to 20 decimal places:
 
-<code>3.14159265358979323846</code>
+`3.14159265358979323846`
 
 ### quote
 
@@ -50,57 +50,57 @@ Equal to the double quotation mark character: `"`
 
 ### return
 
-Equal to <code>numToChar(13)</code>.
+Equal to `numToChar(13)`.
 
-<code><pre>
+```
 put return after field 1
 write return & return to file "Data"
-</pre></code>
+```
 
 ### space
 
-Equal to <code>numToChar(32)</code> or the literal <code>" "</code>.
+Equal to `numToChar(32)` or the literal `" "`.
 
-<code><pre>
+```
 if theCharacter is space
 then exit checkActiveText
-</pre></code>
+```
 
 ### tab
 
-Equal to <code>numToChar(9)</code>.
+Equal to `numToChar(9)`.
 
-<code>write tab to file "My Info"</code>
+`write tab to file "My Info"`
 
 ### true
 
-The opposite of <code>false</code>; equal to the literal <code>"true"</code>.
+The opposite of `false`; equal to the literal `"true"`.
 
-<code><pre>
+```
 if the hilite of button 1 is true
 then unmark this card
-</pre></code>
+```
 
 ### up
 
-Equal to the literal <code>"up"</code>.
+Equal to the literal `"up"`.
 
-<code>if the mouse is up then exit repeat</code>
+`if the mouse is up then exit repeat`
 
 ### zero..ten
 
 Equal to the numbers 0 through 10.
 
-<code>go card one</code>
+`go card one`
 
 ### comma
 
-Equal to the character <code>","</code> (<code>numToChar = 44</code>)
+Equal to the character `","` (`numToChar = 44`)
 
-<code>read from file "Data" until comma</code>
+`read from file "Data" until comma`
 
 ### colon
 
-Equal to the character <code>":"</code> (<code>numToChar = 58</code>)
+Equal to the character `":"` (`numToChar = 58`)
 
-<code>set the itemDelimiter to colon</code>
+`set the itemDelimiter to colon`

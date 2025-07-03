@@ -5,26 +5,24 @@ card_id: 31855
 
 # choose
 
-<code><pre>
+```
 choose tool [ph:posInteger]
 choose [ph:toolName] tool
-</pre></code>
+```
 
+where `[ph:posInteger]` is between 1 and 18.
 
-where <code>[ph:posInteger]</code> is between 1 and 18.
+The `choose` command chooses the tool with the specified number or name from the Tools palette.
 
-The <code>choose</code> command chooses the tool with the specified number or name from the Tools palette.
+HyperCard sends the `choose` command to the current card when you choose a tool from the Tools menu.
 
-HyperCard sends the <code>choose</code> command to the current card when you choose a tool from the Tools menu.
+HyperCard passes the word [ph:tool] to the first parameter variable and the tool number to the second parameter variable. You can handle the `choose` command as follows:
 
-HyperCard passes the word [ph:tool] to the first parameter variable and the tool number to the second parameter variable. You can handle the <code>choose</code> command as follows:
-
-<code><pre>
+```
 on choose what, toolNumber
   [ph:statements]
 end choose
-</pre></code>
-
+```
 
 ## Examples
 

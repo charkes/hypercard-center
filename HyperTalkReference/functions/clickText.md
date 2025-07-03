@@ -5,14 +5,13 @@ card_id: 53775
 
 # clickText
 
-<code><pre>
+```
 the clickText
-</pre></code>
+```
 
 Value returned: text string equal to the word the user clicked  or the longest contiguous string of characters with the text style Group around the character that the user clicked
 
-The text style Group allows <code>the clickText</code> to extend beyond word boundaries. 
-
+The text style Group allows `the clickText` to extend beyond word boundaries.
 
 ## Examples
 
@@ -25,7 +24,7 @@ if it is not empty then go card it
 
 ## Demo Script
 
-<code><pre>
+```
 on clickDemo
   toggleActiveText true -- make sure grouped text is visible
   answer "Click any text in the Demo Script." & return & ¬
@@ -36,7 +35,7 @@ on clickDemo
   wait 1 second
   answer "The text that you clicked was  “" & it & "”."
 end clickDemo
-</pre></code>
+```
 
 ## Related Topics
 

@@ -44,14 +44,14 @@ A program's ID is its application signature:
 
 <b>Part</b> refers to a specific button or field in its ordinal position among all the buttons and fields in that domain:
 
-<code><pre>
+```
 select part 2
 if word 2 of name of part 1 is "button"...
 get the name of part 1
 set the partNumber of last part to 1
 put the number of parts into totalCardParts
 put the id of bg part 3 into field idList
-</pre></code>
+```
 
 If you don't specify a domain, the default domain is card.
 
@@ -59,10 +59,10 @@ If you don't specify a domain, the default domain is card.
 
 You can refer to an object using any of the following <b>ordinals</b>:
 
-<code><pre>
+```
 first through tenth
 middle, last, any
-</pre></code>
+```
 
 For example:
 
@@ -76,16 +76,16 @@ You can refer to some objects using any of the following <b>positions</b>:
 
 For example:
 
-<code><pre>
+```
 go to first card of this background
 go next card
-</pre></code>
+```
 
 ### me
 
 <b>Me</b> is one way to refer to an object dynamically.  It refers to the object that contains the currently executing handler. With buttons and fields, `me` refers to the object itself or to its contents, depending on the context. For example:
 
-<code><pre>
+```
 --In the script of a button:
 set the hilite of me to true -- the button
 get me -- the contents
@@ -94,7 +94,7 @@ get me -- the contents
 select text of me -- selects the field text
 select me -- selects the field itself
 put empty into me -- replaces the contents
-</pre></code>
+```
 
 ### target
 
@@ -102,9 +102,9 @@ The target is another way to refer to an object dynamically. It refers to the ob
 
 For example:
 
-<code><pre>
+```
 set the hilite of the target to true
 select the target --the btn or fld itself
 put target --the contents of the btn or fld
 put the target --the name of the btn or fld
-</pre></code>
+```

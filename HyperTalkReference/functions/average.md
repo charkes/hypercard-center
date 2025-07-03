@@ -5,10 +5,9 @@ card_id: 52417
 
 # average
 
-<code>average([ph:numberList])</code>
+`average([ph:numberList])`
 
-Value returned:  number equal to the arithmetic average of the comma- separated list of numbers 
-
+Value returned:  number equal to the arithmetic average of the comma-separated list of numbers
 
 ## Examples
 
@@ -23,8 +22,7 @@ put average(theNumbers)
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
 on onAverage
  repeat with numLine = 1 to the number of lines of me
    put the number of words of line numLine of me into¬
@@ -34,8 +32,7 @@ on onAverage
  "words in each line of this field." into sayIt
  answer sayIt
 end onAverage
-</pre></code>
-</pre></code>
+```
 
 ## Related Topics
 

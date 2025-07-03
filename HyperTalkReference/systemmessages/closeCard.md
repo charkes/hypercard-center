@@ -10,14 +10,13 @@ modified: yes
 
 Handler:
 
-<code><pre>
+```
 on closeCard
-   <i>statements</i>
+   [ph:statements]
 end closeCard
-</pre></code>
+```
 
-
-HyperCard sends the<code> closeCard </code>message to a card when a user (or script) goes to another card; deletes a card, background, or stack; or quits HyperCard.
+HyperCard sends the `closeCard` message to a card when a user (or script) goes to another card; deletes a card, background, or stack; or quits HyperCard.
 
 ## Placeholders
 

@@ -13,9 +13,9 @@ When run as a statement in a handler, <code>edit script</code> suspends executio
 
 Note: Even though HyperCard itself is an object (it can receive messages), it does <u>not</u> have a script. The following statement yields an error:
 
-<code><pre>
+```
 edit the script of HyperCard
-</pre></code>
+```
 
 For this command to work, the <code>userLevel</code> property must be set to 5.
 
@@ -33,13 +33,13 @@ edit script of this stack
 
 ## Demo Script
 
-<code><pre>
+```
 on openScriptWindow
   set the script of bkgnd field "Demo Script" to¬
   "-- Click the close box to close this script window!"
   <b>edit</b> script of bkgnd field "Demo Script"
 end openScriptWindow
-</pre></code>
+```
 
 ## Related Topics
 

@@ -10,14 +10,13 @@ modified: yes
 
 Handler:
 
-<code><pre>
+```
 on closeBackground
-   <i>statements</i>
+   [ph:statements]
 end closeBackground
-</pre></code>
+```
 
-
-HyperCard sends the<code> closeBackground</code> message to the current card when a user (or handler) quits HyperCard, goes to a card whose background is different from the background of the current card, and when a background or stack is deleted.
+HyperCard sends the `closeBackground` message to the current card when a user (or handler) quits HyperCard, goes to a card whose background is different from the background of the current card, and when a background or stack is deleted.
 
 ## Placeholders
 

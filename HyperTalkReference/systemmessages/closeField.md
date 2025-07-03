@@ -6,27 +6,26 @@ modified: yes
 
 # closeField
 
-<code>closeField</code><br>
-<br>
-Handler:<br>
-<br>
-<code><pre>
-on closeField
-    <i>statements</i>
-end closeField
-</pre></code>
+`closeField`
 
-<br>
-HyperCard sends the<code> closeField </code>message to an unlocked field when, after editing, a user (or handler) performs an action that closes (that is, removes the insertion point from) the field. HyperCard sends<code> closeField </code>only when the text actually changes.<br>
-<br>
-The following actions close a field, saving any changes that were made to the text:<br>
-<br>
-* Clicking outside the field<br>
-* Moving the insertion point    to the next field with the Tab key<br>
-* Pressing the Enter key<br>
-* Pressing Command-Shift-Z to revert    the field to the last saved version<br>
-* Going to another card<br>
-* Quitting HyperCard<br>
+Handler:
+
+```
+on closeField
+    [ph:statements]
+end closeField
+```
+
+HyperCard sends the `closeField` message to an unlocked field when, after editing, a user (or handler) performs an action that closes (that is, removes the insertion point from) the field. HyperCard sends `closeField` only when the text actually changes.
+
+The following actions close a field, saving any changes that were made to the text:
+
+* Clicking outside the field
+* Moving the insertion point to the next field with the Tab key
+* Pressing the Enter key
+* Pressing Command-Shift-Z to revert the field to the last saved version
+* Going to another card
+* Quitting HyperCard
 
 ## Placeholders
 

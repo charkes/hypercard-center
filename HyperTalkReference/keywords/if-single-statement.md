@@ -6,23 +6,22 @@ modified: yes
 
 # if (single-statement)
 
-<code><pre>
-if <i>trueOrFalse</i> then <i>statements</i> ¬
-   [else <i>statements</i>]
+```
+if [ph:trueOrFalse] then [ph:statements] ¬
+   [else [ph:statements]]
 
-if <i>trueOrFalse</i>
-then <i>statements</i>
-[else if <i>trueOrFalse</i>
-then <i>statements</i>]
-[else <i>statements</i>]
-</pre></code>
+if [ph:trueOrFalse]
+then [ph:statements]
+[else if [ph:trueOrFalse]
+then [ph:statements]]
+[else [ph:statements]]
+```
 
-<br>
-The single-statement<code> if </code>structure tests for a condition and executes <b>one</b> statement if the condition is true. You use the optional<code> else if </code>or<code> else </code>form to run other  blocks of code in case the  condition following<code> if </code>is false.<br>
-<br>
-Because each part of a simple<code> if </code>structure is limited to one statement, you don't need an<code> end if </code>statement.<br>
-<br>
-You can send a one-line <code>if </code>structure from the Message box.<br>
+The single-statement `if` structure tests for a condition and executes <b>one</b> statement if the condition is true. You use the optional `else if` or `else` form to run other  blocks of code in case the  condition following `if` is false.
+
+Because each part of a simple `if` structure is limited to one statement, you don't need an `end if` statement.
+
+You can send a one-line `if` structure from the Message box.
 
 ## Examples
 
@@ -30,12 +29,12 @@ You can send a one-line <code>if </code>structure from the Message box.<br>
 if it is empty then exit myHandler
 
 ask file "Save information to file:"
-if it is empty then exit myHandler 
+if it is empty then exit myHandler
 else saveFile it
 
 ask file "Save information to file:"
-if it is empty 
-then exit myHandler 
+if it is empty
+then exit myHandler
 else saveFile it
 ```
 

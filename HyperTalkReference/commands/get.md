@@ -5,14 +5,14 @@ card_id: 38686
 
 # get
 
-<code><pre>
+```
 get [ph:expression]
 get [the] [ph:property] [of [ph:object]
-</pre></code>
+```
 
-The <code>get</code> command puts the value of any expression or property into the local variable <code>it</code>.   
+The `get` command puts the value of any expression or property into the local variable `it`.   
 
-That is, <code>get [ph:expression]</code> is the same as <code>put [ph:expression] into it</code>
+That is, `get [ph:expression]` is the same as `put [ph:expression] into it`
 
 ## Examples
 
@@ -29,12 +29,12 @@ if it < 3 then ...
 
 ## Demo Script
 
-<code><pre>
+```
 on getNumChars
  <b>get</b> the number of characters in bkgnd field "Demo Script"
  answer "This demo script contains" && it && "characters."
 end getNumChars
-</pre></code>
+```
 
 ## Related Topics
 

@@ -5,12 +5,11 @@ card_id: 56722
 
 # foundText
 
-<code><pre>
+```
 the foundText
-</pre></code>
+```
 
-Value returned: a string equal to the characters enclosed in the box after the most recent <code>find</code> command has located its target string. If nothing was found, it returns<code> empty</code>. 
-
+Value returned: a string equal to the characters enclosed in the box after the most recent `find` command has located its target string. If nothing was found, it returns `empty`.
 
 ## Examples
 
@@ -29,15 +28,13 @@ end if
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
 on foundTextDemo
  set cursor to watch
  find string "TextDemo" in field "Demo Script"
  answer "The foundText is “" & the <b>foundText</b> & "”."
 end foundTextDemo
-</pre></code>
-</pre></code>
+```
 
 ## Related Topics
 

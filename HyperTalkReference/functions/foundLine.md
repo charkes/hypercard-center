@@ -5,25 +5,22 @@ card_id: 56528
 
 # foundLine
 
-<code><pre>
+```
 the foundLine
-</pre></code>
+```
 
-Value returned: a line expression equal to the line of a field where the most recent <code>find</code> command located its target string. If nothing was found, it returns<code> empty</code>.  
+Value returned: a line expression equal to the line of a field where the most recent `find` command located its target string. If nothing was found, it returns `empty`.  
 
 The line expression has the following form:
 
-<code><pre>
+```
 line [ph:i] of card field [ph:n]
-line [ph:i] of bkgnd field <i>n
-</pre></code>
+line [ph:i] of bkgnd field [ph:n]
+```
 
-</i> 
+where `[ph:i]` is the line number and `[ph:n]` is the number of the field.
 
-where <code>[ph:i]</code> is the line number and<code> [ph:n] </code>is the number of the field.
-
-Note: A return character determines a line, not the line wrap. A line that wraps and is displayed as two lines is treated as one line by HyperTalk. 
-
+Note: A return character determines a line, not the line wrap. A line that wraps and is displayed as two lines is treated as one line by HyperTalk.
 
 ## Examples
 
@@ -38,7 +35,7 @@ select word 1 to 2 of the foundLine
 
 ## Demo Script
 
-<code><pre>
+```
 on foundLineDemo
   set cursor to watch
   find string "on foundLineDemo"
@@ -46,7 +43,7 @@ on foundLineDemo
   & return & "The value of the foundLine is “" &¬
   the value of the <b>foundLine</b> & "”."
 end foundLineDemo
-</pre></code>
+```
 
 ## Related Topics
 

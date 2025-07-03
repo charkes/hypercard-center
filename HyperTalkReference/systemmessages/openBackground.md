@@ -5,20 +5,19 @@ card_id: 22993
 
 # openBackground
 
-<code><pre>
+```
 openBackground
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on openBackground
   [ph:statements]
 end openBackground
-</pre></code>
+```
 
-HyperCard sends the <code>openBackground</code> message to the current card just after a user (or script) goes to a card whose background differs from the background of the most recent card. 
-
+HyperCard sends the `openBackground` message to the current card just after a user (or script) goes to a card whose background differs from the background of the most recent card.
 
 ## Related Topics
 

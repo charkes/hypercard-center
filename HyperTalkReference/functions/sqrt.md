@@ -5,12 +5,11 @@ card_id: 65137
 
 # sqrt
 
-<code><pre>
+```
 the sqrt of [ph:number]
-</pre></code>
+```
 
-Value returned: a number equal to the square root of<code> [ph:number</code>].  If<code> [ph:number] </code>is negative, <code>sqrt</code> returns <code>NAN(001)</code>, which means “not a number.” 
-
+Value returned: a number equal to the square root of `[ph:number]`.  If `[ph:number]` is negative, `sqrt` returns `NAN(001)`, which means “not a number.”
 
 ## Examples
 

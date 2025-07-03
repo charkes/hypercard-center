@@ -6,36 +6,35 @@ modified: yes
 
 # number
 
-<code><pre>
+```
 the number of [card] {buttons|parts}
 the number of bkgnd {buttons|parts}
 the number of card fields
 the number of [bkgnd] fields
 
-the number of marked cards the number of cards [in <i>bkgnd</i>] ¬
+the number of marked cards the number of cards [in [ph:bkgnd]] ¬
    [of this stack]
 the number of bkgnds [of this stack]
 
 the number of windows
 the number of menus
-the number of menuItems of <i>menu</i>
-the number of <i>chunks</i> in <i>expression</i>
-</pre></code>
-
+the number of menuItems of [ph:menu]
+the number of [ph:chunks] in [ph:expression]
+```
 
 Values returned: A non-negative integer equal to one of the following:
 
-* total number of buttons <u>or</u> fields      on the current card or background
+* total number of buttons <u>or</u> fields on the current card or background
 
-* total number of parts (buttons <u>and</u>      fields combined) on the current card      or background
+* total number of parts (buttons <u>and</u> fields combined) on the current card      or background
 
-* total number of marked cards,      cards in a specific background,      cards in an entire stack, or      backgrounds in a stack
+* total number of marked cards, cards in a specific background, cards in an entire stack, or backgrounds in a stack
 
-*  number of all the windows     (including built-in palettes and     external windows) in HyperCard
+*  number of all the windows (including built-in palettes and external windows) in HyperCard
 
-*  number of menus in the     menu bar or the number of menu     items in a specified menu
+*  number of menus in the menu bar or the number of menu items in a specified menu
 
-*  total number of characters,     words, items, or lines in the value    of any HyperTalk expression (treated    as text)
+*  total number of characters, words, items, or lines in the value of any HyperTalk expression (treated as text)
 
 ## Examples
 
@@ -52,7 +51,7 @@ the number of cards
 the number of cards of this background
 the number of backgrounds
 the number of parts
-the number of background parts 
+the number of background parts
 
 -- Count the number of chunks in text (including containers):
 the number of chars in card field 2
@@ -70,14 +69,14 @@ end repeat
 
 ## Demo Script
 
-<code><pre>
+```
 on numberOfChunks
   get bkgnd field "Demo Script"
   answer "There are" && the <b>number</b> of lines in it && ¬
   "lines and" && the <b>number</b> of words in it && "words and" && ¬
   the <b>number</b> of characters in it && "characters in this handler."
 end numberOfChunks
-</pre></code>
+```
 
 ## Placeholders
 

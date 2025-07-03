@@ -5,21 +5,21 @@ card_id: 38567
 
 # functionKey
 
-<code>functionKey [ph:posInteger]</code>
+`functionKey [ph:posInteger]`
 
-Note: <code>[ph:posInteger]</code> must yield a number between 1 and 15.
+Note: `[ph:posInteger]` must yield a number between 1 and 15.
 
-HyperCard sends the <code>functionKey</code> command to the current card when the user presses one of the function keys on the Apple Extended Keyboard.
+HyperCard sends the `functionKey` command to the current card when the user presses one of the function keys on the Apple Extended Keyboard.
 
-The <code>functionKey</code> command performs an undo, cut, copy, or paste for the values 1 through 4. Integer values 5 through 15 have no built-in effect.
+The `functionKey` command performs an undo, cut, copy, or paste for the values 1 through 4. Integer values 5 through 15 have no built-in effect.
 
-You can handle the <code>functionKey</code> message as follows:
+You can handle the `functionKey` message as follows:
 
-<code><pre>
+```
 on functionKey whichKey
   [ph:statements]
 end functionKey
-</pre></code>
+```
 
 ## Examples
 

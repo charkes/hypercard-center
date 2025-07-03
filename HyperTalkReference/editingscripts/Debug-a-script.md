@@ -12,7 +12,7 @@ To debug a handler, follow these steps:
 
 1. Open the script that contains the message or function handler you want to debug.
 
-2. Click to place the insertion point on the line with the <code>on</code> or <code> function</code> statement that defines the handler. <br><br> Or, depending on where you want to start, place the insertion point on any statement of the handler that is not a comment.
+2. Click to place the insertion point on the line with the `on` or ` function` statement that defines the handler. <br><br> Or, depending on where you want to start, place the insertion point on any statement of the handler that is not a comment.
 
 3. Choose Set Checkpoint from the Script menu (or press Command-D) to set a temporary checkpoint. <br><br> A checkpoint tells HyperTalk where you want to start watching the script as it runs.
 

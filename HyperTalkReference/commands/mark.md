@@ -5,7 +5,7 @@ card_id: 41060
 
 # mark
 
-<code><pre>
+```
 mark all cards
 mark [ph:card]
 mark cards where [ph:trueOrFalse]
@@ -19,13 +19,13 @@ mark cards by finding whole ¬
      [international] [ph:text] [in [ph:field]]
 mark cards by finding string ¬
      [international] [ph:text] [in [ph:field]]
-</pre></code>
+```
 
-The <code>mark</code> command sets the <code>marked</code> property of the specified cards to <code>true</code>.  You can operate on the set of marked cards with commands such as <code>print</code>, <code>go</code>, <code>show</code>, and <code>sort</code>.
+The `mark` command sets the `marked` property of the specified cards to `true`.  You can operate on the set of marked cards with commands such as `print`, `go`, `show`, and `sort`.
 
-<code>Mark cards where</code> evaluates the given expression for every card in the stack. If its value is <code>true</code>, the card is marked.
+`Mark cards where` evaluates the given expression for every card in the stack. If its value is `true`, the card is marked.
 
-<code>Mark cards by finding</code> marks cards using the same mechanism as the <code>find</code> command. It marks cards very quickly.
+`Mark cards by finding` marks cards using the same mechanism as the `find` command. It marks cards very quickly.
 
 ## Examples
 

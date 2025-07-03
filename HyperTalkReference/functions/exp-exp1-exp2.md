@@ -5,24 +5,21 @@ card_id: 55719
 
 # exp, exp1, exp2
 
-<code><pre>
+```
 the exp of [ph:number]
 the exp1 of [ph:number]
 the exp2 of [ph:number]
-</pre></code>
+```
 
-Values returned:  <code><pre>
-</pre></code>
+Values returned:
 
-<code>exp </code>returns a number equal to  the constant <code>e</code> raised to the power of<code> [ph:number</code>].    <code><pre>
-</pre></code>
+`exp` returns a number equal to  the constant `e` raised to the power of `[ph:number]`.
 
-<code>exp1 </code>returns a number equal to 1 less than <code>e</code> raised to the power of<code> [ph:number</code>]. 
+`exp1` returns a number equal to 1 less than `e` raised to the power of `[ph:number]`.
 
-<code>exp2 </code>returns a number equal to 2 raised to the power of<code> [ph:number</code>]. 
+`exp2` returns a number equal to 2 raised to the power of `[ph:number]`.
 
-Note: <code>e</code> ≈<code> 2.7182818</code> 
-
+Note: `e` ≈ `2.7182818`
 
 ## Examples
 

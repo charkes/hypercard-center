@@ -5,14 +5,13 @@ card_id: 95475
 
 # windows
 
-<code><pre>
+```
 the windows
-</pre></code>
+```
 
 Value returned: a return-separated list of the names of all the windows (including built-in palettes) in front-to-back order
 
-If the <code>longWindowTitles</code> is true, <code>the windows</code> returns full path names for windows that contain stacks. 
-
+If the `longWindowTitles` is true, `the windows` returns full path names for windows that contain stacks. 
 
 ## Examples
 
@@ -24,9 +23,8 @@ else go stack "Home"
 
 ## Demo Script
 
-<code><pre>
+```
 on whatWindows
   answer "The windows are:" & return & return & the windows
 end whatWindows
-</pre></code>
-
+```

@@ -5,12 +5,11 @@ card_id: 51285
 
 # abs
 
-<code><pre>
+```
 the abs of [ph:number]
-</pre></code>
+```
 
-Value returned:  number equal to the absolute value of<code> [ph:number</code>] 
-
+Value returned: number equal to the absolute value of `[ph:number]`
 
 ## Examples
 

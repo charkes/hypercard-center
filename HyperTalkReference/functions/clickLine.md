@@ -5,18 +5,17 @@ card_id: 53252
 
 # clickLine
 
-<code><pre>
+```
 the clickLine
-</pre></code>
+```
 
 Value returned: line chunk expression equal to the line that the user  clicked or, if the text has been grouped,  the first line of the longest range of lines with the text style Group around the character that the user clicked
 
-The text style Group allows <code>the clickLine</code> to extend beyond one line. 
+The text style Group allows `the clickLine` to extend beyond one line.
 
 The chunk expression returned has the following form:
 
-<code>line [ph:posInteger] of [ph:container</code>] 
-
+`line [ph:posInteger] of [ph:container]` 
 
 ## Examples
 
@@ -31,7 +30,7 @@ put the textStyle of the clickLine into theStyle
 
 ## Demo Script
 
-<code><pre>
+```
 on clickDemo
   answer "Click any line of the Demo Script."
   wait until the mouseClick
@@ -40,7 +39,7 @@ on clickDemo
   wait 1 second
   answer "The clickline is:" & return & it & return
 end clickDemo
-</pre></code>
+```
 
 ## Related Topics
 

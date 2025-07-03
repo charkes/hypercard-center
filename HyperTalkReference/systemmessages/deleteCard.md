@@ -5,22 +5,21 @@ card_id: 18888
 
 # deleteCard
 
-<code><pre>
+```
 deleteCard
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on deleteCard
   [ph:statements]
 end deleteCard
-</pre></code>
+```
 
-HyperCard sends the <code>deleteCard</code> message to a card that is being deleted just before the card disappears. 
+HyperCard sends the `deleteCard` message to a card that is being deleted just before the card disappears.
 
-Note:  You cannot stop a card from being deleted by trapping the <code>deleteCard </code>message. Instead, you must handle the <code>doMenu</code> message or set the <code>cantDelete</code> property for the card. 
-
+Note:  You cannot stop a card from being deleted by trapping the `deleteCard` message. Instead, you must handle the `doMenu` message or set the `cantDelete` property for the card. 
 
 ## Related Topics
 

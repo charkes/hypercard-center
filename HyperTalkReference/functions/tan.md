@@ -5,14 +5,13 @@ card_id: 65714
 
 # tan
 
-<code><pre>
+```
 the tan of [ph:number]
-</pre></code>
+```
 
-Value returned: a number equal to the trigonometric tangent of <code>[ph:number]</code> expressed in radians
+Value returned: a number equal to the trigonometric tangent of `[ph:number]` expressed in radians
 
 Note: There are 2 * pi radians in 360 degrees. 
-
 
 ## Examples
 

@@ -5,24 +5,23 @@ card_id: 24386
 
 # resumeStack
 
-<code><pre>
+```
 resumeStack
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on resumeStack
   [ph:statements]
 end resumeStack
-</pre></code>
+```
 
-HyperCard sends the <code>resumeStack</code> message to the current card when the stack’s window becomes active after being inactive (for example, when the user clicks in a window). 
+HyperCard sends the `resumeStack` message to the current card when the stack’s window becomes active after being inactive (for example, when the user clicks in a window).
 
-HyperCard sends<code> resumeStack </code>only when it is displaying more than one stack.
+HyperCard sends `resumeStack` only when it is displaying more than one stack.
 
-<b>Important</b>: HyperCard does not send <code>resumeStack</code> when the user switches to HyperCard from another layer under MultiFinder. (Click Related Topics for more information about the property<code> the suspended</code>.) 
-
+<b>Important</b>: HyperCard does not send `resumeStack` when the user switches to HyperCard from another layer under MultiFinder. (Click Related Topics for more information about the property `the suspended`.)
 
 ## Related Topics
 

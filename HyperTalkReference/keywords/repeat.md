@@ -6,22 +6,21 @@ modified: yes
 
 # repeat
 
-<code><pre>
+```
 repeat [forever]
-   <i>statements</i>
+   [ph:statements]
 end repeat
-</pre></code>
+```
 
-<br>
-The<code> </code>statements in a <code>repeat forever </code>structure repeat continuously.<br>
-<br>
-If HyperCard executes an<code> exit repeat </code>statement in the<code> </code>loop, it continues running the handler starting from the first statement after<code> end repeat</code>.<br>
-<br>
-If HyperCard executes a <code> next repeat </code>statement, it returns immediately to the beginning of the<code> repeat </code>loop.<br>
+The statements in a `repeat forever` structure repeat continuously.
+
+If HyperCard executes an `exit repeat` statement in the loop, it continues running the handler starting from the first statement after `end repeat`.
+
+If HyperCard executes a `next repeat` statement, it returns immediately to the beginning of the `repeat` loop.
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   show bkgnd field "demo field"
   put return & "    Click the mouse to stop counting..." ¬
@@ -39,7 +38,7 @@ on mouseUp
   hide bkgnd field "demo field"
   put empty into bkgnd field "demo field"
 end mouseUp
-</pre></code>
+```
 
 ## Placeholders
 

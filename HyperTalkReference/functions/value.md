@@ -5,23 +5,17 @@ card_id: 67163
 
 # value
 
-<code><pre>
+```
 the value of [ph:expression]
-</pre></code>
+```
 
 Value returned: the value of the expression after HyperTalk evaluates it
 
+There is no limit to the number of characters that `the value` can have as its argument.
 
-There is no limit to the number of characters that <code>the value </code>can have as its argument. 
+When the argument of `value` is a multitoken literal expression, the expression evaluates to itself:
 
-
-
-When the argument of <code>value</code> is a multitoken literal expression, the expression evaluates to itself:
-
-  <code>put value("HyperCard 2.2")
-
-</code>yields<code> HyperCard 2.2</code> 
-
+`put value("HyperCard 2.2")` yields `HyperCard 2.2`
 
 ## Examples
 
@@ -34,7 +28,7 @@ the value of ("3" & "+2") -- returns 5
 
 ## Demo Script
 
-<code><pre>
+```
 on talkAboutValue
   select last line of me
   answer "The last line of field “Demo Script” is:" & return &&¬
@@ -44,7 +38,7 @@ on talkAboutValue
 end talkAboutValue
 
 2 * (3 + 6)/4
-</pre></code>
+```
 
 ## Related Topics
 

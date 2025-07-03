@@ -5,12 +5,11 @@ card_id: 57200
 
 # length
 
-<code><pre>
+```
 the length of [ph:expression]
-</pre></code>
+```
 
 Value returned: the number of characters in the value of the expression 
-
 
 ## Examples
 
@@ -27,14 +26,12 @@ length of (3+2) -- returns 1
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
 on lengthOfMe
  put the <b>length</b> of bkgnd field "Demo Script" into numChars
  answer "This demo script contains" && numChars && "characters."
 end lengthOfMe
-</pre></code>
-</pre></code>
+```
 
 ## Related Topics
 

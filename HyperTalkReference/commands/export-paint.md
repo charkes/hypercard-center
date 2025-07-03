@@ -5,13 +5,13 @@ card_id: 36906
 
 # export paint
 
-<code>export paint to file [ph:fileName]</code>
+`export paint to file [ph:fileName]`
 
-The <code>export paint</code> command saves a Paint image of the current card to the specified file. <code>Export paint</code> works only when one of the Paint tools is chosen.
+The `export paint` command saves a Paint image of the current card to the specified file. `Export paint` works only when one of the Paint tools is chosen.
 
 This command has the same effect as the Export Paint menu item that appears in the File menu (when a Paint tool is chosen), except that it avoids the dialog box that prompts the user for a file name.
 
-If <code>export paint</code> succeeds, HyperCard sets the function <code>the result</code> to <code>empty</code>; if the command fails (if, for example, you use<code> export paint</code> when the Browse tool is chosen), HyperCard sets <code>the result</code> to <code>"Couldn't export paint."</code>
+If `export paint` succeeds, HyperCard sets the function `the result` to `empty`; if the command fails (if, for example, you use` export paint` when the Browse tool is chosen), HyperCard sets `the result` to `"Couldn't export paint."`
 
 ## Examples
 

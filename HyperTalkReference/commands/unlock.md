@@ -5,24 +5,24 @@ card_id: 50046
 
 # unlock
 
-<code><pre>
+```
 unlock {screen|messages|recent}
 unlock error dialogs
 unlock screen with [ph:effect] [[ph:speed]] ¬
         [to [ph:image]]
 unlock screen with visual [effect] ¬
         [ph:effect] [[ph:speed]] [to [ph:image]]
-</pre></code>
+```
 
-<code>Unlock screen</code> lets HyperCard update the screen after a <code>lock screen</code> command. (Click the placeholders <code>[ph:effect], [ph:speed],</code> and<code> [ph:image]</code> to see their possible replacements.)
+`Unlock screen` lets HyperCard update the screen after a `lock screen` command. (Click the placeholders `[ph:effect]`, `[ph:speed]`, and `[ph:image]` to see their possible replacements.)
 
 Optionally, you can add a single visual effect. You can lock the screen, perform actions on the card, and then unlock the screen with a visual effect.
 
-<code>Unlock messages</code> lets <code>open, close, suspend,</code> and <code>resume</code> messages traverse the message-passing path.
+`Unlock messages` lets `open`, `close`, `suspend`, and `resume` messages traverse the message-passing path.
 
-<code>Unlock recent</code> lets HyperCard keep a visual record of visited cards in the Recent Cards dialog box.
+`Unlock recent` lets HyperCard keep a visual record of visited cards in the Recent Cards dialog box.
 
-<code>Unlock error dialogs</code> lets HyperCard show error dialog boxes when an error occurs.
+`Unlock error dialogs` lets HyperCard show error dialog boxes when an error occurs.
 
 ## Examples
 
@@ -46,7 +46,7 @@ unlock messages
 
 ## Demo Script
 
-<code><pre>
+```
 on lockUnlockDemo
    -- Show and hide this field with visual effects:
    set cursor to watch
@@ -58,7 +58,7 @@ on lockUnlockDemo
    show field "Demo Script"
    unlock screen with stretch from center
 end lockUnlockDemo
-</pre></code>
+```
 
 ## Related Topics
 

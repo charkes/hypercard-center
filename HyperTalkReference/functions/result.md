@@ -5,30 +5,30 @@ card_id: 62431
 
 # result
 
-<code><pre>
-the result 
-</pre></code>
+```
+the result
+```
 
-Values returned: 
+Values returned:
 
-• the value set by a <code>return</code> keyword     during the execution of  a message
+* the value set by a `return` keyword during the execution of a message
 
-• <code>empty </code>if most<code> </code>commands succeed;      otherwise, a message string 
+* `empty` if most commands succeed; otherwise, a message string
 
-In handlers, it’s usually best to test a command with an expression such as <code><pre>
+In handlers, it’s usually best to test a command with an expression such as
 
+```
 if the result is not empty then ...
-</pre></code>
+```
 
 That way, the handler doesn’t rely on the specific value of a string.
 
-Click Related Topics for more information about the value returned by <code>the result</code> for each command. 
-
+Click Related Topics for more information about the value returned by `the result` for each command. 
 
 ## Examples
 
 ```
-go card "ZZ" 
+go card "ZZ"
 if the result is not empty then ... -- didn't go there
 
 find "XZZ" in field "Title"
@@ -37,16 +37,16 @@ if the result is not empty then ... -- didn't find it
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
+```
 on resultDemo
  find "Pat, Jim, Eric, and Eli" in bkgnd field "title"
  answer "Pat, Jim, Eric, Eli:" && the <b>result</b>
  go to card "Pat, Jim, Eric, and Eli"
  answer "Pat, Jim, Eric, and Eli:" && the <b>result</b>
 end resultDemo
-</pre></code>
-</pre></code>
+```
+```
 
 ## Related Topics
 

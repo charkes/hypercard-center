@@ -5,12 +5,11 @@ card_id: 60292
 
 # numToChar
 
-<code><pre>
-the numToChar of [ph:posInteger] 
-</pre></code>
+```
+the numToChar of [ph:posInteger]
+```
 
-Value returned: the character whose ASCII equivalent equals<code> [ph:posInteger</code>] 
-
+Value returned: the character whose ASCII equivalent equals `[ph:posInteger]`
 
 ## Examples
 
@@ -23,8 +22,7 @@ put charToNum(numToChar(65)) = 65
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
 on nameUpperCase
  ask "Please enter your name:"
  if it is empty then exit nameUpperCase
@@ -38,8 +36,7 @@ function upperCase whatStr
  end repeat
  return whatStr
 end upperCase
-</pre></code>
-</pre></code>
+```
 
 ## Related Topics
 

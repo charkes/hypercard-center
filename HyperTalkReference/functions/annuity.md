@@ -5,17 +5,15 @@ card_id: 51607
 
 # annuity
 
-<code>annuity([ph:number1], [ph:number2])</code>
+`annuity([ph:number1], [ph:number2])`
 
-where <code>[ph:number1]</code> represents the  <b>interest rate</b> (expressed as a decimal)  and <code>[ph:number2]</code> represents the number of <b>periods</b> over which you receive annuity payments.
+where `[ph:number1]` represents the <b>interest rate</b> (expressed as a decimal)  and `[ph:number2]` represents the number of <b>periods</b> over which you receive annuity payments.
 
-Value returned: the total cost of an annuity now that will pay you one unit per period over the specified number of periods, or a number equal to <code>(1 - (1 + rate) ^ -periods) / rate</code>
-
+Value returned: the total cost of an annuity now that will pay you one unit per period over the specified number of periods, or a number equal to `(1 - (1 + rate) ^ -periods) / rate`
 
 An interest rate involves a certain percentage (expressed as a decimal) per some unit of time—usually per year. You must use the same unit of time to measure the number of periods.
 
-For example, if you have a yearly percentage rate but your annuity pays you monthly, use <code>rate / 12,</code> and be sure to express the number of periods as months (2 years = 24 months). 
-
+For example, if you have a yearly percentage rate but your annuity pays you monthly, use `rate / 12,` and be sure to express the number of periods as months (2 years = 24 months).
 
 ## Examples
 

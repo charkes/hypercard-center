@@ -5,7 +5,7 @@ card_id: 47503
 
 # set
 
-<code><pre>
+```
 set [the] [ph:property] to [ph:expression]
 set [the] [ph:property] of [ph:object] ¬
      to [ph:expression]
@@ -15,11 +15,11 @@ set [the] property of [[ph:menuItem] of] ¬
     [ph:menu] to [ph:expression]
 set [the] [ph:property] of [ph:chunk] ¬
     of [ph:field] to [ph:expression]
-</pre></code>
+```
 
-Note: <code>[ph:expression]</code> must yield a valid setting for the specified property.
+Note: `[ph:expression]` must yield a valid setting for the specified property.
 
-The <code>set</code> command changes the state of a specified property. If the object or element to which the property belongs is not specified, the property must be a global property or painting property.
+The `set` command changes the state of a specified property. If the object or element to which the property belongs is not specified, the property must be a global property or painting property.
 
 You can use the Info dialog box of an object to set many of its properties.
 
@@ -44,7 +44,7 @@ set the visible of menuBar to false
 
 ## Demo Script
 
-<code><pre>
+```
 on madScroller
   put the rect of card window into theRect
   <b>set</b> the rect of card window to left of cd window,top of cd window,¬
@@ -56,7 +56,7 @@ on madScroller
   end repeat
   <b>set</b> the rect of card window to theRect
 end madScroller
-</pre></code>
+```
 
 ## Related Topics
 

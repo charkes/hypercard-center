@@ -5,12 +5,11 @@ card_id: 60426
 
 # offset
 
-<code><pre>
+```
 offset([ph:text1], [ph:text2])
-</pre></code>
+```
 
-Value returned: the number 0 if <code>[ph:text1]</code> does not appear in<code> [ph:text2</code>]; otherwise, a positive integer equal to the number of characters from the first character of <code>[ph:text2]</code> to the first character of <code>[ph:text1]</code> within<code> [ph:text2</code>] 
-
+Value returned: the number 0 if `[ph:text1]` does not appear in `[ph:text2]`; otherwise, a positive integer equal to the number of characters from the first character of `[ph:text2]` to the first character of `[ph:text1]` within `[ph:text2]` 
 
 ## Examples
 
@@ -26,8 +25,7 @@ else ...
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
 on answerDiskName
  answer "This stack resides on the disk named" && diskName() & "."
 end answerDiskName
@@ -39,8 +37,7 @@ function diskName thelongName
  -- return word before the first “:”
  return char 1 to <b>offset</b>(":",theLongName) - 1 of theLongName
 end diskName
-</pre></code>
-</pre></code>
+```
 
 ## Related Topics
 

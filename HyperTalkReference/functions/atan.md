@@ -5,14 +5,13 @@ card_id: 52019
 
 # atan
 
-<code><pre>
+```
 the atan of [ph:number]
-</pre></code>
+```
 
-Value returned:  number equal to the trigonometric arc tangent of <code>[ph:number]</code> expressed in radians
+Value returned: number equal to the trigonometric arc tangent of `[ph:number]` expressed in radians
 
-Note: There are 2 * pi radians in 360 degrees. 
-
+Note: There are 2 * pi radians in 360 degrees.
 
 ## Examples
 

@@ -5,10 +5,9 @@ card_id: 57627
 
 # max
 
-<code>max([ph:numberList])</code>
+`max([ph:numberList])`
 
-Value returned:  the highest-valued number from the comma-separated list of numbers 
-
+Value returned: the highest-valued number from the comma-separated list of numbers 
 
 ## Examples
 

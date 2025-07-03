@@ -5,20 +5,19 @@ card_id: 24600
 
 # startUp
 
-<code><pre>
+```
 startUp
-</pre></code>
+```
 
 Handler:
 
-<code><pre>
+```
 on startUp
   [ph:statements]
 end startUp
-</pre></code>
+```
 
-HyperCard sends the <code>startUp</code> message to the first card displayed when HyperCard is first started. 
-
+HyperCard sends the `startUp` message to the first card displayed when HyperCard is first started. 
 
 ## Related Topics
 

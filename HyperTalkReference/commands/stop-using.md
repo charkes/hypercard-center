@@ -5,9 +5,9 @@ card_id: 48929
 
 # stop using
 
-<code>stop using [ph:stack]</code>
+`stop using [ph:stack]`
 
-The <code>stop using</code> command removes a stack from the message-passing order. Handlers in the stack script of the removed stack will no longer be available for use to the current stack. 
+The `stop using` command removes a stack from the message-passing order. Handlers in the stack script of the removed stack will no longer be available for use to the current stack.
 
 ## Examples
 

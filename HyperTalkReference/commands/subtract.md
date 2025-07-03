@@ -5,24 +5,24 @@ card_id: 49191
 
 # subtract
 
-<code><pre>
+```
 subtract [ph:number] from [[ph:chunk] of] ¬
           [ph:container]
-</pre></code>
+```
 
-where <code>[ph:container]</code> or <code>[ph:chunk]</code> must contain a number.
+where `[ph:container]` or `[ph:chunk]` must contain a number.
 
-The <code>subtract</code> command subtracts <code>[ph:number]</code> from the specified container (or chunk) and puts the result into the container (or chunk), replacing what was there.
+The `subtract` command subtracts `[ph:number]` from the specified container (or chunk) and puts the result into the container (or chunk), replacing what was there.
 
-(You can use the <code>is a</code> operator to see if the container is a number.)
+(You can use the `is a` operator to see if the container is a number.)
 
 For example, if you say
 
-<code><pre>
+```
 subtract 3 from theTotal
-</pre></code>
+```
 
-and <code>theTotal</code> previously held 7, it will now hold 4.
+and `theTotal` previously held 7, it will now hold 4.
 
 ## Examples
 

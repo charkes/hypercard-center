@@ -6,20 +6,19 @@ modified: yes
 
 # on
 
-<code><pre>
-on <i>messageName</i> [<i>parameterList</i>]
-    <i>statements</i>
-end <i>messageName</i>
-</pre></code>
+```
+on [ph:messageName] [[ph:parameterList]]
+    [ph:statements]
+end [ph:messageName]
+```
 
-<br>
-The<code> on </code>keyword defines a new message handler of the specified name.<br>
-<br>
-The optional<code> <i>parameterList</i> </code>lets the handler receive values sent along with a message. HyperCard assigns each value to a parameter variable in the<code> <i>parameterList</i></code>.<br>
+The `on` keyword defines a new message handler of the specified name.
+
+The optional `[ph:parameterList]` lets the handler receive values sent along with a message. HyperCard assigns each value to a parameter variable in the `[ph:parameterList]`.
 
 ## Demo Script
 
-<code><pre>
+```
 <b>on</b> mouseUp
   flashTheButton "bkgnd btn id 57",2
 <b>end</b> mouseUp
@@ -29,7 +28,7 @@ The optional<code> <i>parameterList</i> </code>lets the handler receive values s
     set the hilite of whichBtn to not the hilite of whichBtn
   end repeat
 <b>end</b> flashTheButton
-</pre></code>
+```
 
 ## Placeholders
 

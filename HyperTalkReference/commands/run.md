@@ -5,14 +5,14 @@ card_id: 104294
 
 # run
 
-<code><pre>
+```
 run
 send "run" to [ph:object]
-</pre></code>
+```
 
-The <code>run</code> command executes an OSA script.
+The `run` command executes an OSA script.
 
-Used in any other way, <code>run</code> does nothing.
+Used in any other way, `run` does nothing.
 
 ## Examples
 

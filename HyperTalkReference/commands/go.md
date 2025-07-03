@@ -6,7 +6,7 @@ modified: yes
 
 # go
 
-<code><pre>
+```
 go [to] [ph:ordinal]
 go [to] [ph:position]
 go [to] [ph:card] [of [ph:bkgnd]] [of [ph:stack]]
@@ -14,14 +14,14 @@ go [to] [ph:bkgnd] [of [ph:stack]]
 go [to] [ph:stack]
 go [to] [[ph:card] of] [[ph:bkgnd] of] [ph:stack] ¬
    [in a new window] [without dialog]
-</pre></code>
+```
 
 
-The <code>go</code> command takes the user to a card in a stack. The <code>[ph:ordinal]</code> and <code>[ph:position]</code> forms take the user to a card in the current stack.
+The `go` command takes the user to a card in a stack. The `[ph:ordinal]` and `[ph:position]` forms take the user to a card in the current stack.
 
 If you name a stack (or background) without specifying a card, HyperCard goes to the first card of the stack (or background).
 
-HyperCard puts <code>empty</code> into the function <code>the result</code> when the <code>go</code> command succeeds; it puts <code>"No such card."</code> or <code>"No such stack."</code> into <code>the result</code> when it can’t go to the card or stack.
+HyperCard puts `empty` into the function `the result` when the `go` command succeeds; it puts `"No such card."` or `"No such stack."` into `the result` when it can’t go to the card or stack.
 
 The `in a new window` option tells HyperCard to open a stack in another window when it goes to the stack.
 
@@ -88,14 +88,14 @@ go to stack "Home" in new window without dialog
 
 ## Demo Script
 
-<code><pre>
+```
 on goFirstCardAndBack
   set cursor to watch
   set lockMessages to true -- to leave the demo script up
   <b>go</b> first card
   <b>go</b> back
 end goFirstCardAndBack
-</pre></code>
+```
 
 ## Placeholders
 

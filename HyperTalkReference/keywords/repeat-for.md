@@ -6,22 +6,21 @@ modified: yes
 
 # repeat for
 
-<code><pre>
-repeat [for] <i>posInteger</i> [times]
-   <i>statements</i>
+```
+repeat [for] [ph:posInteger] [times]
+   [ph:statements]
 end repeat
-</pre></code>
+```
 
-<br>
-The statements in a<code> repeat for </code>structure repeat for a specified number of times.<br>
-<br>
-If HyperCard executes an<code> exit repeat </code>statement in the<code> </code>loop, it continues running the handler starting from the first statement after<code> end repeat</code>.<br>
-<br>
-If HyperCard executes a <code>next repeat </code>statement, it returns immediately to the beginning of the<code> repeat </code>loop.<br>
+The statements in a `repeat for` structure repeat for a specified number of times.
+
+If HyperCard executes an `exit repeat` statement in the loop, it continues running the handler starting from the first statement after `end repeat`.
+
+If HyperCard executes a `next repeat` statement, it returns immediately to the beginning of the `repeat` loop.
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   show bkgnd field "demo field"
   put return & "    The count will stop at 10:" ¬
@@ -36,7 +35,7 @@ on mouseUp
   hide bkgnd field "demo field"
   put empty into bkgnd field "demo field"
 end mouseUp
-</pre></code>
+```
 
 ## Placeholders
 

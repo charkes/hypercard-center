@@ -5,18 +5,15 @@ card_id: 58695
 
 # mouseClick
 
-<code><pre>
+```
 the mouseClick
-</pre></code>
+```
 
-Value returned: the constant<code> true </code>if the mouse has been clicked sometime during the running of the current handler, or <code>false</code> if it hasn't.
+Value returned: the constant `true` if the mouse has been clicked sometime during the running of the current handler, or `false` if it hasn't.
 
-If the mouse button is down,<code> the mouseClick </code>waits until the mouse button is up before returning<code> true</code>. 
+If the mouse button is down, `the mouseClick` waits until the mouse button is up before returning `true`.
 
-
-
-Note: Use <code>the mouse</code> to return  the current state of the mouse  button and <code>the mouseClick </code>to  return whether the mouse has been clicked in the current handler. 
-
+Note: Use `the mouse` to return the current state of the mouse button and `the mouseClick` to return whether the mouse has been clicked in the current handler. 
 
 ## Examples
 
@@ -32,16 +29,14 @@ end repeat
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
 on theMouseClick
  show bkgnd field "demo field"
  displayMessage "Click the mouse to continue . . ."
  wait until the <b>mouseClick</b>
  hide bkgnd field "demo field"
 end theMouseClick
-</pre></code>
-</pre></code>
+```
 
 ## Related Topics
 
