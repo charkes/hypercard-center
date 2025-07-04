@@ -4,7 +4,7 @@ In AppleScript, an ordered collection of values enclosed by braces. The values i
 
 For example:
 
-<code><pre>
+```
 { 1, 2, 3, 4 }
 { "red" , "green" , "blue" }
 </code></pre>

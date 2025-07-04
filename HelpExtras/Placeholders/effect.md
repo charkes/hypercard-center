@@ -2,7 +2,7 @@
 
 One of the following:
 
-<code><pre>
+```
 barn door open
 barn door close
 checkerboard
@@ -33,5 +33,4 @@ zoom close
 zoom in
 zoom open
 zoom out
-</pre></code>
-
+```

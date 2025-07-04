@@ -4,7 +4,7 @@
 
 One of the following:
 
-<code><pre>
+```
 any
 [the] last
 [the] mid
@@ -19,13 +19,13 @@ any
 [the] eighth
 [the] ninth
 [the] tenth
-</pre></code>
+```
 
 <b>AppleScript Definition</b>
 
 One of the following:
 
-<code><pre>
+```
 last
 middle
 first
@@ -38,6 +38,6 @@ seventh
 eighth
 ninth
 tenth
-</pre></code>
+```
 
-See also: <code>[ph:background], [ph:bkgnd], [ph:button], [ph:card], [ph:chunk], [ph:field], [ph:menu], [ph:menuItem]</code> and <code>[ph:part]</code> 
+See also: `[ph:background], [ph:bkgnd], [ph:button], [ph:card], [ph:chunk], [ph:field], [ph:menu], [ph:menuItem]` and `[ph:part]` 

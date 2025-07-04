@@ -6,7 +6,7 @@ The value can evaluate to a date and time (or time and date).
 
 HyperTalk examples:
 
-<code><pre>
+```
 the date -- function returning the date
 the time -- function returning the time
 the date && the time
@@ -15,13 +15,13 @@ the date && the time
 "Thursday, August 25, 1960"
 (2720995200-1787702400) -- seconds
 "1960,8,25,0,0,0,5" -- dateItems
-</pre></code>
+```
 
 AppleScript examples:
 
-<code><pre>
+```
 short date
 long date
 abbreviated date
-</pre></code>
+```
 

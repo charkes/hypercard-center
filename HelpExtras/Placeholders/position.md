@@ -2,13 +2,13 @@
 
 One of the following:
 
-<code><pre>
+```
 [the] next
 [the] prev
 [the] previous
 this
-</pre></code>
+```
 
-Note: You can’t use <code>this</code> with buttons or fields.
+Note: You can’t use `this` with buttons or fields.
 
-See also: <code>[ph:bkgnd]</code> and <code>[ph:card]</code> 
+See also: `[ph:bkgnd]` and `[ph:card]` 

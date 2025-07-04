@@ -4,10 +4,10 @@ A text expression that evaluates to the name of one of HyperCard’s menus or of
 
 For example:
 
-<code><pre>
+```
 "File"
 "Edit"
 "Go"
 "MyMenu"
-</pre></code>
+```
 

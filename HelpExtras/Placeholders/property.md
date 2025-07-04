@@ -6,13 +6,13 @@ A literal string that names a characteristic of an object (for example, a field 
 
 Properties vary depending on the object and include
 
-<code><pre>
+```
 the location
 the rectangle
 the name
 the textArrows
 the userLevel
-</pre></code>
+```
 
 <b>AppleScript Definition</b>
 

@@ -2,11 +2,11 @@
 
 <b>HyperTalk Definition</b>
 
-The object <code>HyperCard</code>, or any expression that identifies an object by name, number, or id.
+The object `HyperCard`, or any expression that identifies an object by name, number, or id.
 
 For example:
 
-<code><pre>
+```
 HyperCard
 me
 [the] target
@@ -16,7 +16,7 @@ card field id 3894
 this card
 next background
 stack "My Stack"
-</pre></code>
+```
 
 <b>AppleScript Definition</b>
 

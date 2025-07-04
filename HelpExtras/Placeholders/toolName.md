@@ -2,7 +2,7 @@
 
 One of the following:
 
-<code><pre>
+```
 browse
 brush
 bucket
@@ -21,5 +21,5 @@ round rect[angle]
 select
 spray [can]
 text
-</pre></code>
+```
 

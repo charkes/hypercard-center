@@ -4,9 +4,9 @@ A text expression that evaluates to the name of a menu item on one of HyperCardâ
 
 For example:
 
-<code><pre>
+```
 "New Stack..."
 "Back"
 "Stack Info..."
-</pre></code>
+```
 

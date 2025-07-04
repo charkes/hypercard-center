@@ -4,9 +4,9 @@ An expression that evaluates to a text string that is also the name of a font av
 
 For example:
 
-<code><pre>
+```
 "Geneva"
 "Times"
 "Monaco"
-</pre></code>
+```
 

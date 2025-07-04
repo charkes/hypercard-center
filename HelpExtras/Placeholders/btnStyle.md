@@ -2,7 +2,7 @@
 
 One of the following:
 
-<code><pre>
+```
 checkbox
 default
 opaque
@@ -14,5 +14,5 @@ roundRect
 shadow
 standard
 transparent
-</pre></code>
+```
 

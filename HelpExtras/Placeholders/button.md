@@ -4,7 +4,7 @@
 
 An expression that identifies a button by name, number, or id, using one of the following forms:
 
-<code><pre>
+```
 [card] button id [ph:posInteger] [of [ph:card]]
 [card] button [ph:text] [of [ph:card]] -- name
 [card] button [ph:posInteger] [of [ph:card]]
@@ -14,22 +14,22 @@ bkgnd button id [ph:posInteger] [of [ph:card]]
 bkgnd button [ph:text] [of [ph:card]] -- name
 bkgnd button [ph:posInteger] [of [ph:card]]
 [ph:ordinal] bkgnd button [of [ph:card]]
-</pre></code>
+```
 
 For example:
 
-<code><pre>
+```
 card button id 3894
 card button "Return"
 card button 1
 first card button
 bkgnd button 2 of card 2
 last bkgnd button
-</pre></code>
+```
 
-When used inside a button script: <code>me</code>
+When used inside a button script: `me`
 
-When a button receives a message: <code>[the] target</code>
+When a button receives a message: `[the] target`
 
 A button can also be referred to as a [ph:part] when you’re talking about its position among all buttons and fields within the same card or background.
 
