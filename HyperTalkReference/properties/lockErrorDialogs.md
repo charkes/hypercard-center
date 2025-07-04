@@ -5,21 +5,21 @@ card_id: 97387
 
 # lockErrorDialogs
 
-` set `[`the`]<code> lockErrorDialogs to [ph:¬  ]                [ph:trueOrFalse]
+```
+set [the] lockErrorDialogs to [ph:trueOrFalse]
+```
 
-</code>The `lockErrorDialogs` property returns or sets whether HyperCard, on encountering an error, presents an error dialog box.
+The `lockErrorDialogs` property returns or sets whether HyperCard, on encountering an error, presents an error dialog box.
 
-This property defaults to false at idle time, meaning that error dialogs usually appear. 
+This property defaults to false at idle time, meaning that error dialogs usually appear.
 
- When this property is set to `true`, HyperCard, on encountering an error, does <u>not</u> display an error dialog box; instead, it sends the message `errorDialog [ph:errorMessageText` ]to the current card.
+When this property is set to `true`, HyperCard, on encountering an error, does <u>not</u> display an error dialog box; instead, it sends the message `errorDialog [ph:errorMessageText]` to the current card.
 
-[ph:`ErrorMessageText `]contains the text of the error dialog box. 
-
+`[ph:ErrorMessageText]` contains the text of the error dialog box.
 
 ## Examples
 
 ```
-
 set lockErrorDialogs to true
 
 set lockErrorDialogs to false

@@ -7,13 +7,12 @@ modified: yes
 # rectangle
 
 ```
-set [the] rect of <i>button</i> to <i>rectangle</i>
-set [the] rect of <i>field</i> to <i>rectangle</i>
-set [the] rect of <i>card</i> to <i>rectangle</i>
-set [the] rect of <i>window</i> to <i>rectangle</i>
+set [the] rect of [ph:button] to [ph:rectangle]
+set [the] rect of [ph:field] to [ph:rectangle]
+set [the] rect of [ph:card] to [ph:rectangle]
+set [the] rect of [ph:window] to [ph:rectangle]
 get [the] rect of menuBar
 ```
-
 
 The `rectangle` property returns or sets the rectangular coordinates of buttons, fields, cards, and windows, and it returns the coordinates of the menu bar. Setting the rectangle of a card changes the size of <u>all the cards</u> in a stack; setting the rectangle of the card window resizes the window, not the card.
 
@@ -46,18 +45,6 @@ on talkAboutRects
   return &"The rect of the card window is:" && the <b>rect</b> of the card window
 end talkAboutRects
 ```
-
-## Placeholders
-
-[embed:HelpExtras/Placeholders/button.md]
-
-[embed:HelpExtras/Placeholders/rectangle.md]
-
-[embed:HelpExtras/Placeholders/field.md]
-
-[embed:HelpExtras/Placeholders/card.md]
-
-[embed:HelpExtras/Placeholders/window.md]
 
 ## Related Topics
 

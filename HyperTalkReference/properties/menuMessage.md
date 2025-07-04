@@ -5,16 +5,15 @@ card_id: 76567
 
 # menuMessage
 
-` set `[`the`]` menuMessage of [ph:menuItem] ¬     of [ph:menu] to ¬     "[ph:messageName] `[[ph:`parameterList`] ]<code>"
+`set [the] menuMessage of [ph:menuItem] of [ph:menu] to "[ph:messageName] [[ph:parameterList]]"`
 
-</code>The `menuMessage` property returns or sets the message sent to the current card when the user chooses a menu item from a menu. 
+The `menuMessage` property returns or sets the message sent to the current card when the user chooses a menu item from a menu.
 
-The `menuMessage` property returns `empty` if the menu item has no associated message. 
+The `menuMessage` property returns `empty` if the menu item has no associated message.
 
- HyperCard’s default menu items have no associated messages sent to the current card unless they have been explicitly set with this property. 
+HyperCard’s default menu items have no associated messages sent to the current card unless they have been explicitly set with this property.
 
-A `doMenu` handler can override a `menuMessage`. 
-
+A `doMenu` handler can override a `menuMessage`.
 
 ## Examples
 

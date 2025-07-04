@@ -5,14 +5,13 @@ card_id: 70900
 
 # dragSpeed
 
-` set `[`the`]` dragSpeed to [ph:posInteger`]
+`set [the] dragSpeed to [ph:posInteger]`
 
 The `dragSpeed` property returns or sets how many pixels per second the pointer will move when manipulated by all subsequent `drag` commands.  Use 0 to drag as fast as possible.
 
 The `dragSpeed` affects all of the paint tools except the Bucket and Text tools.  
 
 On idle, HyperCard resets the `dragSpeed` to 0. 
-
 
 ## Examples
 
@@ -24,7 +23,6 @@ set the dragSpeed to 100
 
 ## Demo Script
 
-```
 ```
 on dragSpeedDemo
  setUpPaint
@@ -61,7 +59,6 @@ on setUpPaint
  set grid to FALSE
  set multiple to FALSE
 end setUpPaint
-```
 ```
 
 ## Related Topics

@@ -5,16 +5,15 @@ card_id: 75037
 
 # lockMessages
 
-` set `[`the`]<code> lockMessages to [ph:trueOrFalse]
+`set [the] lockMessages to [ph:trueOrFalse]`
 
-</code>The `lockMessages` property returns or sets whether HyperCard sends certain messages automatically.
+The `lockMessages` property returns or sets whether HyperCard sends certain messages automatically.
 
-The messages affected are` closeCard`,` closeBackground`,` closeStack`,` openCard`,` openBackground`,` openStack`,` resumeStack`, and` suspendStack`. 
+The messages affected are `closeCard`, `closeBackground`, `closeStack`, `openCard`, `openBackground`, `openStack`, `resumeStack`, and `suspendStack`.
 
- Setting `lockMessages` to true is useful when you want to go to a card to retrieve or save information, but you don’t want to stay there. (The handler will run faster with `lockMessages` set to true.)
+Setting `lockMessages` to true is useful when you want to go to a card to retrieve or save information, but you don’t want to stay there. (The handler will run faster with `lockMessages` set to true.)
 
 The default setting is false, meaning that HyperCard <u>does</u> send the messages. HyperCard sets `lockMessages` to false on idle. 
-
 
 ## Examples
 

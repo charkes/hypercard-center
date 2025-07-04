@@ -7,27 +7,26 @@ modified: yes
 # ID 
 
 ```
-the ID of <i>button</i>
-the ID of <i>field</i>
-the [<i>adjective</i>] ID of <i>card</i>
-the ID of <i>bkgnd</i>
-the ID of <i>menu</i>
+the ID of [ph:button]
+the ID of [ph:field]
+the [[ph:adjective]] ID of [ph:card]
+the ID of [ph:bkgnd]
+the ID of [ph:menu]
 the ID [of HyperCard]
-the ID of <i>window</i>
+the ID of [ph:window]
 ```
 
+The `ID` property returns the permanent ID number of any button, field, card,  background, window, or menu in the current stack.
 
-The` ID `property returns the permanent ID number of any button, field, card,  background, window, or menu in the current stack.
+The `ID` of HyperCard is `WILD`.
 
-The` ID `of HyperCard is` WILD`.
-
-The` ID `of a standalone application is its creator code.
+The `ID` of a standalone application is its creator code.
 
 All objects except stacks have IDs. You <u>can’t</u> change the ID number of an object, window, or menu.
 
-If an object doesn’t have a name, HyperCard returns the` ID `instead.
+If an object doesn’t have a name, HyperCard returns the `ID` instead.
 
-The adjectives` abbreviated`,` long`, and` short `return various forms of a card’s ID.  (Click Demo Script.)
+The adjectives `abbreviated`, `long`, and `short` return various forms of a card’s ID. (Click Demo Script.)
 
 ## Examples
 
@@ -55,22 +54,6 @@ on IDDemo
   answer theAnswer
 end IDDemo
 ```
-
-## Placeholders
-
-[embed:HelpExtras/Placeholders/button.md]
-
-[embed:HelpExtras/Placeholders/field.md]
-
-[embed:HelpExtras/Placeholders/adjective.md]
-
-[embed:HelpExtras/Placeholders/card.md]
-
-[embed:HelpExtras/Placeholders/bkgnd.md]
-
-[embed:HelpExtras/Placeholders/menu.md]
-
-[embed:HelpExtras/Placeholders/window.md]
 
 ## Related Topics
 

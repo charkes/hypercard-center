@@ -6,11 +6,11 @@ modified: yes
 
 # cursor
 
-<code>set [the] cursor to <i>cursor</i></code>
+`set [the] cursor to [ph:cursor]`
 
-The` cursor `property sets the image that appears as the pointer on the screen.
+The `cursor` property sets the image that appears as the pointer on the screen.
 
-<b>Note: </b>`cursor` is a `set`-only property. You<b> </b>cannot` get `the current value of the` cursor `from a script.
+<b>Note:</b> `cursor` is a `set`-only property. You cannot `get` the current value of the `cursor` from a script.
 
 HyperCard provides a number of built-in cursors that you can use. (HyperCard automatically resets the cursor to the image for the current tool on idle—when no other action is happening.)
 
@@ -25,7 +25,7 @@ The built-in cursors are:
 * `busy`
 * `none`
 
-The` busy `cursor rotates an eighth of a turn each time you call it.
+The `busy` cursor rotates an eighth of a turn each time you call it.
 
 ## Examples
 
@@ -62,8 +62,3 @@ on rotateCursors
   end repeat
 end rotateCursors
 ```
-
-## Placeholders
-
-[embed:HelpExtras/Placeholders/cursor.md]
-

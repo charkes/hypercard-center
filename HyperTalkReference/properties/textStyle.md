@@ -5,14 +5,21 @@ card_id: 86415
 
 # textStyle
 
-` set `[`the`]` textStyle to [ph:textStyleList`] `set `[`the`] `textStyle of` [[ph:`chunk] of`]` ¬     [ph:field] to [ph:textStyleList] set `[`the`]` textStyle of [ph:button] ¬     to [ph:textStyleList] set the textStyle of [ph:menuItem] ¬     of [ph:menu] to [ph:textStyleList] set `[`the`]` textStyle of ¬ the message box to [ph:textStyleList ] `The `textStyle` property returns or sets the styles in which Paint text, field text, button names, menu items, or text in the Message box appear. 
+```
+set [the] textStyle to [ph:textStyleList]
+set [the] textStyle of [[ph:chunk] of] [ph:field] to [ph:textStyleList]
+set [the] textStyle of [ph:button] to [ph:textStyleList]
+set the textStyle of [ph:menuItem] of [ph:menu] to [ph:textStyleList]
+set [the] textStyle of the message box to [ph:textStyleList]
+```
 
- The style can be a single text style or a comma-separated list of styles. The available styles are` plain`,` bold`,` italic`,` underline`,` outline`,` shadow`,` condense`,` extend`, and` group`. (To see group text, issue the command` show groups.`)
+The `textStyle` property returns or sets the styles in which Paint text, field text, button names, menu items, or text in the Message box appear.
 
-The default text style is` plain`.
+The style can be a single text style or a comma-separated list of styles. The available styles are `plain`, `bold`, `italic`, `underline`, `outline`, `shadow`, `condense`, `extend`, and `group`. (To see group text, issue the command `show groups`.)
 
-<b>Note</b>: if a chunk of a field contains a mixture of styles, HyperCard returns `mixed` when you ask for` the textStyle`. 
+The default text style is `plain`.
 
+<b>Note</b>: if a chunk of a field contains a mixture of styles, HyperCard returns `mixed` when you ask for `the textStyle`. 
 
 ## Examples
 

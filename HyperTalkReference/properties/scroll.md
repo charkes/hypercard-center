@@ -5,14 +5,16 @@ card_id: 81344
 
 # scroll
 
-`set `[`the`]` scroll of [ph:field] to [ph:integer] set the scroll of `[`the`]` card window ¬     to [ph:point`]
+```
+set [the] scroll of [ph:field] to [ph:integer]
+set the scroll of [the] card window to [ph:point]
+```
 
-For scrolling fields, the `scroll` property returns or sets which lines of text currently appear (as indicated by the scroll bar). The `[ph:integer]` represents the number of pixels that have scrolled above the top of the field’s rectangle. For example, the number of lines scrolled in card field 1 equals` the scroll of card field 1 div the textHeight of card field 1`. 
+For scrolling fields, the `scroll` property returns or sets which lines of text currently appear (as indicated by the scroll bar). The `[ph:integer]` represents the number of pixels that have scrolled above the top of the field’s rectangle. For example, the number of lines scrolled in card field 1 equals `the scroll of card field 1 div the textHeight of card field 1`.
 
 For fields, HyperCard pins the `scroll` to a number between 0 and the maximum value for the field.
 
-For the card window, the `scroll` property returns or sets a point that specifies the current horizontal and vertical offsets of the portion of the card currently visible in the card window. It affects the card image only when the size of the window is smaller than the size of the card. 
-
+For the card window, the `scroll` property returns or sets a point that specifies the current horizontal and vertical offsets of the portion of the card currently visible in the card window. It affects the card image only when the size of the window is smaller than the size of the card.
 
 ## Examples
 

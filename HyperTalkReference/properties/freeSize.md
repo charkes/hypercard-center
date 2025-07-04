@@ -5,16 +5,15 @@ card_id: 72105
 
 # freeSize
 
-`the freeSize of [ph:stack`]
+`the freeSize of [ph:stack]`
 
-The `freeSize` property returns the amount of free space, in bytes, in the specified stack. (Free space is created in a stack each time you add or delete an object or graphics.) 
+The `freeSize` property returns the amount of free space, in bytes, in the specified stack. (Free space is created in a stack each time you add or delete an object or graphics.)
 
-To set the `freeSize` property to 0, choose Compact Stack from the File menu or use the command 
+To set the `freeSize` property to 0, choose Compact Stack from the File menu or use the command
 
 `doMenu "Compact Stack"`
 
 from a handler or the Message box. 
-
 
 ## Examples
 

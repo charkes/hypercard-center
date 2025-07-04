@@ -5,12 +5,13 @@ card_id: 71536
 
 # filled
 
-` set `[`the`]` filled to [ph:trueOrFalse] ` The `filled` property returns or sets whether HyperCard fills shapes with the current pattern on the Patterns palette as you draw them. It corresponds to the Filled command in the Options menu (which appears when you select a Paint tool).
+`set [the] filled to [ph:trueOrFalse]`
 
-The default value is` false`. 
+The `filled` property returns or sets whether HyperCard fills shapes with the current pattern on the Patterns palette as you draw them. It corresponds to the Filled command in the Options menu (which appears when you select a Paint tool).
 
- The `filled` property affects the Rectangle, Rounded Rectangle, Oval, Curve, Regular Polygon, and Polygon tools. 
+The default value is `false`.
 
+The `filled` property affects the Rectangle, Rounded Rectangle, Oval, Curve, Regular Polygon, and Polygon tools. 
 
 ## Examples
 

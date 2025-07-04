@@ -6,20 +6,18 @@ card_id: 92736
 # printTextStyle
 
 ```
-set the printTextStyle ¬
-   to [ph:textStyleList]<u>
+set the printTextStyle to [ph:textStyleList]
 ```
 
-</u>The `printTextStyle` property returns or sets the value of the default text style used by the `print` command when you print an expression. The default value is` plain`.
+The `printTextStyle` property returns or sets the value of the default text style used by the `print` command when you print an expression. The default value is `plain`.
 
-When you print a report, HyperCard determines the default text style for a report item as follows: 
+When you print a report, HyperCard determines the default text style for a report item as follows:
 
-• If the report item is the text of a card     or  background field, HyperCard uses     the text style of the field.
+* If the report item is the text of a card or background field, HyperCard uses the text style of the field.
 
-• If the report item is generated from     any other HyperTalk expression,     HyperCard uses the value of the    ` printTextStyle`.
+* If the report item is generated from any other HyperTalk expression, HyperCard uses the value of the `printTextStyle`.
 
-In either case, the user can override the default style by selecting a style in the Item Info dialog box of the report item. 
-
+In either case, the user can override the default style by selecting a style in the Item Info dialog box of the report item.
 
 ## Examples
 

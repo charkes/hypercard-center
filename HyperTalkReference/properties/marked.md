@@ -5,10 +5,11 @@ card_id: 76367
 
 # marked
 
-` set `[`the`]` marked of [ph:card] ¬     to [ph:trueOrFalse] ` The `marked` property returns or sets whether a card is marked. It corre- sponds to the Card Marked check box in a Card Info dialog box.
+`set [the] marked of [ph:card] to [ph:trueOrFalse]`
 
-You can operate on the set of marked cards with commands such as` print`,` go`,` show`, and` sort`. 
+The `marked` property returns or sets whether a card is marked. It corresponds to the Card Marked check box in a Card Info dialog box.
 
+You can operate on the set of marked cards with commands such as `print`, `go`, `show`, and `sort`. 
 
 ## Examples
 

@@ -12,10 +12,9 @@ set [the] cantModify of [ph:stack] ¬
 
 The `cantModify` property returns or sets whether a stack can be changed in any way. It corresponds to the Can’t Modify check box in the Protect Stack dialog box.
 
-Setting the `cantModify` of a stack to `true `selects both the Can’t Modify Stack check box and the Can’t Delete Stack check box in the Protect Stack dialog box.  When `cantModify` is true, a padlock appears in the menu bar. 
+Setting the `cantModify` of a stack to `true` selects both the Can’t Modify Stack check box and the Can’t Delete Stack check box in the Protect Stack dialog box.  When `cantModify` is true, a padlock appears in the menu bar. 
 
- The default value is `false` (meaning that the card, background, or stack can be modified). 
-
+The default value is `false` (meaning that the card, background, or stack can be modified).
 
 ## Examples
 

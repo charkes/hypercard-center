@@ -5,16 +5,18 @@ card_id: 72540
 
 # hilite
 
-` set `[`the`]<code> hilite of [ph:button] ¬     to [ph:trueOrFalse]
+```
+set [the] hilite of [ph:button] ¬
+     to [ph:trueOrFalse]
+```
 
-</code>The `hilite` property returns or sets whether a button is highlighted (shown in inverse video).  
+The `hilite` property returns or sets whether a button is highlighted (shown in inverse video).  
 
-With check boxes and radio buttons, `hilite` determines whether the button is selected. 
+With check boxes and radio buttons, `hilite` determines whether the button is selected.
 
- If a button belongs to a [ph:family]  and its `hilite` property is set to `true` from a script,  the `hilite` property of each of the other buttons in the family is set to` false`.
+If a button belongs to a [ph:family] and its `hilite` property is set to `true` from a script, the `hilite` property of each of the other buttons in the family is set to` false`.
 
-(Click Tips to see a list of synonyms you can use for `hilite`.) 
-
+(Click Tips to see a list of synonyms you can use for `hilite`.)
 
 ## Examples
 
@@ -28,7 +30,6 @@ not (the hilite of card button id 37)
 ## Demo Script
 
 ```
-```
 on hiliteDemo
  flashButton "bkgnd btn id 61",3
  flashButton "bkgnd btn id 57",3
@@ -39,7 +40,6 @@ on flashButton whichBtn, howManyTimes
    set the <b>hilite</b> of whichBtn to not the <b>hilite</b> of whichBtn
  end repeat
 end flashButton
-```
 ```
 
 ## Related Topics

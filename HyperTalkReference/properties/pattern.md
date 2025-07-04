@@ -6,11 +6,11 @@ modified: yes
 
 # pattern
 
-<code> set [the] pattern to <i>posInteger</i> </code>
+`set [the] pattern to [ph:posInteger]`
 
-where<code> <i>posInteger</i> </code>is an integer in the range 1 through 40.
+where `[ph:posInteger]` is an integer in the range 1 through 40.
 
-The` pattern `property returns or sets the current pattern used to fill shapes or to paint with the Brush tool.
+The `pattern` property returns or sets the current pattern used to fill shapes or to paint with the Brush tool.
 
 If you edit one of the patterns, HyperCard saves the new pattern with the stack.
 
@@ -25,10 +25,6 @@ set the pattern to 1 -- white
 set the pattern to 12 -- black
 set the pattern to 22 -- gray
 ```
-
-## Placeholders
-
-[embed:HelpExtras/Placeholders/posInteger.md]
 
 ## Related Topics
 

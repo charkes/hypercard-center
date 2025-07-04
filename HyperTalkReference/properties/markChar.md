@@ -5,12 +5,13 @@ card_id: 76221
 
 # markChar
 
-` set `[`the`]` markChar of [ph:menuItem] of ¬     [ph:menu] to [ph:char] ` The `markChar` property returns or sets the character used to mark a menu item. If the item has no mark, `the markChar` returns` empty`.  Otherwise, it returns the character.
+`set [the] markChar of [ph:menuItem] of [ph:menu] to [ph:char]`
 
-Setting the `markChar` of a menu item to a character also marks the item, that is, sets its `checkMark` property to true. 
+The `markChar` property returns or sets the character used to mark a menu item. If the item has no mark, `the markChar` returns `empty`.  Otherwise, it returns the character.
 
- The default character used to mark menu items is the check mark, a character equal to` numToChar(18)`. It prints in the Chicago font:  
+Setting the `markChar` of a menu item to a character also marks the item, that is, sets its `checkMark` property to true.
 
+The default character used to mark menu items is the check mark, a character equal to` numToChar(18)`. It prints in the Chicago font:
 
 ## Examples
 

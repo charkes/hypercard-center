@@ -6,11 +6,11 @@ modified: yes
 
 # lineSize
 
-<code>set [the] lineSize to <i>posInteger</i> </code>
+`set [the] lineSize to [ph:posInteger]`
 
-where` posInteger `is 1, 2, 3, 4, 6, or 8.
+where `posInteger` is 1, 2, 3, 4, 6, or 8.
 
-The` lineSize `property returns or sets the thickness, in pixels, of lines drawn by the Paint tools. It corresponds to the line size you select in the Line Size dialog box. (The Line Size dialog box appears when you choose Line Size from the Options menu.)
+The `lineSize` property returns or sets the thickness, in pixels, of lines drawn by the Paint tools. It corresponds to the line size you select in the Line Size dialog box. (The Line Size dialog box appears when you choose Line Size from the Options menu.)
 
 The default value is 1.
 
@@ -22,10 +22,6 @@ The default value is 1.
 set the lineSize to 1
 set the lineSize to 6
 ```
-
-## Placeholders
-
-[embed:HelpExtras/Placeholders/posInteger.md]
 
 ## Related Topics
 

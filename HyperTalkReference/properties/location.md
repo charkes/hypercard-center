@@ -5,11 +5,16 @@ card_id: 74795
 
 # location
 
-`set `[`the`]` loc of [ph:button] to [ph:point] set `[`the`]` loc of [ph:field] to [ph:point] set `[`the`]` loc of [ph:window] to [ph:point] set `[`the`]` loc of [ph:externalWindow] ¬     to [ph:point] ` The `location` (or` loc`) property returns or sets the <u>center</u> point of a button or field and the <u>top-left </u>corner of a window. Setting the location of button, field, or window moves it to the new location. 
+```
+set [the] loc of [ph:button] to [ph:point]
+set [the] loc of [ph:field] to [ph:point]
+set [the] loc of [ph:window] to [ph:point]
+set [the] loc of [ph:externalWindow] to [ph:point]
+```
 
-HyperCard determines the location
-of buttons, fields, and HyperCard’s built-in windows relative to the 
-top-left corner of the current card. 
+The `location` (or `loc`) property returns or sets the <u>center</u> point of a button or field and the <u>top-left</u> corner of a window. Setting the location of button, field, or window moves it to the new location.
+
+HyperCard determines the location of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card.
 
 For a window displaying a stack, HyperCard determines the location of the card window relative to the top-left corner of the screen with the menu bar.
 

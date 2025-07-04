@@ -5,12 +5,11 @@ card_id: 72386
 
 # grid
 
-` set `[`the`]<code> grid to [ph:trueOrFalse]
+` set [the] grid to [ph:trueOrFalse]`
 
-</code>The `grid` property returns or sets whether HyperCard constrains the movement of many Paint tools to eight-pixel intervals. It corresponds to the Grid command in the Options menu (which appears when you select a Paint tool).
+The `grid` property returns or sets whether HyperCard constrains the movement of many Paint tools to eight-pixel intervals. It corresponds to the Grid command in the Options menu (which appears when you select a Paint tool).
 
-The default value is` false`. 
-
+The default value is `false`. 
 
 ## Examples
 

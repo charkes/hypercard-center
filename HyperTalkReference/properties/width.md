@@ -5,17 +5,24 @@ card_id: 89143
 
 # width
 
-`set `[`the`]` width of [ph:button] to [ph:integer] set `[`the`]<code> width of [ph:field] to [ph:integer]<u> </u>set </code>[`the`]` width of [ph:card] to [ph:integer] set `[`the`]` width of [ph:window] to integer get `[`the`]<code> width of menuBar <u> </code></u>The `width` property returns or sets an integer equal to the width in pixels of the specified object or window. Setting the width of a button, field, or card window resizes it. 
+```
+set [the] width of [ph:button] to [ph:integer]
+set [the] width of [ph:field] to [ph:integer]
 
-Setting the width of a card resizes all the cards in a stack. 
+set [the] width of [ph:card] to [ph:integer]
+set [the] width of [ph:window] to integer
+get [the] width of menuBar
+```
 
-You can't set the menu bar's width. 
+The `width` property returns or sets an integer equal to the width in pixels of the specified object or window. Setting the width of a button, field, or card window resizes it.
 
+Setting the width of a card resizes all the cards in a stack.
+
+You can't set the menu bar's width.
 
 Note: HyperCard restricts the width of a card to 32-pixel increments beginning from 64, the smallest width. For example, setting the width of a card to 420 results in a width of 416.
 
-HyperCard maintains the location (center coordinate) of the object, expanding or shrinking it on both
-sides evenly.
+HyperCard maintains the location (center coordinate) of the object, expanding or shrinking it on both sides evenly.
 
 ## Examples
 

@@ -5,12 +5,11 @@ card_id: 69837
 
 # centered
 
-` set `[`the`]<code> centered to [ph:trueOrFalse]
+`set [the] centered to [ph:trueOrFalse]`
 
-</code>The `centered` property returns or sets whether HyperCard draws shapes from the center rather than from a corner. It corresponds to the Centered command in the Options menu (which appears when you select a Paint tool).
+The `centered` property returns or sets whether HyperCard draws shapes from the center rather than from a corner. It corresponds to the Centered command in the Options menu (which appears when you select a Paint tool).
 
-The `centered` property affects the Line, Rectangle, Rounded Rectangle, and Oval tools. Its default value is` false`. 
-
+The `centered` property affects the Line, Rectangle, Rounded Rectangle, and Oval tools. Its default value is `false`. 
 
 ## Examples
 

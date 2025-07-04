@@ -5,10 +5,14 @@ card_id: 69523
 
 # checkMark
 
-` set `[`the`]` checkMark of [ph:menuItem] of ¬     [ph:menu] to [ph:trueOrFalse] ` The `checkMark` property returns or sets whether a check-mark character appears in front of a menu item.
+```
+set [the] checkMark of [ph:menuItem] of ¬
+     [ph:menu] to [ph:trueOrFalse]
+```
 
-It uses the  character, `numToChar(18),` as the default check-mark character. Click Related Topics for information about the `markChar` property, which lets you use characters other than the check mark. 
+The `checkMark` property returns or sets whether a check-mark character appears in front of a menu item.
 
+It uses the character, `numToChar(18)`, as the default check-mark character. Click Related Topics for information about the `markChar` property, which lets you use characters other than the check mark. 
 
 ## Examples
 

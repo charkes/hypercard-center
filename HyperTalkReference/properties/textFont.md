@@ -5,14 +5,19 @@ card_id: 84911
 
 # textFont
 
-`set `[`the`]` textFont to [ph:text`] `set `[`the`] `textFont of` [[ph:`chunk] of`]` ¬     [ph:field] to [ph:text] set `[`the`]` textFont of [ph:button] to [ph:text ]set `[`the`]` textFont of the message box¬                 to [ph:text] ` where `[ph:text]` is the name of a font available from the current stack.
+```
+set [the] textFont to [ph:text]
+set [the] textFont of [[ph:chunk] of] [ph:field] to [ph:text]
+set [the] textFont of [ph:button] to [ph:text]
+set [the] textFont of the message box to [ph:text]
+```
+where `[ph:text]` is the name of a font available from the current stack.
 
-The `textFont` property returns or sets the current font of the Paint Text tool,  text in a field,  a button name, or the Message box. 
+The `textFont` property returns or sets the current font of the Paint Text tool,  text in a field,  a button name, or the Message box.
 
 The default value is `Geneva` for fields,  Paint text, and the Message box; the default value is `Chicago` for buttons.
 
-<b>Note</b>: if a chunk of a field contains a mixture of fonts, HyperCard returns `mixed` when you ask for` the textFont`. 
-
+<b>Note</b>: if a chunk of a field contains a mixture of fonts, HyperCard returns `mixed` when you ask for `the textFont`. 
 
 ## Examples
 

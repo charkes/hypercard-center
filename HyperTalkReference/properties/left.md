@@ -7,21 +7,20 @@ modified: yes
 # left
 
 ```
-the left of <i>card</i>
-set [the] left of <i>button</i> to <i>integer</i>
-set [the] left of <i>field</i> to <i>integer</i>
-set [the] left of <i>window</i> to <i>integer</i>
+the left of [ph:card]
+set [the] left of [ph:button] to [ph:integer]
+set [the] left of [ph:field] to [ph:integer]
+set [the] left of [ph:window] to [ph:integer]
 get [the] left of menuBar
 ```
 
+The `left` property returns or sets an integer equal to item 1 of an object’s rectangle. If you set the `left` of an object, it moves horizontally. The size of the object remains the same. You can’t set the `left` of cards: use the `rect`, `height`, and `width` properties to resize the cards in a stack.
 
-The` left `property returns or sets an integer equal to item 1 of an object’s rectangle. If you set the` left `of an object, it moves horizontally. The size of the object remains the same. You can’t set the` left `of cards: use the` rect`,` height`, and` width` properties to resize the cards in a stack.
+You can't set the `left` of the menu bar.
 
-You can't set the` left `of the menu bar.
+HyperCard determines the `left` of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card.
 
-HyperCard determines the` left `of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card.
-
-HyperCard determines the` left `of the card window relative to the top-left corner of the screen with the menu bar.
+HyperCard determines the `left` of the card window relative to the top-left corner of the screen with the menu bar.
 
 ## Examples
 
@@ -35,18 +34,6 @@ the left of card window
 
 set the left of bkgnd button "Next" to the left of bg btn "Prev"
 ```
-
-## Placeholders
-
-[embed:HelpExtras/Placeholders/card.md]
-
-[embed:HelpExtras/Placeholders/button.md]
-
-[embed:HelpExtras/Placeholders/integer.md]
-
-[embed:HelpExtras/Placeholders/field.md]
-
-[embed:HelpExtras/Placeholders/window.md]
 
 ## Related Topics
 

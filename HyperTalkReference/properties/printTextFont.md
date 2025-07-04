@@ -6,19 +6,18 @@ card_id: 90961
 # printTextFont
 
 ```
-set the printTextFont to [ph:font]<u>
+set the printTextFont to [ph:font]
 ```
 
-</u>The `printTextFont` property returns or sets the value of the default text font used by the `print` command. The default value is` Geneva`.
+The `printTextFont` property returns or sets the value of the default text font used by the `print` command. The default value is `Geneva`.
 
 When you print a report, HyperCard determines the default font for a report item as follows:
 
-• If the report item is the text of a card     or  background field, HyperCard uses     the text font of the field. 
+* If the report item is the text of a card or background field, HyperCard uses the text font of the field.
 
-• If the report item is generated from     any other HyperTalk expression,     HyperCard uses the value of    ` printTextFont`.
+* If the report item is generated from any other HyperTalk expression, HyperCard uses the value of `printTextFont`.
 
-In either case, the user can override the default font by selecting a font in the Item Info dialog box of the report item. 
-
+In either case, the user can override the default font by selecting a font in the Item Info dialog box of the report item.
 
 ## Examples
 

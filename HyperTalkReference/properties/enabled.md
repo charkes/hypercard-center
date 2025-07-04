@@ -6,26 +6,26 @@ card_id: 71193
 # enabled
 
 ```
-set [the] enabled of{[ph:menu]|[ph:menuItem ]}¬
+set [the] enabled of { [ph:menu] | [ph:menuItem] } ¬
    to [ph:trueOrFalse]
+set [the] enabled of [ph:button] ¬
+     to [ph:trueOrFalse]
 ```
 
-`set` [`the`] <code>enabled of [ph:button] ¬     to [ph:trueOrFalse]
+The `enabled` property returns or sets whether a menu item, menu, or button is active or inactive (dimmed). Users cannot choose dimmed elements.   
 
-</code>The `enabled` property returns or sets whether a menu item, menu, or button is active or inactive (dimmed). Users cannot choose dimmed elements.   
+If you set the `enabled` of a menu to false, <u>all</u> items on the menu become inactive.
 
-If you set the `enabled` of a menu to false, <u>all</u> items on the menu become inactive. 
-
-The `enabled` property won't enable items in HyperCard’s menus unless they're currently available to the user. 
+The `enabled` property won't enable items in HyperCard’s menus unless they're currently available to the user.
 
 For example, the following code won't enable the Button Info command unless a button is selected:
 
 ```
-set the enabled of menuItem 1 of ¬ menu "Objects" to true
+set the enabled of menuItem 1 of ¬
+ menu "Objects" to true
 ```
 
-The default state is` true`, meaning that the element is enabled. 
-
+The default state is` true`, meaning that the element is enabled.
 
 ## Examples
 

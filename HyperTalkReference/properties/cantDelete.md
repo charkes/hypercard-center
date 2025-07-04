@@ -14,12 +14,11 @@ set [the] cantDelete of [ph:stack] ¬
    to [ph:trueOrFalse]
 ```
 
-The `cantDelete` property returns or sets whether a user can delete a specified card, background, or stack. It corresponds to the Can’t Delete check box in the Card Info, Background Info, and Protect Stack dialog boxes. 
+The `cantDelete` property returns or sets whether a user can delete a specified card, background, or stack. It corresponds to the Can’t Delete check box in the Card Info, Background Info, and Protect Stack dialog boxes.
 
- The default value is `false` (meaning that a card, background, or stack can be deleted).
+The default value is `false` (meaning that a card, background, or stack can be deleted).
 
 Note: Setting the `cantDelete` of a stack to `true` doesn't prevent the user from deleting the stack by dragging it to the Trash. 
-
 
 ## Examples
 

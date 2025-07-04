@@ -5,14 +5,16 @@ card_id: 82724
 
 # showPict
 
-` set `[`the`]` showPict of [ph:card] ¬     to [ph:trueOrFalse] set `[`the`]<code> showPict of [ph:bkgnd] ¬     to [ph:trueOrFalse]<u>
+```
+set [the] showPict of [ph:card] to [ph:trueOrFalse]
+set [the] showPict of [ph:bkgnd] to [ph:trueOrFalse]
+```
 
-</code></u>The `showPict` property returns or sets whether HyperCard shows any graphics or paint text for a card and background. The default value is true, meaning that all graphics and paint appear. 
+The `showPict` property returns or sets whether HyperCard shows any graphics or paint text for a card and background. The default value is true, meaning that all graphics and paint appear.
 
- When a card picture or background picture is hidden and you try to use a Paint tool on it or paste a picture onto it, a dialog box appears asking if you want to make the picture visible. Clicking OK shows the picture; clicking the Cancel button cancels the action. 
+When a card picture or background picture is hidden and you try to use a Paint tool on it or paste a picture onto it, a dialog box appears asking if you want to make the picture visible. Clicking OK shows the picture; clicking the Cancel button cancels the action.
 
 If you draw on a hidden picture from a handler, you do not get the dialog box, and whatever you draw will appear after you set `showPict` to true. 
-
 
 ## Examples
 

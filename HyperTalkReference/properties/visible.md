@@ -5,14 +5,19 @@ card_id: 88724
 
 # visible
 
-` set `[`the`]` visible of [ph:button] ¬     to [ph:trueOrFalse] set `[`the`]` visible of [ph:field] ¬     to [ph:trueOrFalse] set `[`the`]` visible of [ph:window] ¬     to [ph:trueOrFalse] set `[`the`]` visible of [ph:externalWindow] ¬     to [ph:trueOrFalse] set `[`the`]<code> visible of menuBar ¬     to [ph:trueOrFalse]
+```
+set [the] visible of [ph:button] to [ph:trueOrFalse]
+set [the] visible of [ph:field] to [ph:trueOrFalse]
+set [the] visible of [ph:window] to [ph:trueOrFalse]
+set the visible of [ph:externalWindow] to [ph:trueOrFalse]
+set [the] visible of menuBar to [ph:trueOrFalse]
+```
 
-</code>The `visible` property returns or sets whether a button, field, window, or the menu bar is visible on the screen. 
+The `visible` property returns or sets whether a button, field, window, or the menu bar is visible on the screen.
 
- Setting the `visible` of a window to true makes it the frontmost window.
+Setting the `visible` of a window to true makes it the frontmost window.
 
-With external windows, an external command or external function must first create a window before the `visible` will work on it. ``Setting the` visible` of a window to true (showing it) will <u>not</u> create the window. Similarly, setting the `visible` of a window to false (hiding it) doesn't remove it from the window list (from memory); use the `close` command to dispose of a window. 
-
+With external windows, an external command or external function must first create a window before the `visible` will work on it. Setting the `visible` of a window to true (showing it) will <u>not</u> create the window. Similarly, setting the `visible` of a window to false (hiding it) doesn't remove it from the window list (from memory); use the `close` command to dispose of a window.
 
 ## Examples
 

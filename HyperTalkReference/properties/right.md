@@ -6,22 +6,22 @@ card_id: 86116
 # right
 
 ```
-the right of [ph:card]<u>
-</u>
-set
+the right of [ph:card]
+
+set [the] right of [ph:button] to [ph:integer]
+set [the] right of [ph:field] to [ph:integer]
+set [the] right of [ph:window] to [ph:integer]
+
+get [the] right of menuBar
 ```
 
-[<code>the
-```
-
-]` right of [ph:button] to [ph:integer] set `[`the`]` right of [ph:field] to [ph:integer] set `[`the`]<code> right of [ph:window] to [ph:integer]<u> </u>get </code>[`the`]<code> right of menuBar <u> </code></u>The `right` property returns or sets an integer equal to item 3 of an element’s rectangle.  If you set the right of an object, it moves horizontally; the object's size remains the same. You can’t set `the right` of cards: use the` rect`,` height`, or` width` properties to resize the cards in a stack. 
+The `right` property returns or sets an integer equal to item 3 of an element’s rectangle.  If you set the right of an object, it moves horizontally; the object's size remains the same. You can’t set `the right` of cards: use the `rect`, `height`, or `width` properties to resize the cards in a stack.
 
 You can't set `the right` of the menu bar.
 
-HyperCard determines` the right `of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the  current card. 
+HyperCard determines `the right` of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the  current card.
 
 HyperCard determines `the right` of the card window relative to the top-left corner of the screen with the menu bar. 
-
 
 ## Examples
 

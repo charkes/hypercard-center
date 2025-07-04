@@ -5,16 +5,18 @@ card_id: 67503
 
 # autoHilite
 
-` set `[`the`]<code> autoHilite of [ph:button] ¬     to [ph:trueOrFalse] 
+```
+set [the] autoHilite of [ph:button] ¬
+     to [ph:trueOrFalse]
+```
 
-</code>The `autoHilite` property sets or returns whether a button highlights automatically in response to a `mouseDown` event.  
+The `autoHilite` property sets or returns whether a button highlights automatically in response to a `mouseDown` event.  
 
-With check boxes and radio buttons, `autoHilite` determines whether the button can change from deselected to selected and vice versa. 
+With check boxes and radio buttons, `autoHilite` determines whether the button can change from deselected to selected and vice versa.
 
- The `autoHilite` property corresponds to the Auto Hilite check box in a Button Info dialog box.
+The `autoHilite` property corresponds to the Auto Hilite check box in a Button Info dialog box.
 
-Automatic highlighting occurs if ` autoHilite `is set to` true`. 
-
+Automatic highlighting occurs if `autoHilite` is set to `true`. 
 
 ## Examples
 

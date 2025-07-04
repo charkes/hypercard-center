@@ -6,13 +6,15 @@ modified: yes
 
 # brush
 
-<code>set [the] brush to <i>posInteger</i> </code>
+```
+set [the] brush to [ph:posInteger]
+```
 
-where <i><code>posInteger</i></code> is a positive integer in the range 1 through 32.
+where `[ph:posInteger]` is a positive integer in the range 1 through 32.
 
-The` brush `property returns or sets the current brush shape used by the Brush tool.
+The `brush` property returns or sets the current brush shape used by the Brush tool.
 
-The value of the` brush `property represents a brush shape from the Brush Shape dialog box. The default brush is 8.
+The value of the `brush` property represents a brush shape from the Brush Shape dialog box. The default brush is 8.
 
 [[image:%stack%/Card254.jpg]]
 
@@ -24,10 +26,6 @@ The value of the` brush `property represents a brush shape from the Brush Shape 
 set the brush to 1
 set the brush to 32
 ```
-
-## Placeholders
-
-[embed:HelpExtras/Placeholders/posInteger.md]
 
 ## Related Topics
 

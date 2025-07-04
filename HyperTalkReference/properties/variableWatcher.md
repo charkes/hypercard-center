@@ -8,13 +8,12 @@ modified: yes
 
 ```
 set [the] variableWatcher ¬
-     to <i>resourceName</i>
+     to [ph:resourceName]
 ```
 
+The `variableWatcher` property returns or sets the name of the external command (or XCMD) that displays the Variable Watcher window for inspecting the values of local and  global variables.
 
-The` variableWatcher `property returns or sets the name of the external command (or XCMD) that displays the Variable Watcher window for inspecting the values of local and  global variables.
-
-The name of HyperCard’s variable watcher is` VariableWatcher`.
+The name of HyperCard’s variable watcher is `VariableWatcher`.
 
 To change the value of a variable using HyperCard’s Variable Watcher, click to select a variable. Its value appears in the bottom panel. Edit the value, and press Enter to save it.
 
@@ -27,10 +26,6 @@ Click Tips for information about the properties of the Variable Watcher.
 ```
 set the variableWatcher to "The Inspector" -- if it's installed
 ```
-
-## Placeholders
-
-[embed:HelpExtras/Placeholders/resourceName.md]
 
 ## Related Topics
 

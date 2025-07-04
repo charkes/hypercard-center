@@ -11,7 +11,6 @@ the reportTemplates of [ph:stack]
 
 The `reportTemplates` property returns a return-separated list of the names of all report templates in the specified stack. 
 
-
 ## Examples
 
 ```
