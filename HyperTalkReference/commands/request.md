@@ -81,12 +81,6 @@ function systemSeven
 end systemSeven
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/expression.md]
-
-[embed:HelpExtras/Placeholders/Expression.md]
-
 ## Related Topics
 
 * [answer](/HyperTalkReference/commands/answer)

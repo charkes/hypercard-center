@@ -79,12 +79,6 @@ on exitDemo
 end exitDemo
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/functionName.md]
-
-[embed:HelpExtras/Placeholders/messageName.md]
-
 ## Related Topics
 
 * [function](/HyperTalkReference/keywords/function)

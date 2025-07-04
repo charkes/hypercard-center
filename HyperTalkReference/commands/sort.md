@@ -117,20 +117,6 @@ Groucho
 Harpo
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/sortDirection.md]
-
-[embed:HelpExtras/Placeholders/sortStyle.md]
-
-[embed:HelpExtras/Placeholders/expression.md]
-
-[embed:HelpExtras/Placeholders/bkgnd.md]
-
-[embed:HelpExtras/Placeholders/chunks.md]
-
-[embed:HelpExtras/Placeholders/container.md]
-
 ## Related Topics
 
 * [mark](/HyperTalkReference/commands/mark)

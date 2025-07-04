@@ -86,10 +86,6 @@ choose poly tool
 choose tool 18
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/tool.md]
-
 ## Related Topics
 
 * [Commands sent automatically](/HyperTalkReference/systemmessages/Commands-sent-automatically)

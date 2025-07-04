@@ -28,10 +28,6 @@ function diskName longStackName
 end diskName
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/expression.md]
-
 ## Related Topics
 
 * [function](/HyperTalkReference/keywords/function)

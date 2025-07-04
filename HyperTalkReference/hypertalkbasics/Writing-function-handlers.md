@@ -28,12 +28,6 @@ end square
 
 The function `square` receives a number through its parameter variable, `x`.  It then returns the value of `x * x` to the handler that called it (`mouseUp`) using the `return` keyword.
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/functionName.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [function](/HyperTalkReference/keywords/function)

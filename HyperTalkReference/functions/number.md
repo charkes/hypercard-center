@@ -78,16 +78,6 @@ on numberOfChunks
 end numberOfChunks
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/bkgnd.md]
-
-[embed:HelpExtras/Placeholders/menu.md]
-
-[embed:HelpExtras/Placeholders/chunks.md]
-
-[embed:HelpExtras/Placeholders/expression.md]
-
 ## Related Topics
 
 * [ID ](/HyperTalkReference/properties/ID)

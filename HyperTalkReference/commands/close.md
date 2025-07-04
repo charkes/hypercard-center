@@ -71,16 +71,6 @@ close card window
 close window "Home"
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/fileName.md]
-
-[embed:HelpExtras/Placeholders/application.md]
-
-[embed:HelpExtras/Placeholders/externalWindow.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [Commands sent automatically](/HyperTalkReference/systemmessages/Commands-sent-automatically)

@@ -67,14 +67,6 @@ play "boing" "c e f f# g f e d c"
 play "boing" tempo 150 "c e f f# g f e d c"
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/sound.md]
-
-[embed:HelpExtras/Placeholders/notes.md]
-
-[embed:HelpExtras/Placeholders/posInteger.md]
-
 ## Related Topics
 
 * [beep](/HyperTalkReference/commands/beep)

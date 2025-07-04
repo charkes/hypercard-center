@@ -46,8 +46,6 @@ get the selectedLine of button "My Popup Button"
 get the selectedLine of field "My List Field"
 ```
 
-## Placeholders
-
 ## Related Topics
 
 * [autoSelect](/HyperTalkReference/properties/autoSelect)

@@ -36,10 +36,6 @@ beep
 flash
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/expression.md]
-
 ## Related Topics
 
 * [value](/HyperTalkReference/functions/value)

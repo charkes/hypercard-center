@@ -22,10 +22,6 @@ HyperCard sends the `deleteBackground` message to the card that is being deleted
 
 Note: You cannot stop a background from being deleted by trapping the `deleteBackground` message. Instead, you must handle the `doMenu` message or set the `cantDelete` property for the background.
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [cantDelete](/HyperTalkReference/properties/cantDelete)

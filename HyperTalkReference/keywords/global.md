@@ -44,10 +44,6 @@ on answerReverseName
 end answerReverseName
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/variableList.md]
-
 ## Related Topics
 
 * [The building blocks](/HyperTalkReference/hypertalkbasics/The-building-blocks)

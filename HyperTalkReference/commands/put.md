@@ -80,24 +80,6 @@ function bkgndFields
 end bkgndFields
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/expression.md]
-
-[embed:HelpExtras/Placeholders/preposition.md]
-
-[embed:HelpExtras/Placeholders/chunk.md]
-
-[embed:HelpExtras/Placeholders/container.md]
-
-[embed:HelpExtras/Placeholders/menuItemList.md]
-
-[embed:HelpExtras/Placeholders/menuItem.md]
-
-[embed:HelpExtras/Placeholders/menu.md]
-
-[embed:HelpExtras/Placeholders/messageList.md]
-
 ## Related Topics
 
 * [create](/HyperTalkReference/commands/create)

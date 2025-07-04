@@ -44,12 +44,6 @@ on arrowKey whichKey
 end arrowKey
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/direction.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [Commands sent automatically](/HyperTalkReference/systemmessages/Commands-sent-automatically)

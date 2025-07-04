@@ -20,10 +20,6 @@ HyperCard sends the `closeStack` message to the current card when a user (or scr
 
 Note: If you have more than one stack open at a time, HyperCard sends `suspendStack`, not `closeStack`, when the stack becomes inactive.
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [deleteStack](/HyperTalkReference/systemmessages/deleteStack)

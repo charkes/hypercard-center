@@ -38,12 +38,6 @@ then exit myHandler
 else saveFile it
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/trueOrFalse.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [Comparison operators](/HyperTalkReference/operatorsandconstants/Comparison-operators)

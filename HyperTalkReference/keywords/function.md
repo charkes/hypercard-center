@@ -39,14 +39,6 @@ end mouseUp
 end reverseString
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/functionName.md]
-
-[embed:HelpExtras/Placeholders/parameterList.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [exit](/HyperTalkReference/keywords/exit)

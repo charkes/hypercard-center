@@ -58,12 +58,6 @@ on mouseUp
 end mouseUp
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/trueOrFalse.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [Comparison operators](/HyperTalkReference/operatorsandconstants/Comparison-operators)

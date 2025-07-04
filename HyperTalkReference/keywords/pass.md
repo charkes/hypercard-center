@@ -28,12 +28,6 @@ on openCard
 end openCard
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/functionName.md]
-
-[embed:HelpExtras/Placeholders/messageName.md]
-
 ## Related Topics
 
 * [Handling messages](/HyperTalkReference/hypertalkbasics/Handling-messages)

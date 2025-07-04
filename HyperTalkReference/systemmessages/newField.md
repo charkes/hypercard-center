@@ -21,7 +21,6 @@ HyperCard sends the `newField` message to a field just after HyperCard creates i
 
 Although the new field will not have a script with which to respond to the message, any other object along the message-passing path can handle it.
 
-
 ## Related Topics
 
 * [closeField](/HyperTalkReference/systemmessages/closeField)

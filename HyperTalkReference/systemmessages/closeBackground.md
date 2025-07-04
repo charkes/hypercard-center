@@ -18,10 +18,6 @@ end closeBackground
 
 HyperCard sends the `closeBackground` message to the current card when a user (or handler) quits HyperCard, goes to a card whose background is different from the background of the current card, and when a background or stack is deleted.
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [deleteBackground](/HyperTalkReference/systemmessages/deleteBackground)

@@ -92,12 +92,6 @@ on findDemo
 end findDemo
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/text.md]
-
-[embed:HelpExtras/Placeholders/field.md]
-
 ## Related Topics
 
 * [dontSearch](/HyperTalkReference/properties/dontSearch)

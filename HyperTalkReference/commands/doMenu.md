@@ -64,16 +64,6 @@ on mouseUp
 end mouseUp
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/itemName.md]
-
-[embed:HelpExtras/Placeholders/menuName.md]
-
-[embed:HelpExtras/Placeholders/ItemName.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [checkMark](/HyperTalkReference/properties/checkMark)

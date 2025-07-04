@@ -26,7 +26,6 @@ HyperCard sends the `errorDialog` message and its text to the current card if it
 ## Examples
 
 ```
-
 on errorDialog what
   if what is "User level is too low to edit scripts."
   then set userLevel to 5

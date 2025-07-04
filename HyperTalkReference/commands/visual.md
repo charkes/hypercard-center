@@ -54,14 +54,6 @@ on mouseUp
 end mouseUp
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/effect.md]
-
-[embed:HelpExtras/Placeholders/speed.md]
-
-[embed:HelpExtras/Placeholders/image.md]
-
 ## Related Topics
 
 * [go](/HyperTalkReference/commands/go)

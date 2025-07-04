@@ -27,10 +27,6 @@ The following actions close a field, saving any changes that were made to the te
 * Going to another card
 * Quitting HyperCard
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [deleteField](/HyperTalkReference/systemmessages/deleteField)

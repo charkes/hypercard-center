@@ -44,10 +44,6 @@ on appleEvent class, id, sender
 end appleEvent
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [reply](/HyperTalkReference/commands/reply)

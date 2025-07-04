@@ -24,10 +24,6 @@ on mouseUp
 end mouseUp
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/posInteger.md]
-
 ## Related Topics
 
 * [play](/HyperTalkReference/commands/play)

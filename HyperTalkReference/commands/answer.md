@@ -85,12 +85,6 @@ function fullPathToFileName fullPathName
 end fullPathToFileName
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/text.md]
-
-[embed:HelpExtras/Placeholders/fileType.md]
-
 ## Related Topics
 
 * [ask](/HyperTalkReference/commands/ask)

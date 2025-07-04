@@ -81,12 +81,6 @@ function convertBirthDayToDays birthDay
 end convertBirthDayToDays
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/fileName.md]
-
-[embed:HelpExtras/Placeholders/filename.md]
-
 ## Related Topics
 
 * [answer](/HyperTalkReference/commands/answer)

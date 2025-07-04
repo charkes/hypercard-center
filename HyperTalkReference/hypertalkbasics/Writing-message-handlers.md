@@ -41,12 +41,6 @@ If the script also contains the `doubleBeep` handler (or if the script of any ob
 
 If HyperCard can’t find the `doubleBeep` message, it will complain (with a dialog box) that it “can’t understand” the message.
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/messageName.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [Handling messages](/HyperTalkReference/hypertalkbasics/Handling-messages)

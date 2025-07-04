@@ -30,14 +30,6 @@ The optional `[ph:parameterList]` lets the handler receive values sent along wit
 <b>end</b> flashTheButton
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/messageName.md]
-
-[embed:HelpExtras/Placeholders/parameterList.md]
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [exit](/HyperTalkReference/keywords/exit)

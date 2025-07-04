@@ -97,18 +97,6 @@ on goFirstCardAndBack
 end goFirstCardAndBack
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/ordinal.md]
-
-[embed:HelpExtras/Placeholders/position.md]
-
-[embed:HelpExtras/Placeholders/card.md]
-
-[embed:HelpExtras/Placeholders/bkgnd.md]
-
-[embed:HelpExtras/Placeholders/stack.md]
-
 ## Related Topics
 
 * [lock](/HyperTalkReference/commands/lock)

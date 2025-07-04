@@ -99,22 +99,6 @@ on printDemo
 end printDemo
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/posInteger.md]
-
-[embed:HelpExtras/Placeholders/card.md]
-
-[embed:HelpExtras/Placeholders/field.md]
-
-[embed:HelpExtras/Placeholders/button.md]
-
-[embed:HelpExtras/Placeholders/fileName.md]
-
-[embed:HelpExtras/Placeholders/application.md]
-
-[embed:HelpExtras/Placeholders/expression.md]
-
 ## Related Topics
 
 * [close](/HyperTalkReference/commands/close)

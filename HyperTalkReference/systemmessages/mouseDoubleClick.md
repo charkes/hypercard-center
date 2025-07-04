@@ -26,10 +26,6 @@ For HyperCard to send this message, the following conditions must all be true:
 
 If the user clicks repeatedly at the same location faster than the double-click speed set in the Mouse control panel, HyperCard treats each odd-numbered click as a first click and each even-numbered click as a second click.
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/statements.md]
-
 ## Related Topics
 
 * [mouseClick](/HyperTalkReference/functions/mouseClick)

@@ -82,16 +82,6 @@ on selectDemo
 end selectDemo
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/button.md]
-
-[embed:HelpExtras/Placeholders/field.md]
-
-[embed:HelpExtras/Placeholders/container.md]
-
-[embed:HelpExtras/Placeholders/chunk.md]
-
 ## Related Topics
 
 * [autoSelect](/HyperTalkReference/properties/autoSelect)

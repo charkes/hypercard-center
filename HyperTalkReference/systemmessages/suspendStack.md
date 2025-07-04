@@ -21,8 +21,7 @@ HyperCard sends the `suspendStack` message to the current card when the stack’
 
 HyperCard sends `suspendStack` only when it is displaying more than one stack.
 
-<code><b></code>Important</b>: HyperCard does not send `suspendStack` when the user switches to another layer under MultiFinder. (Click Related Topics for more information about the property `the suspended`.)
-
+<b>Important</b>: HyperCard does not send `suspendStack` when the user switches to another layer under MultiFinder. (Click Related Topics for more information about the property `the suspended`.)
 
 ## Related Topics
 

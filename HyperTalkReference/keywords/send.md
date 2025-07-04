@@ -71,16 +71,6 @@ on sendDemo
 end sendDemo
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/messageName.md]
-
-[embed:HelpExtras/Placeholders/parameterList.md]
-
-[embed:HelpExtras/Placeholders/object.md]
-
-[embed:HelpExtras/Placeholders/expression.md]
-
 ## Related Topics
 
 * [on](/HyperTalkReference/keywords/on)

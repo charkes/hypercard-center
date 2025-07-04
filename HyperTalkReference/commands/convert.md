@@ -91,14 +91,6 @@ on daysOld
 end daysOld
 ```
 
-## Placeholders
-
-[embed:HelpExtras/Placeholders/container.md]
-
-[embed:HelpExtras/Placeholders/formatName.md]
-
-[embed:HelpExtras/Placeholders/adjective.md]
-
 ## Related Topics
 
 * [date](/HyperTalkReference/functions/date)
