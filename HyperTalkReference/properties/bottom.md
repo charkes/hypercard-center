@@ -5,22 +5,22 @@ card_id: 85301
 
 # bottom
 
-<code><pre>
+```
 the bottom of [ph:card]<u>
 </u>
 set
-</pre></code>
+```
 
 [<code>the
-</pre></code>
+```
 
-]<code> bottom of [ph:button] to [ph:integer] set </code>[<code>the</code>]<code> bottom of [ph:field] to [ph:integer] set </code>[<code>the</code>]<code> bottom of [ph:window] to [ph:integer]<u> </u>get </code>[<code>the</code>]<code> bottom of menuBar </code> The <code>bottom</code> property returns or sets an integer equal to item 4 of an element’s rectangle. If you set the bottom of an element, it moves vertically; its size remains the same. You can’t set the <code>bottom</code> of cards: use the<code> rect</code>,<code> height</code>, and<code> width</code> properties to resize the cards in a stack. 
+]` bottom of [ph:button] to [ph:integer] set `[`the`]` bottom of [ph:field] to [ph:integer] set `[`the`]<code> bottom of [ph:window] to [ph:integer]<u> </u>get </code>[`the`]` bottom of menuBar ` The `bottom` property returns or sets an integer equal to item 4 of an element’s rectangle. If you set the bottom of an element, it moves vertically; its size remains the same. You can’t set the `bottom` of cards: use the` rect`,` height`, and` width` properties to resize the cards in a stack. 
 
-You can’t set the <code>bottom</code> of  the menu bar.
+You can’t set the `bottom` of  the menu bar.
 
-HyperCard determines the<code> bottom </code>of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card. 
+HyperCard determines the` bottom `of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card. 
 
-HyperCard determines the <code>bottom</code> of the card window relative to the top-left corner of the screen with the menu bar. 
+HyperCard determines the `bottom` of the card window relative to the top-left corner of the screen with the menu bar. 
 
 
 ## Examples

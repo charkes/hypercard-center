@@ -5,13 +5,13 @@ card_id: 76921
 
 # autoTab
 
-<code> set </code>[<code>the</code>]<code> autoTab of [ph:field] to ¬     [ph:trueOrFalse]
+` set `[`the`]<code> autoTab of [ph:field] to ¬     [ph:trueOrFalse]
 
-</code>The <code>autoTab</code> property returns or sets whether HyperCard inserts a return character when the insertion point is on the last line of a field (<code>autoTab </code>is false) or moves the insertion point to the next editable field on the card (<code>autoTab </code>is true). 
+</code>The `autoTab` property returns or sets whether HyperCard inserts a return character when the insertion point is on the last line of a field (`autoTab `is false) or moves the insertion point to the next editable field on the card (`autoTab `is true). 
 
 Note: Auto tabbing doesn't work with scrolling fields. 
 
- The <code>autoTab</code> property corresponds to the Auto Tab check box in a Field Info dialog box. 
+ The `autoTab` property corresponds to the Auto Tab check box in a Field Info dialog box. 
 
 
 ## Examples

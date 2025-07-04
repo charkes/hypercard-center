@@ -5,13 +5,13 @@ card_id: 77229
 
 # multiple
 
-<code> set </code>[<code>the</code>]<code> multiple to [ph:trueOrFalse]
+` set `[`the`]<code> multiple to [ph:trueOrFalse]
 
-</code>The <code>multiple</code> property returns or sets whether HyperCard draws multiple images when the user (or a handler) drags with a Paint tool. It corresponds to the Draw Multiple command in the Options menu (which appears when you select a Paint tool).  
+</code>The `multiple` property returns or sets whether HyperCard draws multiple images when the user (or a handler) drags with a Paint tool. It corresponds to the Draw Multiple command in the Options menu (which appears when you select a Paint tool).  
 
-The <code>multiSpace</code> property affects the number of multiple shapes drawn. 
+The `multiSpace` property affects the number of multiple shapes drawn. 
 
- The <code>multiple</code> property affects the Line, Rectangle, Rounded Rectangle, Oval, and Regular Polygon tools. Its default value is false. 
+ The `multiple` property affects the Line, Rectangle, Rounded Rectangle, Oval, and Regular Polygon tools. Its default value is false. 
 
 
 ## Examples
@@ -22,8 +22,8 @@ set the multiple to true
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
+```
 on multipleDemo
  setUpPaint
  set <b>multiple</b> to false
@@ -45,8 +45,8 @@ on setUpPaint
  set grid to false
  set multiSpace to 5
 end setUpPaint
-</pre></code>
-</pre></code>
+```
+```
 
 ## Related Topics
 

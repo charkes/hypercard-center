@@ -5,9 +5,9 @@ card_id: 79684
 
 # messageWatcher
 
-<code> set </code>[<code>the</code>]<code> messageWatcher ¬     to [ph:resourceName</code>]
+` set `[`the`]` messageWatcher ¬     to [ph:resourceName`]
 
-The <code>messageWatcher</code> property returns or sets the name of the [ph:external command] (or XCMD) that displays the Message Watcher window for tracing scripts.  The name of HyperCard’s message watcher is<code> MessageWatcher</code>.
+The `messageWatcher` property returns or sets the name of the [ph:external command] (or XCMD) that displays the Message Watcher window for tracing scripts.  The name of HyperCard’s message watcher is` MessageWatcher`.
 
 Third-party developers might supply other message watchers that you can install into HyperCard. 
 

@@ -5,11 +5,11 @@ card_id: 83265
 
 # style
 
-<code> set </code>[<code>the</code>]<code> the style of [ph:button] ¬     to [ph:btnStyle] set </code>[<code>the</code>]<code> the style of [ph:field] ¬     to [ph:fldStyle] </code> The <code>style</code> property returns or sets the style of button or field. It corresponds to the items in the Style pop-up menu in a Button Info or a Field Info dialog box. 
+` set `[`the`]` the style of [ph:button] ¬     to [ph:btnStyle] set `[`the`]` the style of [ph:field] ¬     to [ph:fldStyle] ` The `style` property returns or sets the style of button or field. It corresponds to the items in the Style pop-up menu in a Button Info or a Field Info dialog box. 
 
- A button can have one of the following styles:<code> transparent</code>,<code> opaque</code>,<code> rectangle</code>,<code> roundRect</code>,<code> checkBox</code>,<code> popup, oval, default, shadow, standard</code>, or<code> radioButton</code>.
+ A button can have one of the following styles:` transparent`,` opaque`,` rectangle`,` roundRect`,` checkBox`,` popup, oval, default, shadow, standard`, or` radioButton`.
 
-A field can have one of the following styles: <code>transparent, opaque</code>,<code> rectangle</code>,<code> shadow</code>,<code></code> or<code> scrolling</code>. 
+A field can have one of the following styles: `transparent, opaque`,` rectangle`,` shadow`,`` or` scrolling`. 
 
 
 ## Examples

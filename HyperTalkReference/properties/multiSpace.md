@@ -5,13 +5,13 @@ card_id: 77376
 
 # multiSpace
 
-<code> set </code>[<code>the</code>]<code> multiSpace to [ph:posInteger]<u>
+` set `[`the`]<code> multiSpace to [ph:posInteger]<u>
 
-</code></u>where <code>[ph:posInteger]</code> is a number from 1 to 100.<code>
+</code></u>where `[ph:posInteger]` is a number from 1 to 100.<code>
 
-</code>The <code>multiSpace</code> property returns or sets the minimum amount of space, in pixels, between the edges of multiple shapes drawn when the <code>multiple</code> property is true. 
+</code>The `multiSpace` property returns or sets the minimum amount of space, in pixels, between the edges of multiple shapes drawn when the `multiple` property is true. 
 
- The <code>multiSpace</code> property affects the Line, Rectangle, Rounded Rectangle, Oval, and Regular Polygon tools. Its default value is 1. 
+ The `multiSpace` property affects the Line, Rectangle, Rounded Rectangle, Oval, and Regular Polygon tools. Its default value is 1. 
 
 
 ## Examples
@@ -22,8 +22,8 @@ set the multiSpace to 10
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
+```
 on multipleDemo
  show bkgnd field "Demo Field"
  setUpPaint
@@ -52,8 +52,8 @@ on setUpPaint
  set filled to false
  set grid to false
 end setUpPaint
-</pre></code>
-</pre></code>
+```
+```
 
 ## Related Topics
 

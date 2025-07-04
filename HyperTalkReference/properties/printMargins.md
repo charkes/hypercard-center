@@ -5,11 +5,11 @@ card_id: 79600
 
 # printMargins
 
-<code> set </code>[<code>the</code>]<code> printMargins to [ph:rectangle</code>]
+` set `[`the`]` printMargins to [ph:rectangle`]
 
-The <code>printMargins</code> property returns or sets the value of the default margin spacing used by the <code>print</code> command. 
+The `printMargins` property returns or sets the value of the default margin spacing used by the `print` command. 
 
-The default value i<code>s 0,0,0,0</code>. 
+The default value i`s 0,0,0,0`. 
 
 
 ## Examples

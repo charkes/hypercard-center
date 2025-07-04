@@ -6,22 +6,22 @@ modified: yes
 
 # left
 
-<code><pre>
+```
 the left of <i>card</i>
 set [the] left of <i>button</i> to <i>integer</i>
 set [the] left of <i>field</i> to <i>integer</i>
 set [the] left of <i>window</i> to <i>integer</i>
 get [the] left of menuBar
-</pre></code>
+```
 
 
-The<code> left </code>property returns or sets an integer equal to item 1 of an object’s rectangle. If you set the<code> left </code>of an object, it moves horizontally. The size of the object remains the same. You can’t set the<code> left </code>of cards: use the<code> rect</code>,<code> height</code>, and<code> width</code> properties to resize the cards in a stack.
+The` left `property returns or sets an integer equal to item 1 of an object’s rectangle. If you set the` left `of an object, it moves horizontally. The size of the object remains the same. You can’t set the` left `of cards: use the` rect`,` height`, and` width` properties to resize the cards in a stack.
 
-You can't set the<code> left </code>of the menu bar.
+You can't set the` left `of the menu bar.
 
-HyperCard determines the<code> left </code>of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card.
+HyperCard determines the` left `of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card.
 
-HyperCard determines the<code> left </code>of the card window relative to the top-left corner of the screen with the menu bar.
+HyperCard determines the` left `of the card window relative to the top-left corner of the screen with the menu bar.
 
 ## Examples
 

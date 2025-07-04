@@ -5,11 +5,11 @@ card_id: 80353
 
 # script
 
-<code> set </code>[<code>the</code>]<code> script of [ph:object] to [ph:text]
+` set `[`the`]<code> script of [ph:object] to [ph:text]
 
-</code>The <code>script</code> property returns or sets a text string equal to the script of the specified object in the current stack or in the stack script of another stack.
+</code>The `script` property returns or sets a text string equal to the script of the specified object in the current stack or in the stack script of another stack.
 
-When you set the <code>script</code> property with the <code>set</code> command, you replace the existing script entirely. 
+When you set the `script` property with the `set` command, you replace the existing script entirely. 
 
 
 ## Examples
@@ -26,14 +26,14 @@ set the script of stack "My Stack" to empty
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
+```
 on scriptDemo
  answer "The script of this field is:" & ¬
  return & return & the <b>script</b> of me with "OK"
 end scriptDemo
-</pre></code>
-</pre></code>
+```
+```
 
 ## Related Topics
 

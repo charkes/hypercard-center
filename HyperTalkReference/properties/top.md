@@ -6,22 +6,22 @@ modified: yes
 
 # top
 
-<code><pre>
+```
 the top of <i>card</i>
 set [the] top of <i>button</i> to <i>Integer</i>
 set [the] top of <i>field</i> to <i>Integer</i>
 set [the] top of <i>window</i> to <i>Integer</i>
 set [the] top of menuBar
-</pre></code>
+```
 
 
-The<code> top </code>property returns or sets an integer equal to item 2 of an element’s rectangle. If you set the top of an object, it moves vertically; the object's size remains the same. You can’t set<code> the top </code>of cards: use the<code> rect</code>,<code> height</code>, and<code> width</code> properties to resize the cards in a stack.
+The` top `property returns or sets an integer equal to item 2 of an element’s rectangle. If you set the top of an object, it moves vertically; the object's size remains the same. You can’t set` the top `of cards: use the` rect`,` height`, and` width` properties to resize the cards in a stack.
 
-You can't set<code> the top </code>of the menu bar.
+You can't set` the top `of the menu bar.
 
-HyperCard determines<code> the top </code>of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card.
+HyperCard determines` the top `of buttons, fields, and HyperCard’s built-in windows relative to the top-left corner of the current card.
 
-HyperCard determines<code> the top </code>of the card window relative to the top-left corner of the screen with the menu bar.
+HyperCard determines` the top `of the card window relative to the top-left corner of the screen with the menu bar.
 
 ## Examples
 

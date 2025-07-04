@@ -5,9 +5,9 @@ card_id: 76367
 
 # marked
 
-<code> set </code>[<code>the</code>]<code> marked of [ph:card] ¬     to [ph:trueOrFalse] </code> The <code>marked</code> property returns or sets whether a card is marked. It corre- sponds to the Card Marked check box in a Card Info dialog box.
+` set `[`the`]` marked of [ph:card] ¬     to [ph:trueOrFalse] ` The `marked` property returns or sets whether a card is marked. It corre- sponds to the Card Marked check box in a Card Info dialog box.
 
-You can operate on the set of marked cards with commands such as<code> print</code>,<code> go</code>,<code> show</code>, and<code> sort</code>. 
+You can operate on the set of marked cards with commands such as` print`,` go`,` show`, and` sort`. 
 
 
 ## Examples

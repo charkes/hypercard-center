@@ -8,9 +8,9 @@ modified: yes
 
 <code>set [the] lineSize to <i>posInteger</i> </code>
 
-where<code> posInteger </code>is 1, 2, 3, 4, 6, or 8.
+where` posInteger `is 1, 2, 3, 4, 6, or 8.
 
-The<code> lineSize </code>property returns or sets the thickness, in pixels, of lines drawn by the Paint tools. It corresponds to the line size you select in the Line Size dialog box. (The Line Size dialog box appears when you choose Line Size from the Options menu.)
+The` lineSize `property returns or sets the thickness, in pixels, of lines drawn by the Paint tools. It corresponds to the line size you select in the Line Size dialog box. (The Line Size dialog box appears when you choose Line Size from the Options menu.)
 
 The default value is 1.
 

@@ -5,12 +5,12 @@ card_id: 94238
 
 # traceDelay
 
-<code> set the traceDelay to [ph:posInteger</code>]
+` set the traceDelay to [ph:posInteger`]
 
-where <code>[ph:posInteger]</code> specifies ticks.
+where `[ph:posInteger]` specifies ticks.
 
 
-The <code>traceDelay</code> property returns or sets the number of ticks HyperCard pauses between each statement as it traces a handler while in the debugger. 
+The `traceDelay` property returns or sets the number of ticks HyperCard pauses between each statement as it traces a handler while in the debugger. 
 
 Its default value is 0. 
 

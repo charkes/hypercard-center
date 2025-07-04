@@ -5,15 +5,15 @@ card_id: 73795
 
 # language
 
-<code> set </code>[<code>the</code>]<code> language to [ph:resourceName]
+` set `[`the`]<code> language to [ph:resourceName]
 
-</code>where <code>[ph:resourceName]</code> is a language supported by HyperCard.
+</code>where `[ph:resourceName]` is a language supported by HyperCard.
 
-The <code>language</code> property returns or sets the language in which HyperCard displays scripts. The default setting is<code> English</code>, and it’s always available. 
+The `language` property returns or sets the language in which HyperCard displays scripts. The default setting is` English`, and it’s always available. 
 
  To use other languages, a script translator resource must exist in the current stack, any stack later in the message-passing order, or in HyperCard itself.
 
-Contrast this property with<code> the scriptingLanguage of [ph:object</code>], which describes an object's scripting system. 
+Contrast this property with` the scriptingLanguage of [ph:object`], which describes an object's scripting system. 
 
 
 ## Examples

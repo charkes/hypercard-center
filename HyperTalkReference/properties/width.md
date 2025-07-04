@@ -5,7 +5,7 @@ card_id: 89143
 
 # width
 
-<code>set </code>[<code>the</code>]<code> width of [ph:button] to [ph:integer] set </code>[<code>the</code>]<code> width of [ph:field] to [ph:integer]<u> </u>set </code>[<code>the</code>]<code> width of [ph:card] to [ph:integer] set </code>[<code>the</code>]<code> width of [ph:window] to integer get </code>[<code>the</code>]<code> width of menuBar <u> </code></u>The <code>width</code> property returns or sets an integer equal to the width in pixels of the specified object or window. Setting the width of a button, field, or card window resizes it. 
+`set `[`the`]` width of [ph:button] to [ph:integer] set `[`the`]<code> width of [ph:field] to [ph:integer]<u> </u>set </code>[`the`]` width of [ph:card] to [ph:integer] set `[`the`]` width of [ph:window] to integer get `[`the`]<code> width of menuBar <u> </code></u>The `width` property returns or sets an integer equal to the width in pixels of the specified object or window. Setting the width of a button, field, or card window resizes it. 
 
 Setting the width of a card resizes all the cards in a stack. 
 

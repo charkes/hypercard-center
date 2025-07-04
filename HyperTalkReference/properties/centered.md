@@ -5,11 +5,11 @@ card_id: 69837
 
 # centered
 
-<code> set </code>[<code>the</code>]<code> centered to [ph:trueOrFalse]
+` set `[`the`]<code> centered to [ph:trueOrFalse]
 
-</code>The <code>centered</code> property returns or sets whether HyperCard draws shapes from the center rather than from a corner. It corresponds to the Centered command in the Options menu (which appears when you select a Paint tool).
+</code>The `centered` property returns or sets whether HyperCard draws shapes from the center rather than from a corner. It corresponds to the Centered command in the Options menu (which appears when you select a Paint tool).
 
-The <code>centered</code> property affects the Line, Rectangle, Rounded Rectangle, and Oval tools. Its default value is<code> false</code>. 
+The `centered` property affects the Line, Rectangle, Rounded Rectangle, and Oval tools. Its default value is` false`. 
 
 
 ## Examples
@@ -20,7 +20,7 @@ set the centered to true
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   show bkgnd field "demo field"
   setUpPaint  -- See Below
@@ -47,7 +47,7 @@ on setUpPaint
   set multiSpace to 4
   set multiple to true
 end setUpPaint
-</pre></code>
+```
 
 ## Related Topics
 

@@ -6,27 +6,27 @@ modified: yes
 
 # version
 
-<code><pre>
+```
 the version [of HyperCard]
 the long version [of HyperCard]
 the version of <i>stack</i>
-</pre></code>
+```
 
 
-The<code> version </code>property returns the version number of the HyperCard application that is currently running. You can’t<code> set </code>the<code> version</code>.
+The` version `property returns the version number of the HyperCard application that is currently running. You can’t` set `the` version`.
 
-The<code> long version </code>returns an 8-digit number in the form<code> xxyyzzrr </code>as follows:
+The` long version `returns an 8-digit number in the form` xxyyzzrr `as follows:
 
-* <code>xx </code>: The major revision number
-* <code>yy </code>: The minor revision number
-* <code>zz </code>: The software state, where
+* `xx `: The major revision number
+* `yy `: The minor revision number
+* `zz `: The software state, where
 **        80 = final
 **        60 = beta
 **        40 = alpha
 **        20 = development
-* <code>rr </code>: The release number
+* `rr `: The release number
 
-For example,<code> 02206044 </code>is version 2.2 beta release 44, and<code> 02208000 </code>is version 2.2 final.
+For example,` 02206044 `is version 2.2 beta release 44, and` 02208000 `is version 2.2 final.
 
 The<code> version of <i>stack</i> </code>returns a comma-separated list of five numbers in the format of Macintosh version resources:
 
@@ -48,14 +48,14 @@ if item 1 of the version of this stack < "02208000" then ...
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
+```
 on answerTheVersion
  answer "The version is:" && the <b>version</b> & return &¬
  "The long version is:" && the <b>long version</b>
 end answerTheVersion
-</pre></code>
-</pre></code>
+```
+```
 
 ## Placeholders
 

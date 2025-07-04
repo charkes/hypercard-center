@@ -5,9 +5,9 @@ card_id: 81132
 
 # scriptTextSize
 
-<code> set </code>[<code>the</code>]<code> scriptTextSize ¬     to [ph:posInteger]
+` set `[`the`]<code> scriptTextSize ¬     to [ph:posInteger]
 
-</code>The <code>scriptTextSize</code> property returns or sets the size of font used to display scripts in all the script editor windows.  HyperCard uses <code>9</code> as the default size. 
+</code>The `scriptTextSize` property returns or sets the size of font used to display scripts in all the script editor windows.  HyperCard uses `9` as the default size. 
 
 
 ## Examples

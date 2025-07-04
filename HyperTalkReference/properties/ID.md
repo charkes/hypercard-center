@@ -6,7 +6,7 @@ modified: yes
 
 # ID 
 
-<code><pre>
+```
 the ID of <i>button</i>
 the ID of <i>field</i>
 the [<i>adjective</i>] ID of <i>card</i>
@@ -14,20 +14,20 @@ the ID of <i>bkgnd</i>
 the ID of <i>menu</i>
 the ID [of HyperCard]
 the ID of <i>window</i>
-</pre></code>
+```
 
 
-The<code> ID </code>property returns the permanent ID number of any button, field, card,  background, window, or menu in the current stack.
+The` ID `property returns the permanent ID number of any button, field, card,  background, window, or menu in the current stack.
 
-The<code> ID </code>of HyperCard is<code> WILD</code>.
+The` ID `of HyperCard is` WILD`.
 
-The<code> ID </code>of a standalone application is its creator code.
+The` ID `of a standalone application is its creator code.
 
 All objects except stacks have IDs. You <u>can’t</u> change the ID number of an object, window, or menu.
 
-If an object doesn’t have a name, HyperCard returns the<code> ID </code>instead.
+If an object doesn’t have a name, HyperCard returns the` ID `instead.
 
-The adjectives<code> abbreviated</code>,<code> long</code>, and<code> short </code>return various forms of a card’s ID.  (Click Demo Script.)
+The adjectives` abbreviated`,` long`, and` short `return various forms of a card’s ID.  (Click Demo Script.)
 
 ## Examples
 
@@ -42,7 +42,7 @@ get the id of the last menu
 
 ## Demo Script
 
-<code><pre>
+```
 on IDDemo
 
   put "The short ID of this card is:" & return & ¬
@@ -54,7 +54,7 @@ on IDDemo
 
   answer theAnswer
 end IDDemo
-</pre></code>
+```
 
 ## Placeholders
 

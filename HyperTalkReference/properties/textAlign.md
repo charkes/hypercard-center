@@ -5,13 +5,13 @@ card_id: 83738
 
 # textAlign
 
-<code> set </code>[<code>the</code>]<code> textAlign to [ph:alignment] set </code>[<code>the</code>]<code> textAlign of [ph:field] ¬     to [ph:alignment] set </code>[<code>the</code>]<code> textAlign of [ph:button] ¬     to [ph:alignment]
+` set `[`the`]` textAlign to [ph:alignment] set `[`the`]` textAlign of [ph:field] ¬     to [ph:alignment] set `[`the`]<code> textAlign of [ph:button] ¬     to [ph:alignment]
 
-</code>The <code>textAlign</code> property returns or sets the way Paint text, text in a field, or a button name aligns within its rectangle. It can align <code>left</code>, <code>right</code>, or<code> center</code>. The default value is<code> left</code> for fields and paint text, and <code>center</code> for buttons. 
+</code>The `textAlign` property returns or sets the way Paint text, text in a field, or a button name aligns within its rectangle. It can align `left`, `right`, or` center`. The default value is` left` for fields and paint text, and `center` for buttons. 
 
- You can set the <code>textAlign</code> for radio buttons and check boxes, but the text always displays aligned <code>left</code>. 
+ You can set the `textAlign` for radio buttons and check boxes, but the text always displays aligned `left`. 
 
-You can’t set the <code>textAlign</code> for a  chunk of text. 
+You can’t set the `textAlign` for a  chunk of text. 
 
 
 ## Examples

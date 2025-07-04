@@ -5,11 +5,11 @@ card_id: 41254
 
 # reportTemplates
 
-<code><pre>
+```
 the reportTemplates of [ph:stack]
-</pre></code>
+```
 
-The <code>reportTemplates</code> property returns a return-separated list of the names of all report templates in the specified stack. 
+The `reportTemplates` property returns a return-separated list of the names of all report templates in the specified stack. 
 
 
 ## Examples

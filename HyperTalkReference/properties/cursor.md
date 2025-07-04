@@ -8,9 +8,9 @@ modified: yes
 
 <code>set [the] cursor to <i>cursor</i></code>
 
-The<code> cursor </code>property sets the image that appears as the pointer on the screen.
+The` cursor `property sets the image that appears as the pointer on the screen.
 
-<b>Note: </b><code>cursor</code> is a <code>set</code>-only property. You<b> </b>cannot<code> get </code>the current value of the<code> cursor </code>from a script.
+<b>Note: </b>`cursor` is a `set`-only property. You<b> </b>cannot` get `the current value of the` cursor `from a script.
 
 HyperCard provides a number of built-in cursors that you can use. (HyperCard automatically resets the cursor to the image for the current tool on idle—when no other action is happening.)
 
@@ -25,7 +25,7 @@ The built-in cursors are:
 * `busy`
 * `none`
 
-The<code> busy </code>cursor rotates an eighth of a turn each time you call it.
+The` busy `cursor rotates an eighth of a turn each time you call it.
 
 ## Examples
 
@@ -44,7 +44,7 @@ end repeat
 
 ## Demo Script
 
-<code><pre>
+```
 on rotateCursors
   repeat with cursorNumber = 1 to 4
     set the <b>cursor</b> to cursorNumber
@@ -61,7 +61,7 @@ on rotateCursors
     wait 1
   end repeat
 end rotateCursors
-</pre></code>
+```
 
 ## Placeholders
 

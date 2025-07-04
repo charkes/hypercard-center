@@ -5,19 +5,19 @@ card_id: 102019
 
 # owner
 
-<code><pre>
+```
 get [the] [long|short] owner of <i>card
 </i>get [the] owner of [ph:window]
 <i>
-</pre></code>
+```
 
 </i>This read-only property tells you the  name of the background to which a specified card belongs, or it tells you the creator of a window.
 
-<code>Long owner of [ph:card] </code>returns the full path name of the background. [ph:<code> ]Short owner of [ph:card] </code>returns the short name of the background. 
+`Long owner of [ph:card] `returns the full path name of the background. [ph:` ]Short owner of [ph:card] `returns the short name of the background. 
 
- <code>Owner of [ph:card] </code>returns “bkgnd” plus the leaf name of the background.
+ `Owner of [ph:card] `returns “bkgnd” plus the leaf name of the background.
 
-The [ph:<code>window</code>]  form returns <code>HyperCard</code> if it's a stack or built-in window,  or the name of an XCMD  if it's an external window. 
+The [ph:`window`]  form returns `HyperCard` if it's a stack or built-in window,  or the name of an XCMD  if it's an external window. 
 
 
 ## Examples

@@ -5,23 +5,23 @@ card_id: 87536
 
 # userLevel
 
-<code> set </code>[<code>the</code>]<code> userLevel to [ph:posInteger]
+` set `[`the`]<code> userLevel to [ph:posInteger]
 
-</code>where <code>[ph:posInteger]</code> is 1, 2, 3, 4, or 5.
+</code>where `[ph:posInteger]` is 1, 2, 3, 4, or 5.
 
-The <code>userLevel</code> property returns or sets the user level as follows:
+The `userLevel` property returns or sets the user level as follows:
 
-<code><pre>
+```
 1  = Browsing
 2  = Typing
 3  = Painting
 4  = Authoring
 5  = Scripting
-</pre></code>
+```
 
 
 
- HyperCard determines the default setting for <code>userLevel</code> from the Preferences card of the Home stack at startup and when HyperCard resumes after being suspended. 
+ HyperCard determines the default setting for `userLevel` from the Preferences card of the Home stack at startup and when HyperCard resumes after being suspended. 
 
 
 ## Examples
@@ -40,11 +40,11 @@ set the userLevel to savedUserLevel
 
 ## Demo Script
 
-<code><pre>
+```
 on whatUserLevel
   answer "The current user level is:" && the userLevel
 end whatUserLevel
-</pre></code>
+```
 
 ## Related Topics
 

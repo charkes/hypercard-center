@@ -5,11 +5,11 @@ card_id: 71536
 
 # filled
 
-<code> set </code>[<code>the</code>]<code> filled to [ph:trueOrFalse] </code> The <code>filled</code> property returns or sets whether HyperCard fills shapes with the current pattern on the Patterns palette as you draw them. It corresponds to the Filled command in the Options menu (which appears when you select a Paint tool).
+` set `[`the`]` filled to [ph:trueOrFalse] ` The `filled` property returns or sets whether HyperCard fills shapes with the current pattern on the Patterns palette as you draw them. It corresponds to the Filled command in the Options menu (which appears when you select a Paint tool).
 
-The default value is<code> false</code>. 
+The default value is` false`. 
 
- The <code>filled</code> property affects the Rectangle, Rounded Rectangle, Oval, Curve, Regular Polygon, and Polygon tools. 
+ The `filled` property affects the Rectangle, Rounded Rectangle, Oval, Curve, Regular Polygon, and Polygon tools. 
 
 
 ## Examples
@@ -20,7 +20,7 @@ set the filled to true
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   show bkgnd field "demo field"
   paintSetUp
@@ -47,7 +47,7 @@ on paintSetUp
   set the pattern to 33
   set the centered to false
 end paintSetUp
-</pre></code>
+```
 
 ## Related Topics
 

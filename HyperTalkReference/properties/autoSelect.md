@@ -6,21 +6,21 @@ modified: yes
 
 # autoSelect
 
-<code><pre>
+```
 set [the] autoSelect of <i>field</i> ¬
      to <i>trueOrFalse</i>
-</pre></code>
+```
 
 
-The<code> autoSelect </code>property sets or returns whether lines in a locked field highlight automatically in response to a<code> mouseDown </code>event and to dragging or shift-clicking.  (Such fields are called  <i>list fields</i> .<i>)</i>
+The` autoSelect `property sets or returns whether lines in a locked field highlight automatically in response to a` mouseDown `event and to dragging or shift-clicking.  (Such fields are called  <i>list fields</i> .<i>)</i>
 
-The<code> autoSelect </code>property corresponds to the Auto Select check box in a Field Info dialog box.
+The` autoSelect `property corresponds to the Auto Select check box in a Field Info dialog box.
 
-Automatic highlighting occurs if <code> autoSelect, lockText, and dontWrap </code>are all set to<code> true</code>.
+Automatic highlighting occurs if ` autoSelect, lockText, and dontWrap `are all set to` true`.
 
-<code>AutoSelect </code>is set to false when<code> dontWrap</code> is set to false;<code> dontWrap </code>is set to true when<code> autoSelect </code>is set to true.
+`AutoSelect `is set to false when` dontWrap` is set to false;` dontWrap `is set to true when` autoSelect `is set to true.
 
-For<code> autoSelect </code>to affect more than one line in a locked field, that field's <code>multipleLines </code>property must also be set to<code> true</code>.
+For` autoSelect `to affect more than one line in a locked field, that field's `multipleLines `property must also be set to` true`.
 
 To learn which lines are selected, get the<code> selectedLine of <i>field</i></code>.  To learn the contents of those lines, get the<code> selectedText of <i>field</i></code>.  To preselect, use <code>select line x [to y] of <i>field</i></code>.
 

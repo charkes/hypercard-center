@@ -5,13 +5,13 @@ card_id: 84911
 
 # textFont
 
-<code>set </code>[<code>the</code>]<code> textFont to [ph:text</code>] <code>set </code>[<code>the</code>] <code>textFont of</code> [[ph:<code>chunk] of</code>]<code> ¬     [ph:field] to [ph:text] set </code>[<code>the</code>]<code> textFont of [ph:button] to [ph:text ]set </code>[<code>the</code>]<code> textFont of the message box¬                 to [ph:text] </code> where <code>[ph:text]</code> is the name of a font available from the current stack.
+`set `[`the`]` textFont to [ph:text`] `set `[`the`] `textFont of` [[ph:`chunk] of`]` ¬     [ph:field] to [ph:text] set `[`the`]` textFont of [ph:button] to [ph:text ]set `[`the`]` textFont of the message box¬                 to [ph:text] ` where `[ph:text]` is the name of a font available from the current stack.
 
-The <code>textFont</code> property returns or sets the current font of the Paint Text tool,  text in a field,  a button name, or the Message box. 
+The `textFont` property returns or sets the current font of the Paint Text tool,  text in a field,  a button name, or the Message box. 
 
-The default value is <code>Geneva</code> for fields,  Paint text, and the Message box; the default value is <code>Chicago</code> for buttons.
+The default value is `Geneva` for fields,  Paint text, and the Message box; the default value is `Chicago` for buttons.
 
-<b>Note</b>: if a chunk of a field contains a mixture of fonts, HyperCard returns <code>mixed</code> when you ask for<code> the textFont</code>. 
+<b>Note</b>: if a chunk of a field contains a mixture of fonts, HyperCard returns `mixed` when you ask for` the textFont`. 
 
 
 ## Examples

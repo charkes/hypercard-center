@@ -5,17 +5,17 @@ card_id: 99648
 
 # family
 
-<code><pre>
+```
 set [the] family of [ph:button] to <i>integer
-</pre></code>
+```
 
-</i>where <code>[ph:integer]</code> resolves to a value between 0 and 15, and 0 means “no family.”
+</i>where `[ph:integer]` resolves to a value between 0 and 15, and 0 means “no family.”
 
 This property sets or retrieves the button family for a given button. 
 
-Setting the hilite of  any button in a family to <code>true</code> sets the hilite of all other same-family buttons to<code> false</code>.
+Setting the hilite of  any button in a family to `true` sets the hilite of all other same-family buttons to` false`.
 
-The default <code>family</code> value for a new button is 0. 
+The default `family` value for a new button is 0. 
 
   Card and button families are distinct; so there can be a family [ph:n ] for card buttons and another family [ph:n ] for background buttons.  
 

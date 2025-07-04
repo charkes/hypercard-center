@@ -5,13 +5,13 @@ card_id: 78788
 
 # polySides
 
-<code> set </code>[<code>the</code>]<code> polySides to [ph:posInteger] </code> where <code>[ph:posInteger]</code> is 0 or a number from 3 to 50.
+` set `[`the`]` polySides to [ph:posInteger] ` where `[ph:posInteger]` is 0 or a number from 3 to 50.
 
-The <code>polySides</code> property returns or sets the number of sides of a polygon created by the Regular Polygon tool.  Set <code>polySides</code> to 0 to draw a circle.
+The `polySides` property returns or sets the number of sides of a polygon created by the Regular Polygon tool.  Set `polySides` to 0 to draw a circle.
 
 (You can also select one of six standard polygons by choosing Polygon Sides from the Options menu.) 
 
- If you set <code>polySides</code> to a number lower than 3 (other than 0) or higher than 50, it automatically reverts to 3 or 50. 
+ If you set `polySides` to a number lower than 3 (other than 0) or higher than 50, it automatically reverts to 3 or 50. 
 
 
 ## Examples
@@ -24,8 +24,8 @@ set the polySides to 28
 
 ## Demo Script
 
-<code><pre>
-<code><pre>
+```
+```
 on polySidesDemo
  show bkgnd field "demo field"
  setUpPaint
@@ -51,8 +51,8 @@ on setUpPaint
  set filled to true
  set grid to false
 end setUpPaint
-</pre></code>
-</pre></code>
+```
+```
 
 ## Related Topics
 

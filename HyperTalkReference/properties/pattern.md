@@ -10,7 +10,7 @@ modified: yes
 
 where<code> <i>posInteger</i> </code>is an integer in the range 1 through 40.
 
-The<code> pattern </code>property returns or sets the current pattern used to fill shapes or to paint with the Brush tool.
+The` pattern `property returns or sets the current pattern used to fill shapes or to paint with the Brush tool.
 
 If you edit one of the patterns, HyperCard saves the new pattern with the stack.
 

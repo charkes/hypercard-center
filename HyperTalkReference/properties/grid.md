@@ -5,11 +5,11 @@ card_id: 72386
 
 # grid
 
-<code> set </code>[<code>the</code>]<code> grid to [ph:trueOrFalse]
+` set `[`the`]<code> grid to [ph:trueOrFalse]
 
-</code>The <code>grid</code> property returns or sets whether HyperCard constrains the movement of many Paint tools to eight-pixel intervals. It corresponds to the Grid command in the Options menu (which appears when you select a Paint tool).
+</code>The `grid` property returns or sets whether HyperCard constrains the movement of many Paint tools to eight-pixel intervals. It corresponds to the Grid command in the Options menu (which appears when you select a Paint tool).
 
-The default value is<code> false</code>. 
+The default value is` false`. 
 
 
 ## Examples
@@ -20,7 +20,7 @@ set the grid to true
 
 ## Demo Script
 
-<code><pre>
+```
 on gridDemo
   setUpPaint
   show bkgnd field "demo field"
@@ -48,7 +48,7 @@ on setUpPaint
   set centered to false
   set filled to false
 end setUpPaint
-</pre></code>
+```
 
 ## Related Topics
 

@@ -5,13 +5,13 @@ card_id: 86415
 
 # textStyle
 
-<code> set </code>[<code>the</code>]<code> textStyle to [ph:textStyleList</code>] <code>set </code>[<code>the</code>] <code>textStyle of</code> [[ph:<code>chunk] of</code>]<code> ¬     [ph:field] to [ph:textStyleList] set </code>[<code>the</code>]<code> textStyle of [ph:button] ¬     to [ph:textStyleList] set the textStyle of [ph:menuItem] ¬     of [ph:menu] to [ph:textStyleList] set </code>[<code>the</code>]<code> textStyle of ¬ the message box to [ph:textStyleList ] </code>The <code>textStyle</code> property returns or sets the styles in which Paint text, field text, button names, menu items, or text in the Message box appear. 
+` set `[`the`]` textStyle to [ph:textStyleList`] `set `[`the`] `textStyle of` [[ph:`chunk] of`]` ¬     [ph:field] to [ph:textStyleList] set `[`the`]` textStyle of [ph:button] ¬     to [ph:textStyleList] set the textStyle of [ph:menuItem] ¬     of [ph:menu] to [ph:textStyleList] set `[`the`]` textStyle of ¬ the message box to [ph:textStyleList ] `The `textStyle` property returns or sets the styles in which Paint text, field text, button names, menu items, or text in the Message box appear. 
 
- The style can be a single text style or a comma-separated list of styles. The available styles are<code> plain</code>,<code> bold</code>,<code> italic</code>,<code> underline</code>,<code> outline</code>,<code> shadow</code>,<code> condense</code>,<code> extend</code>, and<code> group</code>. (To see group text, issue the command<code> show groups.</code>)
+ The style can be a single text style or a comma-separated list of styles. The available styles are` plain`,` bold`,` italic`,` underline`,` outline`,` shadow`,` condense`,` extend`, and` group`. (To see group text, issue the command` show groups.`)
 
-The default text style is<code> plain</code>.
+The default text style is` plain`.
 
-<b>Note</b>: if a chunk of a field contains a mixture of styles, HyperCard returns <code>mixed</code> when you ask for<code> the textStyle</code>. 
+<b>Note</b>: if a chunk of a field contains a mixture of styles, HyperCard returns `mixed` when you ask for` the textStyle`. 
 
 
 ## Examples

@@ -6,7 +6,7 @@ modified: yes
 
 # name
 
-<code><pre>
+```
 the [<i>adjective</i>] name of <i>object</i>
 the [long] name of HyperCard
 
@@ -15,26 +15,26 @@ set [the] name of [<i>menuItem</i> of] <i>menu</i> ¬
    to <i>text</i>
 get [the] [English] name of ¬
    [<i>menuItem</i> of] <i>menu</i>
-</pre></code>
+```
 
 
-The<code> name </code>property returns or sets the name of an object, menu item, or menu.  If the element doesn't have a name,<code> the name </code>returns the ID of the object instead.
+The` name `property returns or sets the name of an object, menu item, or menu.  If the element doesn't have a name,` the name `returns the ID of the object instead.
 
-<code>the long name of HyperCard </code> returns the full path to HyperCard:
+`the long name of HyperCard ` returns the full path to HyperCard:
 
 `myDisk:Desktop Folder:HyperCard Folder:HyperCard`
 
-You can use the adjective<code> English </code>to determine the names of menus and menu items if you're using a localized version of HyperCard:
+You can use the adjective` English `to determine the names of menus and menu items if you're using a localized version of HyperCard:
 
-<code><pre>
+```
 if the English name of menuItem 5  ¬
    of menu "Edit" is "Paste"...
-</pre></code>
+```
 
 
-The adjectives<code> abbreviated</code>,<code> long</code>, and<code> short </code>return various forms of an object’s name (click Demo Script to see examples).
+The adjectives` abbreviated`,` long`, and` short `return various forms of an object’s name (click Demo Script to see examples).
 
-Note:<code> the abbreviated name </code>is the same as<code> the name</code>.
+Note:` the abbreviated name `is the same as` the name`.
 
 ## Examples
 
@@ -57,7 +57,7 @@ if the English name of menuItem 5 of menu "Edit" is not "Paste"...
 
 ## Demo Script
 
-<code><pre>
+```
 on nameDemo
    answer "The short name of card id 86868 is:" & return & ¬
    (the <b>short name</b> of card id 86868) & return & return &¬
@@ -68,7 +68,7 @@ on nameDemo
    "The long name is:" & return &¬
    (the <b>long name</b> of card id 86868)
 end nameDemo
-</pre></code>
+```
 
 ## Placeholders
 

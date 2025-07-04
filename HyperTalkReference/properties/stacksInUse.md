@@ -8,7 +8,7 @@ modified: yes
 
 `the stacksInUse`
 
-The<code> stacksInUse </code>property returns a return-separated list of stacks that have been inserted into the message-passing path via the<code> start using </code>command.  Each stack appears in the order it will receive messages. The<code> stacksInUse </code>contains the full path names of the stacks being used.
+The` stacksInUse `property returns a return-separated list of stacks that have been inserted into the message-passing path via the` start using `command.  Each stack appears in the order it will receive messages. The` stacksInUse `contains the full path names of the stacks being used.
 
 HyperCard can use up to 16 stacks.
 
@@ -23,11 +23,11 @@ if "My Cool Scripts" is not in the stacksInUse then ... -- complain
 
 ## Demo Script
 
-<code><pre>
+```
 on whatStacksInUse
   answer "The stacks in use are:" & return & return & the stacksInUse
 end whatStacksInUse
-</pre></code>
+```
 
 ## Related Topics
 

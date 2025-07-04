@@ -5,11 +5,11 @@ card_id: 70039
 
 # commandChar
 
-<code> set </code>[<code>the</code>]<code> commandChar of [ph:menuItem] ¬     of [ph:menu] to [ph:char]
+` set `[`the`]<code> commandChar of [ph:menuItem] ¬     of [ph:menu] to [ph:char]
 
-</code>The <code>commandChar</code> property returns or sets the character that you'd press with the Command key as the keyboard shortcut (commonly called the Command-key equivalent) for a menu item.  
+</code>The `commandChar` property returns or sets the character that you'd press with the Command key as the keyboard shortcut (commonly called the Command-key equivalent) for a menu item.  
 
-If the menu item has no Command-key equivalent, the property returns<code> empty</code>. Otherwise, it returns the character. 
+If the menu item has no Command-key equivalent, the property returns` empty`. Otherwise, it returns the character. 
 
 If more than one menu item use the same command character, the menu item on the menu farther to the right takes precedence.
 

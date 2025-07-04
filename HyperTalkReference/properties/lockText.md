@@ -5,13 +5,13 @@ card_id: 75848
 
 # lockText
 
-<code> set </code>[<code>the</code>]<code> lockText of [ph:field] ¬     to [ph:trueOrFalse]
+` set `[`the`]<code> lockText of [ph:field] ¬     to [ph:trueOrFalse]
 
-</code>The <code>lockText</code> property returns or sets whether the user can edit the text within a specified field. It corresponds to the Lock Text check box in a Field Info dialog box. The default value is false (meaning the field is unlocked). 
+</code>The `lockText` property returns or sets whether the user can edit the text within a specified field. It corresponds to the Lock Text check box in a Field Info dialog box. The default value is false (meaning the field is unlocked). 
 
- When a field is locked, it can receive the system messages <code>mouseDown</code>,<code> mouseDoubleClick, mouseStillDown</code>, and<code> mouseUp</code> when the user clicks it.
+ When a field is locked, it can receive the system messages `mouseDown`,` mouseDoubleClick, mouseStillDown`, and` mouseUp` when the user clicks it.
 
-Before a field can act as a[ph: list field],  its <code> lockText </code>property must be set to true. 
+Before a field can act as a[ph: list field],  its ` lockText `property must be set to true. 
 
 
 ## Examples

@@ -5,11 +5,11 @@ card_id: 80859
 
 # scriptTextFont
 
-<code> set </code>[<code>the</code>]<code> scriptTextFont ¬     to [ph:font</code>]
+` set `[`the`]` scriptTextFont ¬     to [ph:font`]
 
-The <code>scriptTextFont</code> property returns or sets the font used to display scripts in all the script editor windows.  
+The `scriptTextFont` property returns or sets the font used to display scripts in all the script editor windows.  
 
-HyperCard uses <code>Monaco</code> as the default font. 
+HyperCard uses `Monaco` as the default font. 
 
 
 ## Examples

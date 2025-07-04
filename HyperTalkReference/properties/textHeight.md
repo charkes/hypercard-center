@@ -5,15 +5,15 @@ card_id: 85522
 
 # textHeight
 
-<code> set </code>[<code>the</code>]<code> textHeight to [ph:posInteger] set </code>[<code>the</code>]<code> textHeight of [ph:field] ¬     to [ph:posInteger]
+` set `[`the`]` textHeight to [ph:posInteger] set `[`the`]<code> textHeight of [ph:field] ¬     to [ph:posInteger]
 
-</code>The <code>textHeight</code> property returns or sets the space, in pixels, between the baselines of Paint text or text in fields. (<code>TextHeight </code>doesn't apply to buttons because buttons can display only one line of text.)
+</code>The `textHeight` property returns or sets the space, in pixels, between the baselines of Paint text or text in fields. (`TextHeight `doesn't apply to buttons because buttons can display only one line of text.)
 
-The default value is the value of the <code>textSize</code> property plus one-third of that value. 
+The default value is the value of the `textSize` property plus one-third of that value. 
 
- You can’t set the <code>the textHeight</code> to a value less than the<code> textSize</code>.
+ You can’t set the `the textHeight` to a value less than the` textSize`.
 
-The <code>textHeight</code> property affects a field only when the field’s <code>fixedLineHeight</code> property is true. 
+The `textHeight` property affects a field only when the field’s `fixedLineHeight` property is true. 
 
 
 ## Examples

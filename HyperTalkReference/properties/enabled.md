@@ -5,26 +5,26 @@ card_id: 71193
 
 # enabled
 
-<code><pre>
+```
 set [the] enabled of{[ph:menu]|[ph:menuItem ]}¬
    to [ph:trueOrFalse]
-</pre></code>
+```
 
-<code>set</code> [<code>the</code>] <code>enabled of [ph:button] ¬     to [ph:trueOrFalse]
+`set` [`the`] <code>enabled of [ph:button] ¬     to [ph:trueOrFalse]
 
-</code>The <code>enabled</code> property returns or sets whether a menu item, menu, or button is active or inactive (dimmed). Users cannot choose dimmed elements.   
+</code>The `enabled` property returns or sets whether a menu item, menu, or button is active or inactive (dimmed). Users cannot choose dimmed elements.   
 
-If you set the <code>enabled</code> of a menu to false, <u>all</u> items on the menu become inactive. 
+If you set the `enabled` of a menu to false, <u>all</u> items on the menu become inactive. 
 
-The <code>enabled</code> property won't enable items in HyperCard’s menus unless they're currently available to the user. 
+The `enabled` property won't enable items in HyperCard’s menus unless they're currently available to the user. 
 
 For example, the following code won't enable the Button Info command unless a button is selected:
 
-<code><pre>
+```
 set the enabled of menuItem 1 of ¬ menu "Objects" to true
-</pre></code>
+```
 
-The default state is<code> true</code>, meaning that the element is enabled. 
+The default state is` true`, meaning that the element is enabled. 
 
 
 ## Examples
@@ -44,13 +44,13 @@ if the enabled of bg btn "Scores" is true then show field "Players"
 
 ## Demo Script
 
-<code><pre>
+```
 on mouseUp
   if there is a menu "Reference"
   then set <b>enabled</b> of menuItem 4 of menu "Reference" to ¬
        not (enabled of menuItem 4 of menu "Reference")
 end mouseUp
-</pre></code>
+```
 
 ## Related Topics
 

@@ -5,11 +5,11 @@ card_id: 90631
 
 # printTextAlign
 
-<code>set the printTextAlign to [ph:alignment</code>]
+`set the printTextAlign to [ph:alignment`]
 
-The <code>printTextAlign</code> property returns or sets the value of the default alignment used by the <code>print</code> command. The default value is<code> left</code>.
+The `printTextAlign` property returns or sets the value of the default alignment used by the `print` command. The default value is` left`.
 
-The <code>printTextAlign</code> property does not affect printing of report items. 
+The `printTextAlign` property does not affect printing of report items. 
 
 
 ## Examples

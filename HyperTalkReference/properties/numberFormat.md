@@ -5,20 +5,20 @@ card_id: 78162
 
 # numberFormat
 
-<code>set </code>[<code>the</code>]<code> numberFormat to [ph:text]
+`set `[`the`]<code> numberFormat to [ph:text]
 
-</code>where <code>[ph:text]</code> is a valid number format. <code><pre>
-</pre></code>
+</code>where `[ph:text]` is a valid number format. ```
+```
 
-The <code>numberFormat</code> property returns or sets the precision with which the results of mathematical operations are displayed in fields and the Message box.  The following symbols specify the number format:
+The `numberFormat` property returns or sets the precision with which the results of mathematical operations are displayed in fields and the Message box.  The following symbols specify the number format:
 
 0  Use one zero for each digit you want     to appear. .   Use a period to indicate the position      of the decimal point, if any. 
 
 # Use to indicate where you want      trailing digits to appear if      they have a value other than zero.  
 
-HyperCard sets the default number format to <code>"0.######"</code> on idle.  <b>
+HyperCard sets the default number format to `"0.######"` on idle.  <b>
 
-Important</b>: <code>numberFormat</code> takes effect only when you perform a mathemat- ical operation on a number. 
+Important</b>: `numberFormat` takes effect only when you perform a mathemat- ical operation on a number. 
 
 
 ## Examples

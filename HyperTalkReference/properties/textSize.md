@@ -5,11 +5,11 @@ card_id: 85825
 
 # textSize
 
-<code> set </code>[<code>the</code>]<code> textSize to [ph:posInteger</code>] <code>set </code>[<code>the</code>] <code>textSize of</code> [[ph:<code>chunk] of</code>]<code> ¬     [ph:field] to [ph:posInteger] set </code>[<code>the</code>]<code> textSize of [ph:button] ¬     to [ph:posInteger] set </code>[<code>the</code>]<code> textSize of the message box¬                    to [ph:posInteger]
+` set `[`the`]` textSize to [ph:posInteger`] `set `[`the`] `textSize of` [[ph:`chunk] of`]` ¬     [ph:field] to [ph:posInteger] set `[`the`]` textSize of [ph:button] ¬     to [ph:posInteger] set `[`the`]<code> textSize of the message box¬                    to [ph:posInteger]
 
-</code>The <code>textSize</code> property returns or sets the size, in pixels, of the font for Paint text, text in a field, a button name, or the Message box. The default value is 12. 
+</code>The `textSize` property returns or sets the size, in pixels, of the font for Paint text, text in a field, a button name, or the Message box. The default value is 12. 
 
- <b>Note</b>: if a chunk of a field contains a mixture of sizes, HyperCard returns <code>mixed</code> when you ask for<code> the textSize</code>. 
+ <b>Note</b>: if a chunk of a field contains a mixture of sizes, HyperCard returns `mixed` when you ask for` the textSize`. 
 
 
 ## Examples
