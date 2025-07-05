@@ -12,4 +12,4 @@ the number of backgrounds
 the number of cards div 2
 ```
 
-See also: `[ph:background], [ph:bkgnd], [ph:button], [ph:card], [ph:chunk], [ph:field], [ph:menu],` and `[ph:menuItem]` 
+See also: `[ph:background]`, `[ph:bkgnd]`, `[ph:button]`, `[ph:card]`, `[ph:chunk]`, `[ph:field]`, `[ph:menu]`, and `[ph:menuItem]` 
